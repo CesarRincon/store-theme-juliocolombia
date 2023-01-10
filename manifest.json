@@ -22,6 +22,7 @@
     "vtex.carousel": "2.x",
     "vtex.shelf": "1.x",
     "vtex.menu": "2.x",
+    "vtex.category-menu": "2.x",
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
