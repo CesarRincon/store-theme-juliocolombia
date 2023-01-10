@@ -1,0 +1,23 @@
+{
+    "slider-layout#home__slider": {
+        "title": "Slider con hijos declarados",
+        "props": {
+            "fullWidth": false,
+            "itemPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "mobile": 1
+            },
+            "infinite": false,
+            "blockClass": "home__slider"
+        },
+        "children": [
+            "image#home__slider--one"
+        ]
+    },
+    "image#home__slider--one": {
+        "props": {
+            "src": "assets/img/banner-home.jpg" 
+        }
+    }
+}

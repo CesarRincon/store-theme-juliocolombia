@@ -1,6 +1,6 @@
 {
   "vendor": "itgloberspartnercl",
-  "name": "init-store-theme",
+  "name": "store-theme-juliocolombia",
   "version": "0.0.1",
   "builders": {
     "assets": "0.x",

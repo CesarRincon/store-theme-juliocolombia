@@ -1,19 +1,52 @@
 {
   "flex-layout.row#home__section-1": {
-    "title": "DESKTOP Row with text",
+    "title": "DESKTOP Row with Slider section 1",
     "children": [
-      "rich-text#section-1"
+      "slider-layout#home__slider"
     ]
   },
-
-  "rich-text#section-1": {
-    "title": "Text Favorites at desktop",
+  //----------------- Section 2 --------------
+  "flex-layout.row#home__section-2": {
+    "title": "DESKTOP Row section 2",
+    "children": [
+      "image#images__section-2--imageOne",
+      "image#images__section-2--imageTwo"
+    ],
     "props": {
-      "blockClass": "",
-      "text": "Favoritos en DESKTOP",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "blockClass": "home__section-2",
+      "colGap": 1
+    }
+  },
+  "image#images__section-2--imageOne": {
+    "title": "imagen1 de la seccion 2",
+    "props": {
+      "src": "assets/img/Home-venta-diciembre_02_720x.jpg",
+      "maxWidth": "95%",
+      "maxHeight": "95%"
+    }
+  },
+  "image#images__section-2--imageTwo": {
+    "title": "imagen2 de la seccion 2",
+    "props": {
+      "src": "assets/img/Home-venta-diciembre_04_720x.jpg",
+      "maxWidth": "95%",
+      "maxHeight": "95%"
+    }
+  },
+  //----------------- Section 3 --------------
+  "flex-layout.row#home__section-3": {
+    "title": "DESKTOP Row section 3",
+    "children": [
+      "image#images__section-3--imageOne"
+    ],
+    "props": {
+      "blockClass": "home__section-3"
+    }
+  },
+  "image#images__section-3--imageOne": {
+    "title": "imagen1 de la seccion 3",
+    "props": {
+      "src": "assets/img/Home-venta-diciembre_07_1296x.jpg"
     }
   }
 }

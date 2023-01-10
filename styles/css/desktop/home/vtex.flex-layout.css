@@ -1,5 +1,8 @@
-/* Example desktop:
 .flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+    margin: auto;
+    width: 85%;
+}
+
+.flexRow--home__section-3 {
+    margin: 0px 3%;
+}
