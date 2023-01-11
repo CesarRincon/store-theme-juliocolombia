@@ -1,0 +1,15 @@
+{
+    "category-menu": {
+        "title": "Menu de categorias",
+        "props": {
+            "showAllDepartments": false,
+            "departaments": [
+                "Electrodomesticos",
+                "Mujer"
+            ],
+            "showSubcategories": true,
+            "sortSubcategories": "name"
+            
+        }
+    }
+}

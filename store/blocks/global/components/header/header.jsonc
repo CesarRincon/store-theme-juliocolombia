@@ -1,32 +1,35 @@
 {
-    "header": {
+    "header.full": {
+        "title": "header",
         "blocks": [
             "header-layout.desktop",
             "header-layout.mobile"
-        ]
+        ],
+        "props": {
+            "blockClass": "header"
+        }
     },
     "header-layout.desktop": {
+        "title": "header desktop",
         "children": [
-            "header-row#1-desktop",
-            "vtex.menu@2.x:menu#websites"
-        ]
+            "header-row#1-desktop"
+        ],
+        "props": {
+            "sticky": true
+        }
     },
     "header-row#1-desktop": {
-        "title": "row logo header",
+        "title": "row 1 desktop",
         "children": [
-            "logo#desktop",
+            "logo#header-desktop",
             "header-spacer",
             "category-menu",
             "header-spacer",
             "login",
             "minicart.v2"
-        ], 
-        "props": {
-            "sticky": true,
-            "topMenuCollapsible": true
-        }
+        ]
     },
-    "logo#desktop": {
+    "logo#header-desktop": {
         "title": "Logo header",
         "props": {
             "title": "Logo",
@@ -41,15 +44,6 @@
         "props": {
             "showIconProfile": true,
             "hideIconLabel": true
-        }
-    },
-    "category-menu": {
-        "title": "Menu de categorias",
-        "props": {
-            "showAllDepartments": false,
-            "departaments":["Electrodomesticos", "Mujer"],
-            "showSubcategories": true,
-            "sortSubcategories": "name"
         }
     }
 }
