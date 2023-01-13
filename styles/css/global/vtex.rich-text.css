@@ -1,3 +1,25 @@
-.paragraph{
-    margin: 0px;
+/* --------------- GLOBAL --------------*/
+
+.container--home__section--global {
+    background-color: black;
+    padding: 10px !important;
+    width: 92% !important;
+    height: 55px !important;
+}
+
+.paragraph--drawer-title-search {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 18px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.container--drawer-title-search {
+    display: block;
+    width: 100%;
 }

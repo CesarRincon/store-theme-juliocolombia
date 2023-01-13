@@ -1,0 +1,12 @@
+/* ----------DRAWER GLOBAL SEARCH--------------*/
+
+.closeIconButton--drawer__search {
+    position: absolute;
+    right: 0;
+}
+
+.childrenContainer--drawer__search {
+    display: block;
+    width: 100%;
+}
+

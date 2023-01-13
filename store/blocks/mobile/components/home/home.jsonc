@@ -1,29 +1,19 @@
 {
   "responsive-layout.mobile#phone__and__tablet": {
     "title": "Responsive Mobile",
-    "children": ["flex-layout.row#mobile__home"]
+    "children": ["flex-layout.row#mobile__section-1"]
   },
 
-  "flex-layout.row#mobile__home": {
-    "title": "Mobile Row with text",
+  "flex-layout.row#mobile__section-1": {
+    "title": "mobile__section-1",
     "children": [
-      "rich-text#hello-vtex"
+      "slider-layout#home__slider"
     ],
     "props": {
       "marginTop": 10,
       "border": ["top", "bottom"],
       "borderWidth": 1,
       "borderColor": "danger"
-    }
-  },
-
-  "rich-text#hello-vtex": {
-    "title": "Text of MOBILE",
-    "props": {
-      "text": "Éxisto en Tablet y Phone -->> VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
     }
   }
 }

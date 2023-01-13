@@ -1,0 +1,78 @@
+{
+    "drawer#search-header": {
+        "title": "drawer search",
+        "props": {
+            "slideDirection": "rightToLeft",
+            "blockClass": "drawer__search",
+            "width": "50%"
+        },
+        "children":[
+            "rich-text#drawer-title__search",
+            "flex-layout.row#header__drawer-search"
+        ],
+        "blocks": [
+            "drawer-trigger#search"
+        ]
+    },
+
+    "flex-layout.row#header__drawer-search": {
+        "children": [
+            "flex-layout.col#drawer-buscar"
+        ],
+        "props": {
+            "blockClass": "search-drawer"
+        }
+    },
+    "flex-layout.col#drawer-buscar": {
+        "title": "Bloque buscar",
+        "children": [
+            "rich-text#title__search--categories",
+            "search-bar"
+        ],
+        "props": {
+            "blockClass": "drawer-buscar"
+        }
+    },
+
+    "search-bar": {
+        "props": {
+            "placeholder": "Buscar productos"
+        }
+    },
+
+    "rich-text#drawer-title__search": {
+        "title": "Titulo drawer buscar",
+        "props": {
+            "text": "BUSCAR EN EL SITIO",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "drawer-title-search",
+            "font": "t-heading-5"           
+        }
+    },
+
+    "rich-text#title__search--categories": {
+        "title": "Todas las ategorias",
+        "props": {
+            "text": "Todas las categorias",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT",
+            "blockClass": "drawer-title-categories",
+            "font": "t-body"         
+        }
+    },
+
+    "drawer-trigger#search": {
+        "title": "icono del drawer search",
+        "children": [
+            "image#drawer-trigger__icon"
+        ]
+    },
+    "image#drawer-trigger__icon": {
+        "props": {
+            "src": "assets/img/icon-search.png",
+            "width": "90%",
+            "blockClass": "trigger-icon_search"
+        }
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "drawer#header__mobile--menu": {
+        "title": "drawer menu mobile",
+        "children": [
+            "flex-layout.row#header__drawer"
+        ],
+        "blocks": [
+            "drawer-trigger#menu"
+        ],
+        "props": {
+            "maxWidth": "50%",
+            "blockClass": "mobile--menu"
+        }
+    },
+    "flex-layout.row#header__drawer": {
+        "children": [
+            "rich-text#drawer-title",
+            "mega-menu#mobile"
+        ]
+    },
+    "rich-text#drawer-title": {
+        "props": {
+            "text": "MENÚ",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "drawer-title",
+            "font": "t-heading-5"           
+        }
+    },
+    "drawer-trigger#menu": {
+        "title": "icono del drawer menu",
+        "children": [
+            "image#trigger__icon-menu"
+        ]
+    },
+    "image#trigger__icon-menu": {
+        "props": {
+            "src": "assets/img/menu-icon.ico",
+            "blockClass": "trigger__icon-menu"
+        }
+    },
+
+    "mega-menu#mobile": {
+        "props": {
+            "title": "",
+            "defaultDepartamentActive": "..."
+        }
+    }
+    // "menu#header__menu": {
+    //     "children": [
+    //         "menu-item#department__one",
+    //         "menu-item#department__two"
+    //     ],
+    //     "props": {
+    //         "orientation": "vertical",
+    //         "blockClass": "drawer__header-menu"
+    //     }
+    // },
+    // "menu-item#department__one": {
+    //     "props": {
+    //         "id": "department-one",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href": "https://www.google.com",
+    //             "noFollow": true,
+    //             "tagTitle": "GoogleTitle",
+    //             "text": "GOOGLE"
+    //         },
+    //         "blockClass": "departament"
+    //     },
+    //     "blocks": [
+    //         "submenu.accordion#department__one"
+    //     ]
+    // },
+    // "submenu.accordion#department__one": {
+    //     "children": [
+    //         "menu#department__one"
+    //     ],
+    //     "props": {
+    //         "blockClass": "submenu-department__one"
+    //     }
+    // },
+    // "menu#department__one": {
+    //     "children": [
+    //         "menu-item#category__one",
+    //         "menu-item#category__two"
+    //     ],
+    //     "props": {
+    //         "orientation": "vertical"
+    //     }
+    // },
+    // "menu-item#category__one": {
+    //     "props": {
+    //         "id": "category-one",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href": "/",
+    //             "noFollow": true,
+    //             "tagTitle": "Google Drive",
+    //             "text": "GOOGLE DRIVE"
+    //         }
+    //     }
+    // },
+    // "menu-item#category__two": {
+    //     "props": {
+    //         "id": "category-two",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href": "/",
+    //             "noFollow": true,
+    //             "tagTitle": "Google Meat",
+    //             "text": "GOOGLE MEAT"
+    //         }
+    //     }
+    // },
+    // "menu-item#department__two": {
+    //     "props": {
+    //         "id": "department-two",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href": "https://www.google.com",
+    //             "noFollow": true,
+    //             "tagTitle": "BingTitle",
+    //             "text": "BING"
+    //         },
+    //         "blockClass": "departament"
+    //     }
+    // }
+}

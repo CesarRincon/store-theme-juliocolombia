@@ -5,21 +5,19 @@
       "rich-text#home__section--global"
     ],
     "props": {
-      "marginTop": 10,
-      "border": ["all"],
-      "borderWidth": 1,
-      "borderColor": "success"
+      "marginTop": 7,
+      "marginBottom": 6
     }
   },
 
   "rich-text#home__section--global": {
-    "title": "Text Favorites",
+    "title": "Banner Julio con Addi",
     "props": {
-      "blockClass": "",
-      "text": "Soy un texto que vive en Desktop, Tablet y Phone :D",
-      "font": "t-heading-1",
+      "blockClass": "home__section--global",
+      "text": "JULIO con Addi   ADDI en JULIO.COM.CO compra ahora y paga despues",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
+      
     }
   }
 }
