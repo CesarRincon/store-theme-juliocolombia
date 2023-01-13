@@ -8,42 +8,6 @@
         "props": {
             "blockClass": "header"
         }
-    },
-    "header-layout.desktop": {
-        "title": "header desktop",
-        "children": [
-            "header-row#1-desktop"
-        ],
-        "props": {
-            "sticky": true
-        }
-    },
-    "header-row#1-desktop": {
-        "title": "row 1 desktop",
-        "children": [
-            "logo#header-desktop",
-            "header-spacer",
-            "category-menu",
-            "header-spacer",
-            "login",
-            "minicart.v2"
-        ]
-    },
-    "logo#header-desktop": {
-        "title": "Logo header",
-        "props": {
-            "title": "Logo",
-            "href": "/",
-            "url": "assets/img/LOGOTIPO-JULIO-NEGRO.png",
-            "width": "60%"
-        }
-    },
-    
-    "login": {
-        "title": "login",
-        "props": {
-            "showIconProfile": true,
-            "hideIconLabel": true
-        }
     }
+        
 }

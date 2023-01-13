@@ -1,0 +1,32 @@
+/* ----------DRAWER MOBILE MENU--------------*/
+
+.imageElement--trigger__icon-menu {
+    width: 10px;
+    color: black;
+}
+
+.childrenContainer--mobile--menu {
+    width: 100%;
+    display: block;
+} 
+
+.opened--mobile--menu .closeIconButton {
+    background-color: #222222;
+    position: absolute;
+    top: 1px;
+    right: -52px;
+    margin: 0;
+    padding: 0;
+    width: 51px;
+    height: 51px;
+    color: white;
+    font-size: 25px;
+}
+
+.closeIcon--mobile--menu {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    padding-top: 4px;
+}

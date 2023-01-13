@@ -1,0 +1,53 @@
+{
+    "header-layout.mobile": {
+        "title": "header mobile",
+        "children": [
+            "header-row#1-mobile"
+        ],
+        "props": {
+            "blockClass": "header-mobile"
+        }
+    },
+    "header-row#1-mobile": {
+        "children": [
+            "drawer#header__mobile--menu",
+            "header-spacer",
+            "header-force-center#header-logo__mobile",
+            "header-spacer",
+            "header-row#items-header__mobile"
+        ],
+        "props": {
+            "blockClass": "row-1__mobile",
+            "horizontalAlign": "center",
+            "verticalAlign": "center"
+        }
+    },
+    "header-force-center#header-logo__mobile": {
+        "children": [
+            "logo#header-mobile"
+        ]
+    },
+    "logo#header-mobile": {
+        "props": {
+            "title": "logo header mobile",
+            "href": "/",
+            "url": "assets/img/LOGOTIPO-JULIO-NEGRO.png",
+            "width": 100
+        }
+    },
+    "header-row#items-header__mobile": {
+        "title": "items del header en mobile",
+        "children": [
+            "drawer#search-header",
+            "minicart.v2"
+        ],
+        "props": {
+            "width": "30"
+        }
+    },
+    "minicart.v2": {
+        "props": {
+            "blockClass": "minicart-header__mobile"
+        }
+    }
+}
