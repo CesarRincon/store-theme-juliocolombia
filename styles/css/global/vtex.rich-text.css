@@ -1,3 +1,5 @@
+/* --------------- GLOBAL --------------*/
+
 .container--home__section--global {
     background-color: black;
     padding: 10px !important;
@@ -5,18 +7,19 @@
     height: 55px !important;
 }
 
-.paragraph{
-    color: white;
-    font-size: 20px;
+.paragraph--drawer-title-search {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 18px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 1px;
 }
 
-.paragraph--drawer-title {
+.container--drawer-title-search {
+    display: block;
     width: 100%;
-    position: absolute;
-    color: black;
-    top: -10px;
-    padding: 18px;
-    left: 0;
-    font-size: 12px;
-    border-bottom: 2px solid black;
 }

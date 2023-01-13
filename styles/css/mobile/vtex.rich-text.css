@@ -1,0 +1,17 @@
+/*--------------- MOBILE ----------------- */
+
+.container--drawer-title {
+    display: inline;
+}
+
+.paragraph--drawer-title {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    color: black;
+    padding: 18px;
+    font-size: 12px;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+}
+
