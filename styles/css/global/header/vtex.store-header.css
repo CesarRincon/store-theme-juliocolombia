@@ -1,3 +1,6 @@
 .headerRowContentContainer {
     background-color: white;  
 }
+.headerRowContainer--row-1__mobile {
+    margin-top: 10px;
+}

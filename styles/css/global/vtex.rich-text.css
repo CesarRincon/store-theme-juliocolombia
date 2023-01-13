@@ -9,3 +9,14 @@
     color: white;
     font-size: 20px;
 }
+
+.paragraph--drawer-title {
+    width: 100%;
+    position: absolute;
+    color: black;
+    top: -10px;
+    padding: 18px;
+    left: 0;
+    font-size: 12px;
+    border-bottom: 2px solid black;
+}

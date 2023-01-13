@@ -1,0 +1,15 @@
+.openIconContainer--minicart-header__mobile {
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+.cartIcon--minicart-header__mobile {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+.minicartContainer--minicart-header__mobile {
+    padding: 0;
+    margin: 0;
+}

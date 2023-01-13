@@ -1,0 +1,12 @@
+.openIconContainer--drawer__search {
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+.imageElement--trigger-icon_search {
+    width: 55px;
+}
+.imageElement--trigger__icon-menu {
+    width: 10px;
+    color: black;
+}
