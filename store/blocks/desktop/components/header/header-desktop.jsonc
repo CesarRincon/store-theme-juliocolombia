@@ -3,10 +3,7 @@
         "title": "header desktop",
         "children": [
             "header-row#1-desktop"
-        ],
-        "props": {
-            "sticky": true
-        }
+        ]
     },
     "header-row#1-desktop": {
         "title": "row 1 desktop",
@@ -18,7 +15,10 @@
             "drawer#search-header",
             "login",
             "minicart.v2"
-        ]
+        ], 
+        "props": {
+            "sticky": true
+        }
     },
     "logo#header-desktop": {
         "title": "Logo header",

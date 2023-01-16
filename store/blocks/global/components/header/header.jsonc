@@ -6,7 +6,7 @@
             "header-layout.mobile"
         ],
         "props": {
-            "blockClass": "header"
+            "blockClass": "header-full"
         }
     }
         
