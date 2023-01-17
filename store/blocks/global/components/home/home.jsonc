@@ -1,5 +1,143 @@
 {
     "flex-layout.row#home__section--global":{
         "children": []
+    },
+    
+    
+    
+    "flex-layout.row#information-section": {
+        "children": [
+            "flex-layout.col#item-envio-gratis",
+            "flex-layout.col#item-contactanos",
+            "flex-layout.col#item-cambios",
+            "flex-layout.col#item-seguridad"
+        ],
+        "props": {
+            "fullWidth": false,
+            "width": "90%"
+        }
+    },
+    "flex-layout.col#item-envio-gratis":{
+        "title": "item envio-gratis",
+        "children": [
+            "image#envio-gratis",
+            "rich-text#envio-gratis"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "width": "25%",
+            "blockClass": [
+                "item-envio-gratis", 
+                "items-information"
+            ]
+        }
+    },
+    "image#envio-gratis": {
+        "title": "imagen envio gratis",
+        "props": {
+            "src": "assets/img/home/coche.png",
+            "maxWidth": "60%"
+            
+        }
+    },
+    "rich-text#envio-gratis": {
+        "title": "texto envio gratis",
+        "props": {
+            "text": "Envio gratis a todo Colombia a partir de $350.000",
+            "textAlignment": "CENTER"
+            
+        }
+    },
+
+    "flex-layout.col#item-contactanos": {
+        "title": "item contactanos",
+        "children": [
+            "image#contactanos",
+            "rich-text#contactanos"
+        ],
+        "props": {
+            "width": "25%",
+            "horizontalAlign": "center",
+            "blockClass": [
+                "item-contactanos", 
+                "items-information"
+            ]
+        }
+    },
+    "image#contactanos": {
+        "title": "imagen contactanos",
+        "props": {
+            "src": "assets/img/home/salvavidas.png",
+            "maxWidth": "50%"
+        }
+    },
+    "rich-text#contactanos": {
+        "title": "tecto contactanos",
+        "props": {
+            "text": "Contactanos por whatsapp o por shop_online@julio.com.co",
+            "textAlignment": "CENTER"
+        }
+    },
+
+    "flex-layout.col#item-cambios": {
+        "title": "item cambios",
+        "children": [
+            "image#cambios",
+            "rich-text#cambios"
+        ],
+        "props": {
+            "width": "25%",
+            "horizontalAlign": "center",
+            "blockClass": [
+                "item-cambios", 
+                "items-information"
+            ]
+        }
+    },
+
+    "image#cambios": {
+        "title": "imagen cambios",
+        "props": {
+            "src": "assets/img/home/update.png",
+            "maxWidth": "60%"
+        }
+    },
+    "rich-text#cambios": {
+        "title": "texto cambios",
+        "props": {
+            "text": "Cambios hasta 30 días desde tu compra",
+            "textAlignment": "CENTER",
+            "blockClass": "cambios"
+        }
+    },
+    "flex-layout.col#item-seguridad": {
+        "title": "item seguridad",
+        "children": [
+            "image#seguridad",
+            "rich-text#seguridad"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "width": "25%",
+            "blockClass": [
+                "item-seguridad", 
+                "items-information"
+            ]
+        }
+    },
+
+    "image#seguridad": {
+        "title": "imagen seguridad",
+        "props": {
+            "src": "assets/img/home/lock.png",
+            "maxWidth": "70%"
+        }
+    },
+    "rich-text#seguridad": {
+        "title": "texto seguridad",
+        "props": {
+            "text": "Plataforma de pago que mantiene seguro tus datos",
+            "textAlignment": "CENTER"
+        }
     }
 }
