@@ -4,9 +4,7 @@
         "props": {
             "fullWidth": false,
             "itemPerPage": {
-                "desktop": 1,
-                "tablet": 1,
-                "mobile": 1
+                "desktop": 1
             },
             "infinite": false,
             "blockClass": "home__slider"
