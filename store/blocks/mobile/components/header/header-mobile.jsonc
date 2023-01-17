@@ -19,7 +19,8 @@
         "props": {
             "blockClass": "row-1__mobile",
             "horizontalAlign": "center",
-            "verticalAlign": "center"
+            "verticalAlign": "center",
+            "sticky": true
         }
     },
     "header-force-center#header-logo__mobile": {
@@ -46,8 +47,6 @@
         }
     },
     "minicart.v2": {
-        "props": {
-            "blockClass": "minicart-header__mobile"
-        }
+        "props": {}
     }
 }

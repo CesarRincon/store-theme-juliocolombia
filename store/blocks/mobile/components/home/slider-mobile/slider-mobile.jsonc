@@ -1,0 +1,22 @@
+{
+    "slider-layout#home__slider-mobile": {
+        "title": "Slider Mobile",
+        "props": {
+            "fullWidth": false,
+            "itemPerPage": {
+                "tablet": 1,
+                "mobile": 1
+            },
+            "infinite": false,
+            "blockClass": "home__slider-mobile"
+        },
+        "children": [
+            "image#home__slider-mobile--one"
+        ]
+    },
+    "image#home__slider-mobile--one": {
+        "props": {
+            "src": "assets/img/main-image-mobile-1.jpg"
+        }
+    }
+}

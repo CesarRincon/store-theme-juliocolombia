@@ -1,19 +1,134 @@
 {
-  "responsive-layout.mobile#phone__and__tablet": {
-    "title": "Responsive Mobile",
-    "children": ["flex-layout.row#mobile__section-1"]
-  },
-
   "flex-layout.row#mobile__section-1": {
-    "title": "mobile__section-1",
+    "title": "Home mobile seccion 1",
     "children": [
-      "slider-layout#home__slider"
+      "slider-layout#home__slider-mobile"
     ],
     "props": {
-      "marginTop": 10,
-      "border": ["top", "bottom"],
-      "borderWidth": 1,
-      "borderColor": "danger"
+      "blockClass": "mobile__section-1"
+    }
+  },
+  "flex-layout.row#home__banner--mobile": {
+    "children": [
+      "image#banner-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "marginTop": 6,
+      "blockClass": "home__banner-mobile",
+      "fullWidth": true
+    }
+  },
+  "image#banner-mobile": {
+    "title": "Banner mobile",
+    "props": {
+      "src": "assets/img/ADDI_Banner.jpg",
+      "width": "95%"
+    }
+  },
+  "flex-layout.row#mobile__section-2": {
+    "title": "Home mobile seccion 2",
+    "children": [
+      "image#images__section-2_one",
+      "image#images__section-2_two"
+    ],
+    "props": {
+      "blockClass": "mobile__section-2",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true,
+      "colGap": 0
+    }
+  },
+  "image#images__section-2_one": {
+    "title": "Imagen 1",
+    "props": {
+      "src": "assets/img/Home-venta-diciembre_02_720x.jpg",
+      "maxWidth": "90%",
+      "maxHeight": "92%"
+    }
+  },
+  "image#images__section-2_two": {
+    "title": "Imagen 2",
+    "props": {
+      "src": "assets/img/Home-venta-diciembre_04_720x.jpg",
+      "maxWidth": "90%",
+      "maxHeight": "92%"
+    }
+  },
+  "flex-layout.row#mobile__section-3": {
+    "title": "Mobile seccion 3",
+    "children": [
+      "image#mobile__section3"
+    ]
+  },
+  "image#mobile__section3": {
+    "props": {
+      "src": "assets/img/Home-venta-diciembre_07_1296x.jpg"
+    }
+  },
+  "flex-layout.row#mobile__section-4": {
+    "title": "Mobile seccion 4",
+    "children": [
+      "image#mobile__section4"
+    ]
+  },
+  "image#mobile__section4": {
+    "props": {
+      "src": "assets/img/home-4.jpg"
+    }
+  },
+  "flex-layout.row#mobile__section-5": {
+    "title": "Mobile seccion 5",
+    "children": [
+      "image#mobile__section5"
+    ]
+  },
+  "image#mobile__section5": {
+    "props": {
+      "src": "assets/img/home-5.jpg"
+    }
+  },
+  "flex-layout.row#mobile__section-6": {
+    "title": "Mobile seccion 6",
+    "children": [
+      "image#mobile__section6-one",
+      "image#mobile__section6-two"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colGap": 0
+    }
+  },
+  "image#mobile__section6-one": {
+    "props": {
+      "src": "assets/img/home-6.jpg"
+    }
+  },
+  "image#mobile__section6-two": {
+    "props": {
+      "src": "assets/img/home-7.jpg"
+    }
+  },
+  "flex-layout.row#mobile__section-7": {
+    "title": "Mobile seccion 7",
+    "children": [
+      "image#mobile__section7"
+    ]
+  },
+  "image#mobile__section7": {
+    "props": {
+      "src": "assets/img/home-8.jpg"
+    }
+  },
+  "flex-layout.row#mobile__section-8": {
+    "title": "Mobile seccion 8",
+    "children": [
+      "image#mobile__section8"
+    ]
+  },
+  "image#mobile__section8": {
+    "props": {
+      "src": "assets/img/home-9.jpg"
     }
   }
 }

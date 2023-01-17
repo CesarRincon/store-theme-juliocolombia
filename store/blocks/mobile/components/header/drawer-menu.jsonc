@@ -14,19 +14,10 @@
     },
     "flex-layout.row#header__drawer": {
         "children": [
-            "rich-text#drawer-title",
             "mega-menu#mobile"
         ]
     },
-    "rich-text#drawer-title": {
-        "props": {
-            "text": "MENÚ",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "blockClass": "drawer-title",
-            "font": "t-heading-5"           
-        }
-    },
+    
     "drawer-trigger#menu": {
         "title": "icono del drawer menu",
         "children": [
@@ -42,7 +33,7 @@
 
     "mega-menu#mobile": {
         "props": {
-            "title": "",
+            "title": "MENÚ",
             "defaultDepartamentActive": "..."
         }
     }
