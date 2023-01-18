@@ -13,7 +13,7 @@
         "children": [
             "logo#header-desktop",
             "header-spacer",
-            "category-menu",
+            "menu#header__menu",
             "header-spacer",
             "drawer#search-header",
             "login",

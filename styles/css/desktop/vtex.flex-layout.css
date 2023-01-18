@@ -1,0 +1,29 @@
+.flexRow--home__section-2 {
+    margin: auto;
+    width: 85%;
+}
+
+.flexRow--home__section-3 {
+    margin: 0px 3%;
+}
+
+.flexRowContent--desktop-header_menu{
+    background-color: white;
+}
+
+.flexCol--colecciones .flexColChild--colecciones:first-child {
+    height: 15% !important;
+}
+
+.flexRowContent--image-colecciones .stretchChildrenWidth:first-child {
+    position: absolute;
+}
+
+.flexRowContent--image-colecciones {
+    width: 90%;
+    margin-left: 90px;
+}
+
+.flexRowContent--department__rebajas .stretchChildrenWidth:first-child{
+    width: 23% !important;
+}
