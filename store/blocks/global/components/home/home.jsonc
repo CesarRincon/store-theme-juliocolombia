@@ -3,8 +3,6 @@
         "children": []
     },
     
-    
-    
     "flex-layout.row#information-section": {
         "children": [
             "flex-layout.col#item-envio-gratis",

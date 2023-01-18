@@ -1,11 +1,11 @@
 /* ----------DRAWER GLOBAL SEARCH--------------*/
 
-.closeIconButton--drawer__search {
+.closeIconButton--drawer__search, .closeIconButton--drawer-items-plus__buscar {
     position: absolute;
     right: 0;
 }
 
-.childrenContainer--drawer__search {
+.childrenContainer--drawer__search, .childrenContainer--drawer-items-plus__buscar {
     display: block;
     width: 100%;
 }

@@ -30,3 +30,7 @@
     padding: 0;
     padding-top: 4px;
 }
+
+.openIconContainer--drawer-items-plus__buscar, .openIconContainer--drawer-items-plus__login {
+    padding: 0;
+}
