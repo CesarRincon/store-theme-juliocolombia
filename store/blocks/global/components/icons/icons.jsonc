@@ -1,0 +1,8 @@
+{
+    "icon#home__cart-icon":{
+        "props": {
+            "id": "icon-cart",
+            "size": 28
+        }
+    }
+}
