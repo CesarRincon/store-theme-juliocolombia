@@ -1,4 +1,17 @@
 /*----------FLEX-LAYOUT GLOBAL----------------*/
+
+.flexRow--home__section-2 {
+    padding-top: 30px;
+}
+
+
 .flexCol--drawer-buscar {
     padding-left: 20px;
 }
+
+.flexColChild--items-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+

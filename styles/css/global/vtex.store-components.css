@@ -1,0 +1,21 @@
+.form--newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+.inputGroup--newsletter {
+    border: 1px solid black;
+    padding: 3px;
+    width: 100%;
+}
+
+.buttonContainer--newsletter :global(.vtex-button) {
+    background-color: black;
+    border: none;
+    width: 100%;
+}
+

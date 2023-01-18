@@ -5,6 +5,24 @@
       "slider-layout#home__slider"
     ]
   },
+  "flex-layout.row#home__banner--desktop": {
+    "children": [
+      "image#banner-desktop"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "marginTop": 7,
+      "blockClass": "home__banner"
+    }
+  },
+  "image#banner-desktop": {
+    "title": "Banner global",
+    "props": {
+      "src": "assets/img/ADDI_Banner.jpg",
+      "maxWidth": "92%"
+    }
+  },
+
   //----------------- Section 2 --------------
   "flex-layout.row#home__section-2": {
     "title": "DESKTOP Row section 2",
@@ -47,6 +65,77 @@
     "title": "imagen1 de la seccion 3",
     "props": {
       "src": "assets/img/Home-venta-diciembre_07_1296x.jpg"
+    }
+  },
+
+  "flex-layout.row#home__section-4": {
+    "title": "Mobile seccion 4",
+    "children": [
+      "image#home__section4"
+    ]
+  },
+  "image#home__section4": {
+    "props": {
+      "src": "assets/img/home-4.jpg",
+      "maxWidth": "93%"
+    }
+  },
+  "flex-layout.row#home__section-5": {
+    "title": "Mobile seccion 5",
+    "children": [
+      "image#home__section5"
+    ],
+    "props": {
+      "fullWidth": false
+    }
+  },
+  "image#home__section5": {
+    "props": {
+      "src": "assets/img/home-5.jpg",
+      "maxWidth": "93%"
+    }
+  },
+  "flex-layout.row#home__section-6": {
+    "title": "Mobile seccion 6",
+    "children": [
+      "image#home__section6-one",
+      "image#home__section6-two"
+    ]
+  },
+  "image#home__section6-one": {
+    "props": {
+      "src": "assets/img/home-6.jpg",
+      "maxWidth": "93%"
+    }
+  },
+  "image#home__section6-two": {
+    "props": {
+      "src": "assets/img/home-7.jpg",
+      "maxWidth": "93%"
+    }
+  },
+  "flex-layout.row#home__section-7": {
+    "title": "Mobile seccion 7",
+    "children": [
+      "image#home__section7"
+    ]
+  },
+  "image#home__section7": {
+    "props": {
+      "src": "assets/img/home-8.jpg",
+      "maxWidth": "93%"
+    }
+  },
+  "flex-layout.row#home__section-8": {
+    "title": "Mobile seccion 8",
+    "children": [
+      "image#home__section8"
+    ]
+  },
+  "image#home__section8": {
+    "props": {
+      "src": "assets/img/home-9.jpg",
+      "maxWidth": "93%"
     }
   }
 }
