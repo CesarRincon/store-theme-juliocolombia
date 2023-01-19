@@ -1,0 +1,341 @@
+{
+    "menu#header__menu": {
+        "children": [
+            "menu-item#department__colecciones",
+            "menu-item#department__rebajas",
+            "menu-item#department__zapatos",
+            "menu-item#department__accesorios"
+        ],
+        "props": {
+            "blockClass": "header-menu"
+        }
+    },
+    "menu-item#department__colecciones": {
+        "props": {
+            "id": "departament-colecciones",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Colecciones",
+                "text": "COLECCIONES"
+            },
+            "blockClass": "departament"
+        },
+        "blocks": [
+            "submenu#department_colecciones"
+        ]
+    },
+    "submenu#department_colecciones": {
+        "children": [
+            "flex-layout.row#departament__colecciones"
+        ],
+        "props": {
+            "blockClass": "submenu-department__colecciones",
+            "orientation": "vertical"
+        }
+    },
+    "flex-layout.row#departament__colecciones": {
+        "children": [
+            "flex-layout.col#colecciones",
+            "flex-layout.row#colecciones"
+        ]
+    },
+    "flex-layout.col#colecciones": {
+        "children": [
+            "rich-text#departament",
+            "menu#department__colecciones"
+        ],
+        "props": {
+            "width": "20%",
+            "horizontalAlign": "left",
+            "blockClass": "colecciones"
+        }
+    },
+    "rich-text#departament": {
+        "props": {
+            "text": "ROPA",
+            "font": "t-mini",
+            "textAlignment": "CENTER",
+            "blockClass": "departmen-ropa"
+        }
+    },
+    "menu#department__colecciones": {
+        "children": [
+            "menu-item#category__newrport",
+            "menu-item#category__paris",
+            "menu-item#category__zurich",
+            "menu-item#category__berna",
+            "menu-item#category__aspen",
+            "menu-item#category__jena",
+            "menu-item#category__lausanne",
+            "menu-item#category__lucerna",
+            "menu-item#category__serengueti",
+            "menu-item#category__london",
+            "menu-item#category__atemporales"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "department-colecciones"
+        }
+    },
+    "flex-layout.row#colecciones": {
+        "children": [
+            "rich-text#text__colecciones-image",
+            "image#imagen__department--colecciones"
+        ],
+        "props": {
+            "blockClass": "image-colecciones"
+        }
+    },
+    "rich-text#text__colecciones-image": {
+        "props": {
+            "text": "COLECCION NEWPORT explorar",
+            "blockClass": "text__colecciones-image",
+            "textAlignment": "CENTER",
+            "font": "t-heading-3"
+        }
+    },
+    "image#imagen__department--colecciones": {
+        "props": {
+            "src": "assets/img/newport.jpg",
+            "maxWidth": "80%"
+        }
+    },
+    "menu-item#category__newrport": {
+        "props": {
+            "id": "category-newport",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "newport",
+                "text": "NEWPORT"
+            }
+        }
+    },
+    "menu-item#category__paris": {
+        "props": {
+            "id": "category-paris",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "newport",
+                "text": "PARIS"
+            }
+        }
+    },
+    "menu-item#category__zurich": {
+        "props": {
+            "id": "category-zurich",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "newport",
+                "text": "ZURICH"
+            }
+        }
+    },
+    "menu-item#category__berna": {
+        "props": {
+            "id": "category-berna",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "newport",
+                "text": "BERNA"
+            }
+        }
+    },
+    "menu-item#category__aspen": {
+        "props": {
+            "id": "category-aspen",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "newport",
+                "text": "ASPEN"
+            }
+        }
+    },
+    "menu-item#category__jena": {
+        "props": {
+            "id": "category-jena",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "newport",
+                "text": "JENA"
+            }
+        }
+    },
+    "menu-item#category__lausanne": {
+        "props": {
+            "id": "category-laussane",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "newport",
+                "text": "LAUSANNE"
+            }
+        }
+    },
+    "menu-item#category__lucerna": {
+        "props": {
+            "id": "category-lucerna",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "newport",
+                "text": "LUCERNA"
+            }
+        }
+    },
+    "menu-item#category__serengueti": {
+        "props": {
+            "id": "category-serengueti",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "newport",
+                "text": "SERENGUETI"
+            }
+        }
+    },
+    "menu-item#category__london": {
+        "props": {
+            "id": "category-london",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "newport",
+                "text": "LONDON"
+            }
+        }
+    },
+    "menu-item#category__atemporales": {
+        "props": {
+            "id": "category-atemporales",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "newport",
+                "text": "ATEMPORALES"
+            }
+        }
+    },
+    "menu-item#department__rebajas": {
+        "props": {
+            "id": "departament-rebajas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "rebajas",
+                "text": "REBAJAS"
+            },
+            "blockClass": "departament"
+        },
+        "blocks": [
+            "submenu#department_rebajas"
+        ]
+    },
+    "submenu#department_rebajas": {
+        "children": [
+            "flex-layout.row#departament__rebajas"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "flex-layout.row#departament__rebajas": {
+        "children": [
+            "menu#department__rebajas",
+            "image#imagen--departament__rebajas"
+        ],
+        "props": {
+            "blockClass": "department__rebajas"
+        }
+    },
+    "menu#department__rebajas": {
+        "children": [
+            "menu-item#category__newrport",
+            "menu-item#category__paris",
+            "menu-item#category__zurich",
+            "menu-item#category__berna",
+            "menu-item#category__aspen",
+            "menu-item#category__jena",
+            "menu-item#category__lausanne",
+            "menu-item#category__lucerna",
+            "menu-item#category__serengueti",
+            "menu-item#category__london",
+            "menu-item#category__atemporales"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "department-rebajas"
+        }
+    },
+
+    "image#imagen--departament__rebajas":{
+        "props": {
+            "src": "assets/img/rebajas-menu.jpg",
+            "maxWidth": "60%",
+            "maxHeight": "80%"
+        }
+    },
+
+
+
+    "menu-item#department__zapatos": {
+        "props": {
+            "id": "departament-zapatos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "zapatos",
+                "text": "ZAPATOS"
+            },
+            "blockClass": "departament"
+        }
+    },
+    "menu-item#department__accesorios": {
+        "props": {
+            "id": "departament-accesorios",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "accesorios",
+                "text": "ACCESORIOS"
+            },
+            "blockClass": "departament"
+        }
+    }
+}

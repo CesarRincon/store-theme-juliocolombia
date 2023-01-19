@@ -1,0 +1,128 @@
+{
+    "flex-layout.row#menu-inferior": {
+        "title": "menu inferior mobile",
+        "children": [
+            "flex-layout.col#menu-inferior__menu",
+            "flex-layout.col#menu-inferior__carrito",
+            "flex-layout.col#menu-inferior__tu-cuenta",
+            "flex-layout.col#menu-inferior__busqueda"
+        ],
+        "props": {
+            "blockClass": "menu-inferior",
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true,
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#menu-inferior__menu": {
+        "children": [
+            "drawer#header__mobile--menu",
+            "rich-text#inferior__menu"
+        ],
+        "props": {
+            "blockClass": "menu-inferio_items",
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#inferior__menu": {
+        "props": {
+            "text": "Menú",
+            "textAlignment": "CENTER",
+            "font": "t-mini",
+            "blockClass": "menu-inferio_text"
+        }
+    },
+    "flex-layout.col#menu-inferior__carrito": {
+        "children": [
+            "minicart.v2#inferior__carrito",
+            "rich-text#inferior__carrito"
+        ],
+        "props": {
+            "blockClass": "menu-inferio_items",
+            "horizontalAlign": "center",
+            "height": 10
+        }
+    },
+    "minicart.v2#inferior__carrito": {
+        "props": {
+            "MinicartIcon": "icon#home__cart-icon2",
+            "itemCountMode": "total",
+            "quantityDisplay": "always",
+            "maxDrawerWidth": 50
+        },
+        "children": [
+            "minicart-base-content"
+        ]
+    },
+    "rich-text#inferior__carrito": {
+        "props": {
+            "text": "Carrito",
+            "textAlignment": "CENTER",
+            "font": "t-mini",
+            "blockClass": "menu-inferio_text"
+        }
+    },
+    "flex-layout.col#menu-inferior__tu-cuenta": {
+        "children": [
+            "drawer#inferior__tu-cuenta",
+            "rich-text#inferior__tu-cuenta"
+        ],
+        "props": {
+            "blockClass": "menu-inferio_items",
+            "horizontalAlign": "center"
+        }
+    },
+    "drawer#inferior__tu-cuenta": {
+        "props": {
+            "blockClass": "inferior__tu-cuenta",
+            "slideDirection": "rigthToLef",
+            "maxDrawerWidth": "50%"
+        },
+        "blocks": [
+            "drawer-trigger#icon-user"
+        ]
+    },
+
+    "drawer-trigger#icon-user": {
+        "children": ["image#icon-user"]
+    },
+
+    "image#icon-user":{
+        "props": {
+            "src": "assets/img/icons/user-icon.png"
+        }
+    },
+
+    "rich-text#inferior__tu-cuenta": {
+        "props": {
+            "text": "Tú cuenta",
+            "textAlignment": "CENTER",
+            "font": "t-mini",
+            "blockClass": [
+                "menu-inferio_text",
+                "tu-cuenta"
+            ]
+        }
+    },
+    "flex-layout.col#menu-inferior__busqueda": {
+        "children": [
+            "drawer#search-header",
+            "rich-text#inferior__busqueda"
+        ],
+        "props": {
+            "blockClass": "menu-inferio_items",
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#inferior__busqueda": {
+        "props": {
+            "text": "Busqueda",
+            "textAlignment": "CENTER",
+            "font": "t-mini",
+            "blockClass": [
+                "menu-inferio_text",
+                "busqueda"
+            ]
+        }
+    }
+}

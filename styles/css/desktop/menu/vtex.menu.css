@@ -1,0 +1,28 @@
+.submenuWrapper{
+    width: 100vw;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+.submenu {
+    overflow-y: auto;
+}
+
+.menuContainer {
+    gap: 10px;
+}
+
+.menuContainer--department-colecciones .styledLinkContent, .menuContainer--department-rebajas .styledLinkContent{
+    color: rgb(105, 105, 105);
+}
+
+.menuContainer--department-colecciones .styledLinkContent:hover, .menuContainer--department-rebajas .styledLinkContent:hover {
+    color: black;
+    font-weight: 500;
+}
+
+.submenu {
+    padding-top: 50px;
+    padding-left: 23px;
+}
+

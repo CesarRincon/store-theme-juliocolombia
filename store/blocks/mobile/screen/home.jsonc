@@ -12,7 +12,8 @@
             "flex-layout.row#mobile__section-7",
             "flex-layout.row#mobile__section-8",
             "newsletter",
-            "flex-layout.row#information-section"
+            "flex-layout.row#information-section",
+            "flex-layout.row#menu-inferior"
         ]
     }
 }

@@ -2,7 +2,10 @@
     "drawer#header__mobile--menu": {
         "title": "drawer menu mobile",
         "children": [
-            "flex-layout.row#header__drawer"
+            "flex-layout.row#header__drawer",
+            "flex-layout.row#header__drawer2",
+            "rich-text#necesitas-ayuda",
+            "rich-text#email-contact"
         ],
         "blocks": [
             "drawer-trigger#menu"
@@ -17,7 +20,6 @@
             "mega-menu#mobile"
         ]
     },
-    
     "drawer-trigger#menu": {
         "title": "icono del drawer menu",
         "children": [
@@ -25,100 +27,128 @@
         ]
     },
     "image#trigger__icon-menu": {
+        "title": "icono del menu en mobile",
         "props": {
             "src": "assets/img/menu-icon.ico",
             "blockClass": "trigger__icon-menu"
         }
     },
-
     "mega-menu#mobile": {
         "props": {
             "title": "MENÚ",
             "defaultDepartamentActive": "..."
         }
+    },
+    /*-------------- Segunda seccion --------------*/
+    "flex-layout.row#header__drawer2": {
+        "children": [
+            "flex-layout.col#items-plus"
+        ]
+    },
+    "flex-layout.col#items-plus": {
+        "children": [
+            "drawer#buscar-mobile",
+            "drawer#login-mobile"
+        ]
+    },
+    "drawer#buscar-mobile": {
+        "children": [
+            "rich-text#drawer-title__search",
+            "flex-layout.row#header__drawer-search"
+        ],
+        "blocks": [
+            "drawer-trigger#items-plus__buscar"
+        ],
+        "props": {
+            "blockClass": "drawer-items-plus__buscar",
+            "slideDirection": "rightToLeft",
+            "maxWidth": "50%"
+        }
+    },
+    "drawer-trigger#items-plus__buscar": {
+        "children": [
+            "flex-layout.row#items-plus__buscar"
+        ]
+    },
+    "flex-layout.row#items-plus__buscar": {
+        "title": "seccion 2 drawer menu",
+        "children": [
+            "image#trigger-buscar",
+            "rich-text#item-plus__buscar"
+        ],
+        "props": {
+            "blockClass": "items-plus__buscar",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#trigger-buscar": {
+        "props": {
+            "src": "assets/img/icon-search.png",
+            "maxWidth": "42%",
+            "maxHeight": "40%"
+        }
+    },
+    "rich-text#item-plus__buscar": {
+        "props": {
+            "text": "Buscar",
+            "textAlignment": "CENTER",
+            "width": "85%",
+            "blockClass": "text-buscar"
+        }
+    },
+    "drawer#login-mobile": {
+        "children": [],
+        "blocks": [
+            "drawer-trigger#items-plus__login"
+        ],
+        "props": {
+            "blockClass": "drawer-items-plus__login",
+            "slideDirection": "rightToLeft",
+            "maxWidth": "50%"
+        }
+    },
+    "drawer-trigger#items-plus__login": {
+        "children": [
+            "flex-layout.row#items-plus__login"
+        ]
+    },
+    "flex-layout.row#items-plus__login": {
+        "title": "seccion 3 drawer menu",
+        "children": [
+            "image#trigger-login",
+            "rich-text#item-plus__login"
+        ],
+        "props": {
+            "blockClass": "items-plus__login",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#trigger-login": {
+        "props": {
+            "src": "assets/img/icons/user-icon.png",
+            "maxWidth": "42%",
+            "maxHeight": "40%"
+        }
+    },
+    "rich-text#item-plus__login": {
+        "props": {
+            "text": "Ingreso / Registro",
+            "textAlignment": "CENTER",
+            "width": "85%",
+            "blockClass": "tex-login"
+        }
+    },
+    "rich-text#necesitas-ayuda": {
+        "props": {
+            "text": "Necesitas ayuda?",
+            "blockClass": "text_necetas-ayuda"
+        }
+    },
+    "rich-text#email-contact":{
+        "props": {
+            "text": "online_shop@iteglobers.com",
+            "blockClass": "text_email-contact",
+            "textColor": "text-muted-1"
+        }
     }
-    // "menu#header__menu": {
-    //     "children": [
-    //         "menu-item#department__one",
-    //         "menu-item#department__two"
-    //     ],
-    //     "props": {
-    //         "orientation": "vertical",
-    //         "blockClass": "drawer__header-menu"
-    //     }
-    // },
-    // "menu-item#department__one": {
-    //     "props": {
-    //         "id": "department-one",
-    //         "type": "custom",
-    //         "itemProps": {
-    //             "type": "external",
-    //             "href": "https://www.google.com",
-    //             "noFollow": true,
-    //             "tagTitle": "GoogleTitle",
-    //             "text": "GOOGLE"
-    //         },
-    //         "blockClass": "departament"
-    //     },
-    //     "blocks": [
-    //         "submenu.accordion#department__one"
-    //     ]
-    // },
-    // "submenu.accordion#department__one": {
-    //     "children": [
-    //         "menu#department__one"
-    //     ],
-    //     "props": {
-    //         "blockClass": "submenu-department__one"
-    //     }
-    // },
-    // "menu#department__one": {
-    //     "children": [
-    //         "menu-item#category__one",
-    //         "menu-item#category__two"
-    //     ],
-    //     "props": {
-    //         "orientation": "vertical"
-    //     }
-    // },
-    // "menu-item#category__one": {
-    //     "props": {
-    //         "id": "category-one",
-    //         "type": "custom",
-    //         "itemProps": {
-    //             "type": "external",
-    //             "href": "/",
-    //             "noFollow": true,
-    //             "tagTitle": "Google Drive",
-    //             "text": "GOOGLE DRIVE"
-    //         }
-    //     }
-    // },
-    // "menu-item#category__two": {
-    //     "props": {
-    //         "id": "category-two",
-    //         "type": "custom",
-    //         "itemProps": {
-    //             "type": "external",
-    //             "href": "/",
-    //             "noFollow": true,
-    //             "tagTitle": "Google Meat",
-    //             "text": "GOOGLE MEAT"
-    //         }
-    //     }
-    // },
-    // "menu-item#department__two": {
-    //     "props": {
-    //         "id": "department-two",
-    //         "type": "custom",
-    //         "itemProps": {
-    //             "type": "external",
-    //             "href": "https://www.google.com",
-    //             "noFollow": true,
-    //             "tagTitle": "BingTitle",
-    //             "text": "BING"
-    //         },
-    //         "blockClass": "departament"
-    //     }
-    // }
 }

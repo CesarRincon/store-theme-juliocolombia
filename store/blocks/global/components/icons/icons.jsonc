@@ -1,0 +1,20 @@
+{
+    "icon#home__cart-icon": {
+        "props": {
+            "id": "icon-cart",
+            "size": 28
+        }
+    },
+    "icon#home__cart-icon2": {
+        "props": {
+            "id": "icon-carrito",
+            "size": 28
+        }
+    },
+    "icon#minicart-empty-bag": {
+        "props": {
+            "id": "empty-shopping-bag",
+            "size": 64
+        }
+    }
+}
