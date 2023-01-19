@@ -6,3 +6,15 @@
     margin-top: 15px;
     padding: 0px 20px;
 }
+
+.flexRowContent--items-plus__buscar, .flexRowContent--items-plus__login {
+    align-items: center;
+}
+
+.flexRow--menu-inferior{
+    background-color: red;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+

@@ -2,3 +2,17 @@
 .minicartTitle {
     display: none;
 } */
+
+.minicartContainer {
+    padding: 0;
+}
+
+.openIconContainer {
+    padding: 0;
+
+}
+
+.minicartQuantityBadge {
+    background-color: black;
+}
+
