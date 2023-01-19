@@ -1,5 +1,9 @@
 /* ----------DRAWER MOBILE MENU--------------*/
 
+.openIconContainer--mobile--menu{
+    padding: 0px;
+}
+
 .imageElement--trigger__icon-menu {
     width: 10px;
     color: black;

@@ -11,3 +11,10 @@
     align-items: center;
 }
 
+.flexRow--menu-inferior{
+    background-color: red;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
