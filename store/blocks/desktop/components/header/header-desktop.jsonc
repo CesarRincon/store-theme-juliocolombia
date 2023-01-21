@@ -26,7 +26,7 @@
             "title": "Logo",
             "href": "/",
             "url": "assets/img/LOGOTIPO-JULIO-NEGRO.png",
-            "width": "60%"
+            "width": 100
         }
     },
     "login": {
