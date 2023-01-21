@@ -1,0 +1,55 @@
+{
+    "disclosure-layout-group#footer__ayuda": {
+        "children": [
+            "disclosure-layout#footer__ayuda"
+        ]
+    },
+    "disclosure-layout#footer__ayuda": {
+        "children": [
+            "disclosure-trigger#footer__ayuda",
+            "disclosure-content#footer__ayuda"
+        ]
+    },
+    "disclosure-trigger#footer__ayuda": {
+        "children": [
+            "flex-layout.row#content-trigger__ayuda"
+        ]
+    },
+    "flex-layout.row#content-trigger__ayuda": {
+        "children": [
+            "rich-text#footer__ayuda",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "content-trigger"
+        }
+    },
+    "rich-text#footer__ayuda": {
+        "props": {
+            "text": "AYUDA",
+            "font": "t-heading-6"
+        }
+    },
+    "disclosure-content#footer__ayuda": {
+        "children": [
+            "flex-layout.col#footer--ayuda__mobile"
+        ]
+    },
+    
+    "flex-layout.col#footer--ayuda__mobile": {
+        "children": [
+            "link#contactanos",
+            "link#guia-de-tallas",
+            "link#politica-de-envios",
+            "link#cambios-y-devoluciones",
+            "link#preguntas-frecuentes",
+            "link#eestricciones-generales",
+            "link#addi"
+        ],
+        "props": {
+            "rowGap": 4,
+            "marginLeft": 3
+        }
+    }
+}

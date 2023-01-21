@@ -11,7 +11,9 @@
         ],
         "props": {
             "fullWidth": false,
-            "width": "90%"
+            "width": "90%",
+            "preserveLayoutOnMobile": false,
+            "preventHorizontalStretch": false
         }
     },
     "flex-layout.col#item-envio-gratis": {

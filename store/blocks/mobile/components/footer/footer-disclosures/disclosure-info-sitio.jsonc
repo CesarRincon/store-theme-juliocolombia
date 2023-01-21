@@ -1,0 +1,54 @@
+{
+    "disclosure-layout-group#footer__info-sitio": {
+        "children": [
+            "disclosure-layout#footer__info-sitio"
+        ]
+    },
+    "disclosure-layout#footer__info-sitio": {
+        "children": [
+            "disclosure-trigger#footer__info-sitio",
+            "disclosure-content#footer__info-sitio"
+        ]
+    },
+    "disclosure-trigger#footer__info-sitio": {
+        "children": [
+            "flex-layout.row#content-trigger__info"
+        ]
+    },
+    "flex-layout.row#content-trigger__info": {
+        "children": [
+            "rich-text#footer__info-sitio",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "content-trigger"
+        }
+    },
+    "rich-text#footer__info-sitio": {
+        "props": {
+            "text": "INFO SITIO",
+            "font": "t-heading-6"
+        }
+    },
+    "disclosure-content#footer__info-sitio": {
+        "children": [
+            "flex-layout.col#info-sitio__mobile"
+        ]
+    },
+    "flex-layout.col#info-sitio__mobile": {
+        "children": [
+            "link#sobre-nosotros",
+            "link#politica-de-privacidad",
+            "link#terminos-y-condiciones",
+            "link#politica-de-tratamiento",
+            "link#politica-de-garantia",
+            "link#terms-of-service",
+            "link#refund-policy"
+        ],
+        "props": {
+            "rowGap": 4,
+            "marginLeft": 3
+        }
+    }
+}
