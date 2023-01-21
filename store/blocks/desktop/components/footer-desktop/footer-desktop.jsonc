@@ -24,7 +24,7 @@
         "title": "Logo footer",
         "props": {
             "src": "assets/img/LOGOTIPO-JULIO-NEGRO.png",
-            "width": "40%"
+            "width": 170
         }
     },
     "flex-layout.row#redes__sociales": {
