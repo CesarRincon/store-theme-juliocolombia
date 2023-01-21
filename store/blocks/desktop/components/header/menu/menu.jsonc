@@ -258,7 +258,7 @@
                 "tagTitle": "rebajas",
                 "text": "REBAJAS"
             },
-            "blockClass": "departament"
+            "blockClass": ["departament", "departament-rebajas"]
         },
         "blocks": [
             "submenu#department_rebajas"
