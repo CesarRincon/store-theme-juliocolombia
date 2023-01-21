@@ -1,0 +1,27 @@
+{
+    "icon#home__cart-icon": {
+        "props": {
+            "id": "icon-cart",
+            "size": 28
+        }
+    },
+    "icon#home__cart-icon2": {
+        "props": {
+            "id": "icon-carrito",
+            "size": 28
+        }
+    },
+
+    "icon#icon-facebook": {
+        "props": {
+            "id": "icon-facebook",
+            "size": 16
+        }
+    },
+    "icon#icon-instagram": {
+        "props": {
+            "id": "icon-instagram",
+            "size": 16
+        }
+    }
+}

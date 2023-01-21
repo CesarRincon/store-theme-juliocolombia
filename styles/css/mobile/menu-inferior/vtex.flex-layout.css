@@ -1,0 +1,13 @@
+.flexRow--menu-inferior{
+    background-color: white;
+    padding: 0px 10px;
+    padding-top: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.flexCol--menu-inferio_items .openIconContainer--mobile--menu {
+  
+}
+

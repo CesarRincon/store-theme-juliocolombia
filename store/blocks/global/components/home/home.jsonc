@@ -1,10 +1,7 @@
 {
-    "flex-layout.row#home__section--global":{
+    "flex-layout.row#home__section--global": {
         "children": []
     },
-    
-    
-    
     "flex-layout.row#information-section": {
         "children": [
             "flex-layout.col#item-envio-gratis",
@@ -17,7 +14,7 @@
             "width": "90%"
         }
     },
-    "flex-layout.col#item-envio-gratis":{
+    "flex-layout.col#item-envio-gratis": {
         "title": "item envio-gratis",
         "children": [
             "image#envio-gratis",
@@ -27,7 +24,7 @@
             "horizontalAlign": "center",
             "width": "25%",
             "blockClass": [
-                "item-envio-gratis", 
+                "item-envio-gratis",
                 "items-information"
             ]
         }
@@ -37,18 +34,16 @@
         "props": {
             "src": "assets/img/home/coche.png",
             "maxWidth": "60%"
-            
         }
     },
     "rich-text#envio-gratis": {
         "title": "texto envio gratis",
         "props": {
             "text": "Envio gratis a todo Colombia a partir de $350.000",
-            "textAlignment": "CENTER"
-            
+            "textAlignment": "CENTER",
+            "textColor": "c-on-muted-5"
         }
     },
-
     "flex-layout.col#item-contactanos": {
         "title": "item contactanos",
         "children": [
@@ -59,7 +54,7 @@
             "width": "25%",
             "horizontalAlign": "center",
             "blockClass": [
-                "item-contactanos", 
+                "item-contactanos",
                 "items-information"
             ]
         }
@@ -75,10 +70,10 @@
         "title": "tecto contactanos",
         "props": {
             "text": "Contactanos por whatsapp o por shop_online@julio.com.co",
-            "textAlignment": "CENTER"
+            "textAlignment": "CENTER",
+            "textColor": "c-on-muted-5"
         }
     },
-
     "flex-layout.col#item-cambios": {
         "title": "item cambios",
         "children": [
@@ -89,12 +84,11 @@
             "width": "25%",
             "horizontalAlign": "center",
             "blockClass": [
-                "item-cambios", 
+                "item-cambios",
                 "items-information"
             ]
         }
     },
-
     "image#cambios": {
         "title": "imagen cambios",
         "props": {
@@ -107,7 +101,8 @@
         "props": {
             "text": "Cambios hasta 30 días desde tu compra",
             "textAlignment": "CENTER",
-            "blockClass": "cambios"
+            "blockClass": "cambios",
+            "textColor": "c-on-muted-5"
         }
     },
     "flex-layout.col#item-seguridad": {
@@ -120,12 +115,11 @@
             "horizontalAlign": "center",
             "width": "25%",
             "blockClass": [
-                "item-seguridad", 
+                "item-seguridad",
                 "items-information"
             ]
         }
     },
-
     "image#seguridad": {
         "title": "imagen seguridad",
         "props": {
@@ -137,7 +131,8 @@
         "title": "texto seguridad",
         "props": {
             "text": "Plataforma de pago que mantiene seguro tus datos",
-            "textAlignment": "CENTER"
+            "textAlignment": "CENTER",
+            "textColor": "c-on-muted-5"
         }
     }
 }

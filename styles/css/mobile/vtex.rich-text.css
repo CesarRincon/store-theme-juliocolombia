@@ -15,3 +15,11 @@
     border-bottom: 2px solid black;
 }
 
+.paragraph--text_necetas-ayuda, .paragraph--text_email-contact {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.paragraph--text-buscar, .paragraph--tex-login {
+    margin: 10px 0px;
+}

@@ -144,7 +144,7 @@
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
       "muted-4": "#e3e4e6",
-      "muted-5": "#f2f4f5"
+      "muted-5": "#aaacac"
     },
     "visited-text": {
       "link": "#0c389f"
@@ -237,7 +237,7 @@
       "muted-2": "#ffffff",
       "muted-3": "#3f3f40",
       "muted-4": "#3f3f40",
-      "muted-5": "#3f3f40"
+      "muted-5": "##aaacac"
     },
     "hover-on": {
       "action-primary": "#ffffff",
@@ -324,91 +324,91 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "normal",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "normal",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "normal",
         "fontSize": "1.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
-        "fontFamily": "Formata-Light-Small-Caps",
-        "fontWeight": "normal",
-        "fontSize": "1.25rem",
+        "fontFamily": "Aceh-Light",
+        "fontWeight": "600",
+        "fontSize": "1.1rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "1px"
       },
       "body": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "normal",
-        "fontSize": "1rem",
+        "fontSize": "1.1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "500",
         "fontSize": "1rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--large": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "code": {
-        "fontFamily": "Formata-Light-Small-Caps",
+        "fontFamily": "Aceh-Light",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",

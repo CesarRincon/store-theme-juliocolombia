@@ -13,3 +13,25 @@
     padding: 0;
     margin: 0;
 }
+
+.minicartEmptyStateContainer {
+    justify-content: flex-start;
+}
+
+.closeIconButton {
+    position: absolute;
+    right: 0;
+}
+
+.minicartTitle {
+    margin-top: 15px;
+    margin-left: 10px;   
+    text-transform: lowercase;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.minicartEmptyStateContainer {
+    margin-top: 60px;
+}
