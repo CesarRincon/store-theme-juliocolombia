@@ -22,3 +22,7 @@
     font-family: "Formata-Light-Small-Caps";
     src: url(assets/fonts/Formata-Light-Small-Caps.ttf); 
 }
+@font-face{
+    font-family: "Aceh-Light";
+    src: url(assets/fonts/Aceh-Light.ttf); 
+}

@@ -11,10 +11,17 @@
             "size": 28
         }
     },
-    "icon#minicart-empty-bag": {
+
+    "icon#icon-facebook": {
         "props": {
-            "id": "empty-shopping-bag",
-            "size": 64
+            "id": "icon-facebook",
+            "size": 16
+        }
+    },
+    "icon#icon-instagram": {
+        "props": {
+            "id": "icon-instagram",
+            "size": 16
         }
     }
 }

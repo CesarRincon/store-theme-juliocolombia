@@ -1,0 +1,11 @@
+.link--items-footer {
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+    font-family: "Aceh-Light";
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.link--items-footer:hover {
+    color: aqua;
+}
