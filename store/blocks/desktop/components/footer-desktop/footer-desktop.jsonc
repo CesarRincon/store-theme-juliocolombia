@@ -1,0 +1,209 @@
+{
+    "flex-layout.row#footer__container": {
+        "title": "footer container",
+        "children": [
+            "flex-layout.col#footer__getAndTouch",
+            "flex-layout.col#footer__ayuda",
+            "flex-layout.col#footer__infoSitio"
+        ],
+        "props": {
+            "blockClass": "footer__container"
+        }
+    },
+    "flex-layout.col#footer__getAndTouch": {
+        "title": "contenedor get and touch",
+        "children": [
+            "image#footer__logo",
+            "flex-layout.row#redes__sociales"
+        ],
+        "props": {
+            "blockClass":"footer__getAndTouch"
+        }
+    },
+    "image#footer__logo": {
+        "title": "Logo footer",
+        "props": {
+            "src": "assets/img/LOGOTIPO-JULIO-NEGRO.png",
+            "width": "40%"
+        }
+    },
+    "flex-layout.row#redes__sociales": {
+        "title": "contenedor redes sociales",
+        "children": [
+            "icon#icon-facebook",
+            "icon#icon-instagram"
+        ],
+        "props": {
+            "blockClass":"redes__sociales"
+        }
+    },
+
+    "flex-layout.col#footer__ayuda": {
+        "title": "Contenedor footer ayuda",
+        "children": [
+            "rich-text#titulo-ayuda",
+            "link#contactanos",
+            "link#guia-de-tallas",
+            "link#politica-de-envios",
+            "link#cambios-y-devoluciones",
+            "link#preguntas-frecuentes",
+            "link#eestricciones-generales",
+            "link#addi"
+        ],
+        "props": {
+            "rowGap": 5,
+            "blockClass":"footer__ayuda"
+            
+        }
+    },
+    "rich-text#titulo-ayuda": {
+        "title": "Titulo ayuda",
+        "props": {
+            "text": "AYUDA",
+            "blockClass": "titulo-ayuda",
+            "font": "t-heading-6"
+        }
+    },
+    "link#contactanos": {
+        "title": "Contáctanos",
+        "props": {
+            "href": "/",
+            "label": "Contactanos",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#guia-de-tallas": {
+        "title": "Guía de tallas",
+        "props": {
+            "href": "/",
+            "label": "Guía de Tallas",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#politica-de-envios": {
+        "title": "Politica de envios",
+        "props": {
+            "href": "/",
+            "label": "Política de Envíos",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#cambios-y-devoluciones": {
+        "title": "cambios y devoluciones",
+        "props": {
+            "href": "/",
+            "label": "Cambios y Devoluciones",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#preguntas-frecuentes": {
+        "title": "Preguntas frecuentes",
+        "props": {
+            "href": "/",
+            "label": "Preguntas Frecuentes",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#eestricciones-generales": {
+        "title": "Restricciones Generales",
+        "props": {
+            "href": "/",
+            "label": "Restricciones Generales",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#addi": {
+        "title": "Addi",
+        "props": {
+            "href": "/",
+            "label": "ADDI",
+            "blockClass": "items-footer"
+        }
+    },
+
+
+    "flex-layout.col#footer__infoSitio": {
+        "title": "Contenedor info sitio",
+        "children": [
+            "rich-text#info-sitio",
+            "link#sobre-nosotros",
+            "link#politica-de-privacidad",
+            "link#terminos-y-condiciones",
+            "link#politica-de-tratamiento",
+            "link#politica-de-garantia",
+            "link#terms-of-service",
+            "link#refund-policy"
+        ],
+        "props": {
+            "rowGap": 5,
+            "blockClass": "footer__infoSitio"
+        }
+    },
+
+
+    "rich-text#info-sitio":{
+        "title": "Indo del sitio",
+        "props": {
+            "text": "INFO SITIO",
+            "blockClass": "titulo-info-sitio",
+            "font": "t-heading-6"
+        }
+    },
+    "link#sobre-nosotros":{
+        "title": "Sobre nosotros",
+        "props": {
+            "href": "/",
+            "label": "Sobre Nosotros",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#politica-de-privacidad":{
+        "title": "Politica de privacidad",
+        "props": {
+            "href": "/",
+            "label": "Política de Privacidad",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#terminos-y-condiciones":{
+        "title": "Terminos y condiciones",
+        "props": {
+            "href": "/",
+            "label": "Términos y Condiciones",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#politica-de-tratamiento":{
+        "title": "Politica de tratamiento",
+        "props": {
+            "href": "/",
+            "label": "Política de Tratamiento de Información",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#politica-de-garantia":{
+        "title": "Politica de garantia",
+        "props": {
+            "href": "/",
+            "label": "Política de Garantia",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#terms-of-service":{
+        "title": "Terms of service",
+        "props": {
+            "href": "/",
+            "label": "Terms of service",
+            "blockClass": "items-footer"
+        }
+    },
+    "link#refund-policy":{
+        "title": "Refund policy",
+        "props": {
+            "href": "/",
+            "label": "Refund policy",
+            "blockClass": "items-footer"
+        }
+    }
+
+}

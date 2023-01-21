@@ -10,6 +10,7 @@
             "blockClass": "header-menu"
         }
     },
+    
     "menu-item#department__colecciones": {
         "props": {
             "id": "departament-colecciones",

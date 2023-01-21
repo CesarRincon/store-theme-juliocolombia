@@ -1,0 +1,119 @@
+{
+    "flex-layout.row#footer-mobile": {
+        "children": [
+            "flex-layout.col#footer-mobile"
+        ],
+        "props": {
+            "blockClass": "footer-mobile"
+        }
+    },
+    "flex-layout.col#footer-mobile": {
+        "children": [
+            "disclosure-layout-group#footer__get-in-touch",
+            "disclosure-layout-group#footer__ayuda",
+            "disclosure-layout-group#footer__info-sitio",
+            "flex-layout.row#footer__derechosReservados-mobile"
+        ]
+    },
+
+
+    "disclosure-layout-group#footer__get-in-touch": {
+        "children": [
+            "disclosure-layout#get-in-touch"
+        ]
+    },
+
+    "disclosure-layout#get-in-touch": {
+        "children": [
+            "disclosure-trigger#get-in-touch",
+            "disclosure-content#get-in-touch"
+        ]
+    },
+    "disclosure-trigger#get-in-touch": {
+        "children": [
+            "rich-text#get-in-touch"
+        ]
+    },
+    "rich-text#get-in-touch": {
+        "props": {
+            "text": "Get in touch"
+        }
+    },
+
+    "disclosure-content#get-in-touch": {
+        "children": [
+            "flex-layout.row#footer__getAndTouch"
+        ]
+    },
+    "flex-layout.row#footer__getAndTouch": {
+        "children": [
+            "flex-layout.col#footer__getAndTouch"
+        ]
+    },
+
+
+
+
+
+
+    "disclosure-layout-group#footer__ayuda":{
+        "children": [
+            "disclosure-layout#footer__ayuda"
+        ]
+    },
+
+    "disclosure-layout#footer__ayuda":{
+        "children": [
+            "disclosure-trigger#footer__ayuda",
+            "disclosure-content#footer__ayuda"
+        ]
+    },
+
+    "disclosure-trigger#footer__ayuda":{
+        "children": [
+            "rich-text#footer__ayuda"
+        ]
+    },
+    "rich-text#footer__ayuda": {
+        "props": {
+            "text": "AYUDA"
+        }
+    },
+
+    "disclosure-content#footer__ayuda":{
+        "children": ["flex-layout.col#footer__ayuda"]
+    },
+
+
+
+    "disclosure-layout-group#footer__info-sitio":{
+        "children": [
+            "disclosure-layout#footer__info-sitio"
+        ]
+    },
+
+    "disclosure-layout#footer__info-sitio":{
+        "children": [
+            "disclosure-trigger#footer__info-sitio",
+            "disclosure-content#footer__info-sitio"
+        ]
+    },
+
+    "disclosure-trigger#footer__info-sitio":{
+        "children": [
+            "rich-text#footer__info-sitio"
+        ]
+    },
+    "rich-text#footer__info-sitio": {
+        "props": {
+            "text": "INFO SITIO"
+        }
+    },
+
+    "disclosure-content#footer__info-sitio":{
+        "children": ["flex-layout.col#footer__infoSitio"]
+    }
+
+
+   
+}
