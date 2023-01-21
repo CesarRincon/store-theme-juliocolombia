@@ -27,3 +27,8 @@
     margin-top: 51px;
 } 
 
+.flexRowContent--content-trigger .stretchChildrenWidth:last-child {
+    align-items: center;
+    justify-content: flex-end;
+}
+
