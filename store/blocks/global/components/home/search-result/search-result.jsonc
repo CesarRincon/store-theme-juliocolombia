@@ -53,5 +53,37 @@
             "product-summary-buy-button"
         ]
     },
+    "list-context.product-list#products": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#products"
+        ]
+    },
+    "slider-layout#products": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "slider-products",
+            "fullWidth": false,
+            "width": "90%"
+        }
+    },
+    "flex-layout.row#product-list": {
+        "children": [
+            "list-context.product-list#products"
+        ],
+        "props": {
+            "blockClass": "content-slider-products",
+            "fullWidth": false,
+            "width": "90%"
+        }
+    },
     "search-result-layout.mobile#home__search--mobile": {}
 }

@@ -4,6 +4,7 @@
         "children": [
             "flex-layout.row#mobile__section-1",
             "flex-layout.row#home__banner--mobile",
+            "flex-layout.row#product-list",
             "flex-layout.row#mobile__section-2",
             "flex-layout.row#mobile__section-3",
             "flex-layout.row#mobile__section-4",
