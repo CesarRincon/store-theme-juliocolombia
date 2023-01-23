@@ -15,7 +15,8 @@
     },
     "image#home__slider--one": {
         "props": {
-            "src": "assets/img/banner-home.jpg" 
+            "src": "assets/img/home/slider-home/slider-home1.jpg" 
         }
     }
+  
 }

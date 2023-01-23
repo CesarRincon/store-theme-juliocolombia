@@ -38,7 +38,7 @@
   "image#images__section-2--imageOne": {
     "title": "imagen1 de la seccion 2",
     "props": {
-      "src": "assets/img/Home-venta-diciembre_02_720x.jpg",
+      "src": "assets/img/home/Home-venta-diciembre_02_720x.jpg",
       "maxWidth": "95%",
       "maxHeight": "95%"
     }
@@ -46,7 +46,7 @@
   "image#images__section-2--imageTwo": {
     "title": "imagen2 de la seccion 2",
     "props": {
-      "src": "assets/img/Home-venta-diciembre_04_720x.jpg",
+      "src": "assets/img/home/Home-venta-diciembre_04_720x.jpg",
       "maxWidth": "95%",
       "maxHeight": "95%"
     }
@@ -64,7 +64,7 @@
   "image#images__section-3--imageOne": {
     "title": "imagen1 de la seccion 3",
     "props": {
-      "src": "assets/img/Home-venta-diciembre_07_1296x.jpg"
+      "src": "assets/img/home/Home-venta-diciembre_07_1296x.jpg"
     }
   },
 
@@ -76,7 +76,7 @@
   },
   "image#home__section4": {
     "props": {
-      "src": "assets/img/home-4.jpg",
+      "src": "assets/img/home/home-4.jpg",
       "maxWidth": "93%"
     }
   },
@@ -91,7 +91,7 @@
   },
   "image#home__section5": {
     "props": {
-      "src": "assets/img/home-5.jpg",
+      "src": "assets/img/home/home-5.jpg",
       "maxWidth": "93%"
     }
   },
@@ -104,13 +104,13 @@
   },
   "image#home__section6-one": {
     "props": {
-      "src": "assets/img/home-6.jpg",
+      "src": "assets/img/home/home-6.jpg",
       "maxWidth": "93%"
     }
   },
   "image#home__section6-two": {
     "props": {
-      "src": "assets/img/home-7.jpg",
+      "src": "assets/img/home/home-7.jpg",
       "maxWidth": "93%"
     }
   },
@@ -122,7 +122,7 @@
   },
   "image#home__section7": {
     "props": {
-      "src": "assets/img/home-8.jpg",
+      "src": "assets/img/home/home-8.jpg",
       "maxWidth": "93%"
     }
   },
@@ -134,7 +134,7 @@
   },
   "image#home__section8": {
     "props": {
-      "src": "assets/img/home-9.jpg",
+      "src": "assets/img/home/home-9.jpg",
       "maxWidth": "93%"
     }
   }

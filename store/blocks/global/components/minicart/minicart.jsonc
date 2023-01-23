@@ -4,7 +4,7 @@
             "MinicartIcon": "icon#home__cart-icon",
             "itemCountMode": "total",
             "quantityDisplay": "always",
-            "maxDrawerWidth": 50
+            "maxDrawerWidth": "50%"
         },
         "children": [
             "minicart-base-content"
@@ -19,6 +19,94 @@
             "flex-layout.row#minicart-footer"
         ]
     },
+    "minicart-product-list": {
+        "blocks": [
+            "product-list#minicart"
+        ],
+        "props": {
+            "blockClass": "minicar__product-list"
+        }
+    },
+    "product-list#minicart": {
+        "blocks": [
+            "product-list-content-desktop#minicart"
+        ],
+        "props": {
+            "blockClass": "minicar__product-list"
+        }
+    },
+    "product-list-content-desktop#minicart": {
+        "children": [
+            "flex-layout.row#content-list__minicart"
+        ]
+    },
+    "flex-layout.row#content-list__minicart": {
+        "children": [
+            "flex-layout.row#image-product__minicar",
+            "flex-layout.row#info-product__minicar"
+        ],
+        "props": {
+            "fullWidth": true,
+            "paddingBottom": 7,
+            "paddingTop": 6,
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true,
+            "blockClass": "content-list__minicart"
+        }
+    },
+    "flex-layout.row#image-product__minicar": {
+        "children": [
+            "product-list-image"
+        ],
+        "props": {
+            "marginRight": 6,
+            "blockClass": "image-product__minicar"
+        }
+    },
+    "flex-layout.row#info-product__minicar": {
+        "children": [
+            "flex-layout.col#content-info-product__minicar"
+        ],
+        "props": {
+            "blockClass": "info-product__minicar",
+            "width": "50%",
+            "marginRight": 6,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "verticalAlign": "center"
+        }
+    },
+    "flex-layout.col#content-info-product__minicar":{
+        "children": [
+            "vtex.product-list:product-name",
+            "price#desktop",
+            "unit-price#desktop",
+            "flex-layout.row#actions-minicart"
+        ],
+        "props": {
+            "blockClass": "content-info-product__minicar",
+            "horizontalAlign": "left",
+            "rowGap": 3
+        }
+    },
+    "price#desktop":{
+        "props": {
+            "textAlign": "left"
+        }
+    },
+    "flex-layout.row#actions-minicart":{
+        "children": [
+            "remove-button",
+            "quantity-selector"
+        ],
+        "props": {
+            "blockClass": "actions-minicart",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+   
+
     "flex-layout.row#minicart-footer": {
         "props": {
             "blockClass": "minicart-footer"
@@ -34,8 +122,27 @@
         ]
     },
     "minicart-summary": {
-        "blocks": []
+        "blocks": ["checkout-summary.compact#minicart"]
     },
+
+    "checkout-summary.compact#minicart": {
+        "children": ["summary-totalizers#minicart"],
+        "props": {
+          "totalizersToShow": ["Items", "Discounts"]
+        }
+      },
+      "summary-totalizers#minicart": {
+        "props": {
+          "showTotal": true,
+          "showDeliveryTotal": false
+        }
+    },
+     
+
+
+
+
+
     "minicart-checkout-button": {
         "props": {
             "finishShoppingButtonLink": "/checkout/#/orderform"
@@ -59,8 +166,8 @@
         "children": [
             "image#minicart-empty-bag",
             "rich-text#minicart-default-empty-state",
-            "rich-text#button-test"
-            // "link#returnToShop"
+            "link#returnToShop"
+  
         ],
         "props": {
             "horizontalAlign": "center",
@@ -80,20 +187,14 @@
             "textColor": "c-on-muted-3"
         }
     },
-    "rich-text#button-test":{
+    "link#returnToShop": {
+        "title": "boton return to shop",
         "props": {
-            "text": "RETURN TO SHOP",
             "blockClass": "boton-return-shop",
-            "font": "t-small"
+            "href": "/",
+            "label": "RETURN TO SHOP",
+            "displayMode": "button"
         }
     }
-    // "link#returnToShop": {
-    //     "title": "boton return to shop",
-    //     "props": {
-    //         "blockClass": "return-to-shop",
-    //         "href": "/",
-    //         "label": "RETURN TO SHOP",
-    //         "displayMode": "button"
-    //     }
-    // }
+
 }
