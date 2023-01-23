@@ -16,7 +16,7 @@
     },
     "image#home__slider-mobile--one": {
         "props": {
-            "src": "assets/img/main-image-mobile-1.jpg"
+            "src": "assets/img/home/slider-home/slider-home-mobile.jpg"
         }
     }
 }

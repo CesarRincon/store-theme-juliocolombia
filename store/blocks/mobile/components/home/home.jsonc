@@ -42,7 +42,7 @@
   "image#images__section-2_one": {
     "title": "Imagen 1",
     "props": {
-      "src": "assets/img/Home-venta-diciembre_02_720x.jpg",
+      "src": "assets/img/home/Home-venta-diciembre_02_720x.jpg",
       "maxWidth": "90%",
       "maxHeight": "92%"
     }
@@ -50,7 +50,7 @@
   "image#images__section-2_two": {
     "title": "Imagen 2",
     "props": {
-      "src": "assets/img/Home-venta-diciembre_04_720x.jpg",
+      "src": "assets/img/home/Home-venta-diciembre_04_720x.jpg",
       "maxWidth": "90%",
       "maxHeight": "92%"
     }
@@ -63,7 +63,7 @@
   },
   "image#mobile__section3": {
     "props": {
-      "src": "assets/img/Home-venta-diciembre_07_1296x.jpg"
+      "src": "assets/img/home/Home-venta-diciembre_07_1296x.jpg"
     }
   },
   "flex-layout.row#mobile__section-4": {
@@ -74,7 +74,7 @@
   },
   "image#mobile__section4": {
     "props": {
-      "src": "assets/img/home-4.jpg"
+      "src": "assets/img/home/home-4.jpg"
     }
   },
   "flex-layout.row#mobile__section-5": {
@@ -85,7 +85,7 @@
   },
   "image#mobile__section5": {
     "props": {
-      "src": "assets/img/home-5.jpg"
+      "src": "assets/img/home/home-5.jpg"
     }
   },
   "flex-layout.row#mobile__section-6": {
@@ -101,12 +101,12 @@
   },
   "image#mobile__section6-one": {
     "props": {
-      "src": "assets/img/home-6.jpg"
+      "src": "assets/img/home/home-6.jpg"
     }
   },
   "image#mobile__section6-two": {
     "props": {
-      "src": "assets/img/home-7.jpg"
+      "src": "assets/img/home/home-7.jpg"
     }
   },
   "flex-layout.row#mobile__section-7": {
@@ -117,7 +117,7 @@
   },
   "image#mobile__section7": {
     "props": {
-      "src": "assets/img/home-8.jpg"
+      "src": "assets/img/home/home-8.jpg"
     }
   },
   "flex-layout.row#mobile__section-8": {
@@ -128,7 +128,7 @@
   },
   "image#mobile__section8": {
     "props": {
-      "src": "assets/img/home-9.jpg"
+      "src": "assets/img/home/home-9.jpg"
     }
   }
 }
