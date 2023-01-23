@@ -1,0 +1,9 @@
+:global(.sliderLayoutContainer--slider-products) {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.sliderLayoutContainer--slider-products {
+    width: 90% !important;
+}

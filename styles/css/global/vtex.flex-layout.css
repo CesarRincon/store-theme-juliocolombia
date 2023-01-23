@@ -16,3 +16,10 @@
     align-items: center;    
 }
 
+.flexRowContent--content-slider-products {
+
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}

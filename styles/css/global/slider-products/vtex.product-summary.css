@@ -1,0 +1,12 @@
+.buyButton :global(.vtex-button) {
+    background-color: black;
+    border: none;
+    width: 90%;
+}
+
+.imageContainer {
+    display: flex;
+    height: 260px;
+    align-items: center;
+    justify-content: center;
+}

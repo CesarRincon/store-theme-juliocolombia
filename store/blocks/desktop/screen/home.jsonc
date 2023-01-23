@@ -4,13 +4,15 @@
     "children": [
       "flex-layout.row#home__section-1",
       "flex-layout.row#home__banner--desktop",
+      "flex-layout.row#product-list",
       "flex-layout.row#home__section-2",
       "flex-layout.row#home__section-3",
+      "slider-layout#products",
       "flex-layout.row#home__section-4",
       "flex-layout.row#home__section-5",
       "flex-layout.row#home__section-6",
       "flex-layout.row#home__section-7",
-      "flex-layout.row#home__section-8",
+      "flex-layout.row#home__section-8",  
       "newsletter",
       "flex-layout.row#information-section"
     ]
