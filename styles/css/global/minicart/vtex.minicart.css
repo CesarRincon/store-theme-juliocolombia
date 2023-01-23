@@ -35,3 +35,11 @@
 .minicartEmptyStateContainer {
     margin-top: 60px;
 }
+
+.minicartCheckoutButton :global(.vtex-button){
+    background-color: black;
+    border: none;
+}
+.drawer {
+    width: 340px !important;
+}
