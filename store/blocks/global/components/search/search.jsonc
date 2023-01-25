@@ -43,13 +43,6 @@
             }
         }
     },
-    "search-result-layout": {
-        "blocks": [
-            "search-result-layout.desktop",
-            "search-result-layout.mobile",
-            "search-not-found-layout"
-        ]
-    },
     "search-result-layout.desktop": {
         "children": [
             "search-result-layout.desktop#department"
@@ -64,16 +57,6 @@
             "thresholdForFacetSearch": 10,
             "showProductsCount": true,
             "showFacetQuantity": true
-        }
-    },
-    "rich-text#desktop-response": {
-        "props": {
-            "text": "Desktop response"
-        }
-    },
-    "rich-text#mobile-response": {
-        "props": {
-            "text": "Mobile response"
         }
     }
 }

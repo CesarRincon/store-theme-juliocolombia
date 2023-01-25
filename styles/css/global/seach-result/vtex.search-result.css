@@ -16,6 +16,33 @@
     width: 20% !important;
 } 
 
-.gallery {
-    gap: 20px;
+
+.filtersWrapperMobile{
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.galleryItem--normal :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
+    content: Hola;
+    width: 100%;
+    background-color: blue;
+}
+
+.galleryLayoutSwitcher {
+    justify-content: center;
+}
+
+.orderByDropdown {
+    display: flex;
+}
+
+.orderByButton {
+    width: 56%;
+    padding: 8px;
+    border: .8px solid rgb(208, 208, 208);
+}
+
+.orderByOptionsContainer {
+    width: 230px;
+    margin-top: 60px;
 }
