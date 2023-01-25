@@ -13,3 +13,11 @@
 .menuContainerVertical {
     margin-bottom: 0px;
 }
+
+.goBackContainer {
+    padding: 5px 0px !important;
+}
+
+.goBackButtonText {
+    padding: 5px 0px !important; 
+}

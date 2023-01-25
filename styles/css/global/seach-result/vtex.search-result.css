@@ -1,0 +1,48 @@
+.galleryItem--normal:hover :global(.vtex-button) {
+    transform: translateY(-250px);
+    visibility: visible;
+    opacity: 100%;
+}
+
+.galleryItem--normal :global(.vtex-button) {
+       transform: translateY(-280px);
+       opacity: 0%;
+       visibility: hidden;
+       margin: auto;
+       transition: all 1s;
+
+}
+.galleryItem--normal {
+    width: 20% !important;
+} 
+
+
+.filtersWrapperMobile{
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.galleryItem--normal :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
+    content: Hola;
+    width: 100%;
+    background-color: blue;
+}
+
+.galleryLayoutSwitcher {
+    justify-content: center;
+}
+
+.orderByDropdown {
+    display: flex;
+}
+
+.orderByButton {
+    width: 56%;
+    padding: 8px;
+    border: .8px solid rgb(208, 208, 208);
+}
+
+.orderByOptionsContainer {
+    width: 230px;
+    margin-top: 60px;
+}

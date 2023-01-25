@@ -23,3 +23,12 @@
 .paragraph--text-buscar, .paragraph--tex-login {
     margin: 10px 0px;
 }
+
+.link--text_email-contact {
+    text-decoration: none;
+    color: rgb(136, 135, 135);
+}
+
+.link--text_email-contact:hover {
+    color: black;
+}

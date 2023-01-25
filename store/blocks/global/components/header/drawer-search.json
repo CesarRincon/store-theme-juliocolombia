@@ -35,8 +35,10 @@
     },
 
     "search-bar": {
+        "blocks": ["autocomplete-result-list.v2"],
         "props": {
-            "placeholder": "Buscar productos"
+            "placeholder": "Buscar productos",
+            "openAutocompleteOnFocus": true
         }
     },
 
@@ -74,5 +76,13 @@
             "width": "90%",
             "blockClass": "trigger-icon_search"
         }
-    }
+    },
+    "autocomplete-result-list.v2": {
+        "blocks": ["product-summary"],
+        "props": {
+            "productLayout": "VERTICAL",
+            "autocompleteWidth": 100,
+            "blockClass": "autocomplete"
+        }
+      }
 }
