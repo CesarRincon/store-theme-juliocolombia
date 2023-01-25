@@ -2,6 +2,7 @@
     "drawer#header__mobile--menu": {
         "title": "drawer menu mobile",
         "children": [
+            "mega-menu-go-back-btn",
             "flex-layout.row#header__drawer",
             "flex-layout.row#header__drawer2",
             "rich-text#necesitas-ayuda",
@@ -15,6 +16,13 @@
             "blockClass": "mobile--menu"
         }
     },
+    "mega-menu-go-back-btn": {
+        "props": {
+            "paddingTop": 5,
+            "paddingBottom": 5
+        }
+    },
+
     "flex-layout.row#header__drawer": {
         "children": [
             "mega-menu#mobile"

@@ -27,3 +27,8 @@
     font-weight: 600;
     letter-spacing: .8px;
 }
+
+.container--caracteristicas {
+    justify-content: flex-end;
+    padding-right: 20px;
+}
