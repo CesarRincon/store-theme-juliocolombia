@@ -10,6 +10,7 @@
        visibility: hidden;
        margin: auto;
        transition: all 1s;
+       overflow: hidden;
 
 }
 .galleryItem--normal {
@@ -23,10 +24,25 @@
 }
 
 .galleryItem--normal :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
-    content: Hola;
-    width: 100%;
-    background-color: blue;
+    content: " ";
+    position: absolute;
+    background-image: url(assets/img/icons/carrito-blanco-8px.png);
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    left: 40%;
+    bottom: -35px;    
 }
+.galleryItem--normal :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    transform: translateY(-29px);
+    transition: all .5s;
+}
+
+/* .galleryItem--normal :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
+    display: block;
+} */
+
+
 
 .galleryLayoutSwitcher {
     justify-content: center;

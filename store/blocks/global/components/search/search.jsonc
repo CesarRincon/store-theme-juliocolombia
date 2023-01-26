@@ -42,21 +42,6 @@
                 "simulationBehavior": "default"
             }
         }
-    },
-    "search-result-layout.desktop": {
-        "children": [
-            "search-result-layout.desktop#department"
-        ]
-    },
-    "search-result-layout.mobile": {
-        "children": [
-            "search-result-layout.desktop#department"
-        ],
-        "props": {
-            "preventRouteChange": true,
-            "thresholdForFacetSearch": 10,
-            "showProductsCount": true,
-            "showFacetQuantity": true
-        }
     }
+    
 }
