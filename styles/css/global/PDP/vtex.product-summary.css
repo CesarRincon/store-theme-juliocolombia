@@ -1,0 +1,83 @@
+.element--similar-products-desktop:hover :global(.vtex-button) {
+    transform: translateY(-250px);
+    visibility: visible;
+    opacity: 100%;
+}
+
+.element--similar-products-desktop :global(.vtex-button) {
+       transform: translateY(-280px);
+       opacity: 0%;
+       visibility: hidden;
+       margin: auto;
+       transition: all 1s;
+       overflow: hidden;
+}
+
+.element--similar-products-desktop :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
+    content: " ";
+    position: absolute;
+    background-image: url(assets/img/icons/carrito-blanco-8px.png);
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    left: 40%;
+    bottom: -35px;    
+}
+.element--similar-products-desktop :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    transform: translateY(-29px);
+    transition: all .5s;
+}
+
+.element--similar-products-desktop .priceContainer, .element--similar-products-mobile .priceContainer {
+    height: 102px !important;
+}
+
+.element--similar-products-desktop,
+.element--similar-products-mobile {
+    align-items: center;
+}
+
+.element--similar-products-mobile :global(.vtex-button){
+    width: 35px !important;
+    height: 0px !important;
+    border-radius: 0%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.element--similar-products-mobile :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    visibility: hidden;
+    overflow: visible;
+}
+
+.element--similar-products-mobile :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
+    content: " ";
+    visibility: visible;
+    position: absolute;
+    background-image: url(assets/img/icons/carrito2-blanco.png);
+    background-size: contain; 
+    min-width: 0;
+    min-height: 0;
+    width: 22px;
+    height: 22px;
+    right: 8px;
+    top: 9px;
+}
+
+.element--similar-products-mobile :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText)::after {
+    content: "Compra Rápida";
+    visibility: visible;
+    background-color: rgb(46, 46, 46);
+    font-size: 12px;
+    text-transform: capitalize;
+    position: absolute;
+    padding: 3px;
+    width: 80px;
+    top: -23px;
+    left: -60px;
+}
+
+.element--similar-products-mobile {
+    position: relative;
+}

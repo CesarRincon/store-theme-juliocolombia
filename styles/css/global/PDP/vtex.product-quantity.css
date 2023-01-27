@@ -6,6 +6,7 @@
     width: 115px !important;
     height: 40px;
     color: black;
+    margin-left: 5px;
 }
 
 .quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button__text), .quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button__text) {
