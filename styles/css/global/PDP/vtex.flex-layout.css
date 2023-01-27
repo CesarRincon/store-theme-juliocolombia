@@ -1,0 +1,42 @@
+.flexColChild--product__info--data:first-child {
+    height: 10% !important;
+}
+
+.flexRow--buttons__cart--quantity :global(.vtex-button) {
+    background-color: black;
+    border: none;
+    max-width: 100%;
+    min-width: 160px;
+    width: 100%;
+    padding: 5px 20px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .5px;
+    border-radius: 0;
+}
+
+.flexRow--buttons__cart--quantity :global(.vtex-button):hover {
+    background-color: rgb(41, 41, 41);
+}
+
+.flexRow--buttons__cart--quantity  :global(.vtex-button__label)  {
+     padding: 0;
+}
+
+
+
+.flexRowContent--buttons__cart--quantity {
+    margin-top: 10px;
+    width: 100% !important;
+}
+
+.flexRowContent--buttons__cart--quantity .stretchChildrenWidth:first-child {
+    width: 35% !important;
+
+}
+.flexRowContent--buttons__cart--quantity .stretchChildrenWidth:last-child {
+    width: 93% !important;
+    padding-left: 10px;
+    
+}

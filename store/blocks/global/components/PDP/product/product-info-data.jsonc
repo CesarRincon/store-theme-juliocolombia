@@ -1,0 +1,81 @@
+{
+    "flex-layout.row#product__info": {
+        "title": "Info general de PDP",
+        "children": [
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#product__info--data"
+        ],
+        "props": {
+            "marginTop": 5
+        }
+    },
+    "flex-layout.col#product__info--image": {
+        "title": "Imagenes de PDP",
+        "children": [
+            "product-images"
+        ]
+    },
+    "flex-layout.col#product__info--data": {
+        "title": "Data de Producto",
+        "children": [
+            "vtex.store-components:product-name",
+            "product-identifier.product",
+            "product-price",
+            "rich-text#promo",
+            "rich-text#mensaje",
+            "product-description",
+            "sku-selector",
+            "flex-layout.row#buttons__cart--quantity"
+        ],
+        "props": {
+            "marginLeft": 6,
+            "blockClass": "product__info--data"
+        }
+    },
+
+    "vtex.store-components:product-name":{
+        "props": {
+           "tag": "h1"
+        }
+    },
+
+    "flex-layout.row#buttons__cart--quantity":{
+        "title": "Botón de añadir al carrito y quantity",
+        "children": [
+            "product-quantity",
+            "add-to-cart-button"
+        ], 
+        "props": {
+            "blockClass": "buttons__cart--quantity"
+        }
+    },
+    "product-quantity":{
+        "props": {
+            "showLabel": false
+        }
+    },
+    
+    "add-to-cart-button":{
+        "props": {
+            "text": "AGREGAR A LA BOLSA"
+        }
+    },
+
+
+    "rich-text#promo":{
+        "props": {
+            "text": "Promocion"
+        }
+    },
+    "rich-text#mensaje":{
+        "props": {
+            "text": "Envio cuando ingreses tu dirección"
+        }
+    },
+    "product-description":{
+        "props": {
+            "collapseContent": true,
+            "showTitle": false
+        }
+    }
+}
