@@ -1,0 +1,6 @@
+.create-question-container {
+    flex-wrap: wrap ;
+    width: 100% ;
+    justify-content: center;
+    margin: 0 !important;
+}

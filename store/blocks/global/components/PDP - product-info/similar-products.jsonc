@@ -1,0 +1,81 @@
+{
+    "flex-layout.row#similar-products": {
+        "title": "Contenedor productos similares",
+        "children": [
+            "flex-layout.col#similar-products"
+        ],
+        "props": {
+            "marginBottom": 8
+        }
+    },
+    "flex-layout.col#similar-products": {
+        "children": [
+            "rich-text#title-similar-product",
+            "responsive-layout.desktop#similar-product-summary-shelf__desktop",
+            "responsive-layout.mobile#similar-product-summary-shelf__mobile"
+        ]
+    },
+    "rich-text#title-similar-product": {
+        "title": "Titulo de seccion de productos similares",
+        "props": {
+            "text": "## También podrían gustarte",
+            "font": "t-heading-3"
+        }
+    },
+
+    "responsive-layout.desktop#similar-product-summary-shelf__desktop":{
+        "children": ["list-context.product-list#similar-products-desktop"]
+    },
+    
+    "responsive-layout.mobile#similar-product-summary-shelf__mobile":{
+        "children":["list-context.product-list#similar-products-mobile"]
+    },
+
+    "list-context.product-list#similar-products-desktop": {
+        "blocks": ["product-summary.shelf#similar-products-desktop"],
+        "children": ["slider-layout#similar-products"]
+    },
+    "list-context.product-list#similar-products-mobile": {
+        "blocks": ["product-summary.shelf#similar-products-mobile"],
+        "children": ["slider-layout#similar-products"]
+    },
+
+    "slider-layout#similar-products": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "slider-similar-products",
+            "width": "90%"
+        }
+    },
+
+   
+
+    "product-summary.shelf#similar-products-desktop":{
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price",
+            "add-to-cart-button"
+        ],
+        "props":{
+            "blockClass": "similar-products-desktop"
+        }
+    },
+    "product-summary.shelf#similar-products-mobile":{
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price",
+            "add-to-cart-button"
+        ],
+        "props":{
+            "blockClass": "similar-products-mobile"
+        }
+    }
+}
