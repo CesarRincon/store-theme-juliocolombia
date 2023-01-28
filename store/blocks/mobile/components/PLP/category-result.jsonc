@@ -1,0 +1,70 @@
+{   
+    "responsive-layout.mobile#resultscontent--products":{
+        "children": ["search-content#resultscontent--products--mobile"]
+    },
+
+    "search-content#resultscontent--products--mobile": {
+        "blocks": [
+            "gallery#department--mobile",
+            "not-found"
+        ]
+    },
+
+    "gallery#department--mobile": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "grid-mobile",
+                    "component": "GridSummary--mobile",
+                    "itemsPerRow": {
+                        "desktop": 4,
+                        "tablet": 2,
+                        "phone": 2
+                    }
+                },
+                {
+                    "name": "list-mobile",
+                    "component": "ListSummary--mobile",
+                    "itemsPerRow": 1
+                }
+            ],
+            "ListSummary--mobile": "product-summary.shelf#result-products",
+            "GridSummary--mobile": "product-summary.shelf#result-products"
+        }
+    },
+    "product-summary.shelf#result-products":{
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price",
+            "add-to-cart-button"
+        ],
+        "props":{
+            "blockClass": "similar-products-mobile"
+        }
+    },
+    "gallery-layout-switcher#mobile": {
+        "children": [
+            "gallery-layout-option#grid-mobile",
+            "gallery-layout-option#list-mobile"
+        ]
+    },
+    "gallery-layout-option#grid-mobile": {
+        "props": {
+            "name": "grid-mobile"
+        },
+        "children": [
+            "icon-grid",
+            "responsive-layout.desktop#textOptionGrid"
+        ]
+    },
+    "gallery-layout-option#list-mobile": {
+        "props": {
+            "name": "list-mobile"
+        },
+        "children": [
+            "icon-inline-grid",
+            "responsive-layout.desktop#textOptionList"
+        ]
+    }
+}
