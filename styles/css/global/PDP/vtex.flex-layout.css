@@ -1,0 +1,58 @@
+.flexCol--product__info--data {
+    margin-top: 5px;
+    margin-left: 0;
+}
+
+.flexRow--buttons__cart--quantity :global(.vtex-button) {
+    background-color: black;
+    border: none;
+    max-width: 100%;
+    min-width: 200px !important;
+    width: 200px;
+    padding: 5px 20px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .5px;
+    border-radius: 0;
+    margin-left: 5px;
+}
+
+.flexCol--buttons__cart--quantity-mobile {
+    margin-top: 10px;
+}
+
+.flexCol--buttons__cart--quantity-mobile :global(.vtex-button) {
+    background-color: black;
+    border: none;
+}
+.flexCol--buttons__cart--quantity-mobile .stretchChildrenWidth:first-child {
+    justify-content: flex-start;
+}
+
+.flexRow--buttons__cart--quantity :global(.vtex-button):hover, .flexCol--buttons__cart--quantity-mobile :global(.vtex-button):hover {
+    background-color: rgb(41, 41, 41);
+}
+
+.flexRow--buttons__cart--quantity :global(.vtex-button__label)  {
+     padding: 0;
+}
+
+.flexRowContent--buttons__cart--quantity {
+    margin-top: 10px;
+    width: 100% !important;
+}
+
+.flexRowContent--buttons__cart--quantity .stretchChildrenWidth:first-child {
+    width: 25% !important;
+    justify-content: flex-start;
+
+}
+.flexRowContent--buttons__cart--quantity .stretchChildrenWidth:last-child {
+    width: 75% !important;
+    justify-content: flex-start;
+}
+
+.flexColChild--product__info--data {
+    height: fit-content !important;
+}

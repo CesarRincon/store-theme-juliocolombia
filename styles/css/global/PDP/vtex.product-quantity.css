@@ -1,0 +1,20 @@
+.quantitySelectorContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 115px !important;
+    height: 40px;
+    color: black;
+    margin-left: 5px;
+}
+
+.quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button__text), .quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button__text) {
+    color: black;
+    font-size: 30px;
+}
+.quantitySelectorContainer :global(.vtex-numeric-stepper__input) {
+    font-size: 20px;
+    font-weight: 600;
+    width: 25px;
+}

@@ -17,7 +17,6 @@
     width: 20% !important;
 } 
 
-
 .filtersWrapperMobile{
     justify-content: flex-start;
     padding-left: 10px;
@@ -37,12 +36,6 @@
     transform: translateY(-29px);
     transition: all .5s;
 }
-
-/* .galleryItem--normal :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
-    display: block;
-} */
-
-
 
 .galleryLayoutSwitcher {
     justify-content: center;
