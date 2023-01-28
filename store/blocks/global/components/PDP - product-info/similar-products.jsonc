@@ -54,8 +54,6 @@
         }
     },
 
-   
-
     "product-summary.shelf#similar-products-desktop":{
         "children": [
             "product-summary-image",

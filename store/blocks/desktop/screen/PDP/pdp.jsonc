@@ -1,0 +1,12 @@
+{
+    "responsive-layout.desktop#pdp": {
+        "children": [
+            "flex-layout.row#product__breadcrumb",
+            "flex-layout.row#product__info",
+            "flex-layout.row#similar-products",
+            "flex-layout.row#product__tabs",
+            "newsletter",
+            "flex-layout.row#information-section"
+        ]
+    }
+}
