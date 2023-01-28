@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#product__tabs": {
+        "title": "Info adicional",
+        "children": [
+            "tab-layout#product__tabs"
+        ]
+    },
+    "tab-layout#product__tabs": {
+        "title": "Product tabs",
+        "children": [
+            "tab-list#product__tabs--list",
+            "tab-content#product__tabs--content"
+        ],
+        "props": {
+            "defaultActiveTabId": "tabs"
+        }
+    },
+    "tab-list#product__tabs--list": {
+        "title": "Tab list",
+        "children": [
+            "tab-list.item#tabs__list--review-and-ratings",
+            "tab-list.item#tabs__list--product-specification",
+            "tab-list.item#tabs__list--questions"
+        ]
+    },
+    "tab-list.item#tabs__list--review-and-ratings": {
+        "props": {
+            "tabId": "review-and-ratings",
+            "label": "Revisiones y calificaciones",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#tabs__list--product-specification": {
+        "props": {
+            "tabId": "product-specification",
+            "label": "Especificacions de producto",
+            "defaultActiveTab": false
+        }
+    },
+    "tab-list.item#tabs__list--questions": {
+        "props": {
+            "tabId": "questions",
+            "label": "Preguntas y respuestas",
+            "defaultActiveTab": false
+        }
+    },
+    "tab-content#product__tabs--content": {
+        "children": [
+            "tab-content.item#tabs__content--review-and-ratings",
+            "tab-content.item#tabs__content--product-specification",
+            "tab-content.item#tabs__content--questions"
+        ]
+    },
+    "tab-content.item#tabs__content--review-and-ratings": {
+        "props": {
+            "tabId": "review-and-ratings"
+        },
+        "children": [
+            "product-reviews"
+        ]
+    },
+    "tab-content.item#tabs__content--product-specification": {
+        "props": {
+            "tabId": "product-specification"
+        },
+        "children": [
+            "product-specifications"
+        ]
+    },
+    "tab-content.item#tabs__content--questions": {
+        "props": {
+            "tabId": "questions"
+        },
+        "children": [
+            "questions-and-answers"
+        ]
+    }
+}
