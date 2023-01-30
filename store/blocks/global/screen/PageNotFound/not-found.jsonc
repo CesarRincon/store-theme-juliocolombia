@@ -1,15 +1,77 @@
 {
     "store.not-found#product": {
         "blocks": [
-            "rich-text#not-found"
+            "flex-layout.row#content-notFound",
+            "newsletter",
+            "flex-layout.row#information-section"
         ]
+        
     },
+    "flex-layout.row#content-notFound":{
+        "children": ["flex-layout.col#content-notFound"],
+        "props": {
+            "blockClass": "content-principal-notfound",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#content-notFound":{
+        "title": "Contenedor not found",
+        "children": [
+            "rich-text#not-found",
+            "rich-text#frase",
+            "flex-layout.row#regresar-al-inicio"
+        ],
+        "props": {
+            "blockClass": "content-notFound",
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        }
+    },
+
     "rich-text#not-found": {
+        "title": "Titulo error 404",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "**PAGE NOT FOUND xd xd xd**",
-            "font": "t-heading-1"
+            "text": "**Error 404: ¿Dónde está mi café?**",
+            "font": "t-heading-1",
+            "blockClass": "title-404"
         }
+    },
+    "rich-text#frase": {
+        "title": "Frase estamos tostados",
+        "props": {
+            "text": "¡ESTAMOS TOSTADOS! NO ENCONTRAMOS ESA PÁGINA",
+            "blockClass": "frase",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    },
+    "flex-layout.row#regresar-al-inicio": {
+        "title": "Contenedor regresar al inicio",
+        "children": [
+            "rich-text#regresar",
+            "link#inicio"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": "regresar-al-inicio"
+        }
+    },
+    "rich-text#regresar": {
+        "title": "Regresar al",
+        "props": {
+            "text": "Regresar al",
+            "blockClass": "regresar-al"
+        }
+    },
+    "link#inicio": {
+        "title": "Inicio-link",
+        "props": {
+            "href": "https://crincon--itgloberspartnercl.myvtex.com",
+            "label": "inicio",
+            "blockClass": "inicio-link"
+          }
     }
 }
