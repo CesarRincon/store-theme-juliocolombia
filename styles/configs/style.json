@@ -346,10 +346,10 @@
       },
       "heading-4": {
         "fontFamily": "Aceh-Light",
-        "fontWeight": "normal",
-        "fontSize": "1.5rem",
+        "fontWeight": "600",
+        "fontSize": "1.6rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "1px"
       },
       "heading-5": {
         "fontFamily": "Aceh-Light",

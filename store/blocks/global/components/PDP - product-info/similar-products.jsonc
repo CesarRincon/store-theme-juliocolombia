@@ -13,13 +13,18 @@
             "rich-text#title-similar-product",
             "responsive-layout.desktop#similar-product-summary-shelf__desktop",
             "responsive-layout.mobile#similar-product-summary-shelf__mobile"
-        ]
+        ],
+        "props": {
+            "marginTop": 5,
+            "horizontalAlign": "center"
+        }
     },
     "rich-text#title-similar-product": {
         "title": "Titulo de seccion de productos similares",
         "props": {
-            "text": "## También podrían gustarte",
-            "font": "t-heading-3"
+            "text": "También podrían gustarte",
+            "font": "t-heading-4",
+            "textAlignment": "CENTER"
         }
     },
 
