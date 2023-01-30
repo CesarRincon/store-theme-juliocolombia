@@ -9,3 +9,14 @@
 .container {
     margin-bottom: px;
 }
+
+.sendButton :global(.vtex-button) {
+    background-color: black;
+    border: none ;
+    border-radius: 0;
+    width: 170px;
+
+}
+.sendButton :global(.vtex-button):hover {
+    background-color: rgb(37, 37, 37);
+}
