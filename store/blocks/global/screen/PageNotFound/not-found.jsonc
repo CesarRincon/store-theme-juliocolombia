@@ -56,7 +56,8 @@
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "middle",
-            "blockClass": "regresar-al-inicio"
+            "blockClass": "regresar-al-inicio",
+            "preserveLayoutOnMobile": true
         }
     },
     "rich-text#regresar": {
