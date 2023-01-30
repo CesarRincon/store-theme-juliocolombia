@@ -1,0 +1,17 @@
+{
+    "search-result-layout.mobile#department": {
+        "children": [
+            "flex-layout.row#departmentbreadcrumb",
+            "flex-layout.row#categoryresults",
+            "newsletter",
+            "flex-layout.row#information-section",
+            "flex-layout.row#menu-inferior"
+        ],
+        "props": {
+            "preventRouteChange": true,
+            "thresholdForFacetSearch": 10,
+            "showProductsCount": true,
+            "showFacetQuantity": true
+        }
+    }
+}

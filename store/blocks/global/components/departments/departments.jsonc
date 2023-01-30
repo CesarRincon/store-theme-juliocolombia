@@ -20,7 +20,9 @@
     "search-result-layout.desktop#department": {
         "children": [
             "flex-layout.row#departmentbreadcrumb",
-            "flex-layout.row#categoryresults"
+            "flex-layout.row#categoryresults",
+            "newsletter",
+            "flex-layout.row#information-section"
         ]
     },
     "flex-layout.row#categoryresults": {
@@ -30,22 +32,47 @@
     },
     "flex-layout.col#container__categoryresults": {
         "children": [
-            "flex-layout.row#categoryresults--filter",
+            "responsive-layout.desktop#categoryresults--filter",
+            "responsive-layout.mobile#categoryresults--filter",
             "flex-layout.col#categoryresults--content"
         ]
     },
-    "flex-layout.row#categoryresults--filter": {
+    "responsive-layout.desktop#categoryresults--filter": {
+        "children": ["flex-layout.row#categoryresults--filter-desktop"],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "responsive-layout.mobile#categoryresults--filter": {
+        "children": ["flex-layout.row#categoryresults--filter-mobile"],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.row#categoryresults--filter-desktop": {
         "children": [
             "filter-navigator.v3",
-            "gallery-layout-switcher",
+            "gallery-layout-switcher#desktop",
             "order-by.v2"
         ],
         "props": {
             "horizontalAlign": "between",
             "preserveLayoutOnMobile": true
         }
-    }, 
-
+    },
+    "flex-layout.row#categoryresults--filter-mobile": {
+        "children": [
+            "filter-navigator.v3",
+            "gallery-layout-switcher#mobile",
+            "order-by.v2"
+        ],
+        "props": {
+            "horizontalAlign": "between",
+            "preserveLayoutOnMobile": true,
+            "blockClass": "filter-mobile"
+        }
+    },
+    
     "filter-navigator.v3": {
         "blocks": [
             "sidebar-close-button"
@@ -57,10 +84,16 @@
     },
     "flex-layout.col#categoryresults--content": {
         "children": [
-            "search-content#resultscontent--products"
+            "responsive-layout.desktop#resultscontent--products",
+            "responsive-layout.mobile#resultscontent--products"
         ]
     },
-    "search-content#resultscontent--products": {
+    "responsive-layout.desktop#resultscontent--products": {
+        "children": [
+            "search-content#resultscontent--products--desktop"
+        ]
+    },
+    "search-content#resultscontent--products--desktop": {
         "blocks": [
             "gallery#department",
             "not-found"
@@ -70,7 +103,7 @@
         "props": {
             "layouts": [
                 {
-                    "name": "grid",
+                    "name": "grid-desktop",
                     "component": "GridSummary",
                     "itemsPerRow": {
                         "desktop": 4,
@@ -79,7 +112,7 @@
                     }
                 },
                 {
-                    "name": "list",
+                    "name": "list-desktop",
                     "component": "ListSummary",
                     "itemsPerRow": 1
                 }
@@ -98,18 +131,7 @@
             "breadcrumb.search"
         ]
     },
-    "search-result-layout.mobile#department": {
-        "children": [
-            "flex-layout.row#departmentbreadcrumb",
-            "flex-layout.row#categoryresults"
-        ],
-        "props": {
-            "preventRouteChange": true,
-            "thresholdForFacetSearch": 10,
-            "showProductsCount": true,
-            "showFacetQuantity": true
-        }
-    },
+    
     "product-summary.shelf#search--list": {
         "children": [
             "product-summary-image",
@@ -132,7 +154,7 @@
             "blockCLass": "search--grid"
         }
     },
-    "gallery-layout-switcher": {
+    "gallery-layout-switcher#desktop": {
         "children": [
             "gallery-layout-option#grid",
             "gallery-layout-option#list"
@@ -140,7 +162,7 @@
     },
     "gallery-layout-option#grid": {
         "props": {
-            "name": "grid"
+            "name": "grid-desktop"
         },
         "children": [
             "icon-grid",
@@ -149,7 +171,7 @@
     },
     "gallery-layout-option#list": {
         "props": {
-            "name": "list"
+            "name": "list-desktop"
         },
         "children": [
             "icon-inline-grid",

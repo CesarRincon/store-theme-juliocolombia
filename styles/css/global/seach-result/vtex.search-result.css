@@ -1,10 +1,10 @@
-.galleryItem--normal:hover :global(.vtex-button) {
+.galleryItem--grid-desktop:hover :global(.vtex-button), .galleryItem--list-desktop:hover :global(.vtex-button) {
     transform: translateY(-250px);
     visibility: visible;
     opacity: 100%;
 }
 
-.galleryItem--normal :global(.vtex-button) {
+.galleryItem--grid-desktop :global(.vtex-button), .galleryItem--list-desktop :global(.vtex-button) {
        transform: translateY(-280px);
        opacity: 0%;
        visibility: hidden;
@@ -13,7 +13,7 @@
        overflow: hidden;
 
 }
-.galleryItem--normal {
+.galleryItem--grid-desktop, .galleryItem--list-desktop {
     width: 20% !important;
 } 
 
@@ -22,7 +22,7 @@
     padding-left: 10px;
 }
 
-.galleryItem--normal :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
+.galleryItem--grid-desktop :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before, .galleryItem--list-desktop :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
     content: " ";
     position: absolute;
     background-image: url(assets/img/icons/carrito-blanco-8px.png);
@@ -32,7 +32,7 @@
     left: 40%;
     bottom: -35px;    
 }
-.galleryItem--normal :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText) {
+.galleryItem--grid-desktop :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText), .galleryItem--list-desktop :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText) {
     transform: translateY(-29px);
     transition: all .5s;
 }
@@ -46,7 +46,8 @@
 }
 
 .orderByButton {
-    width: 56%;
+    width: 100%;
+    max-width: 220px;
     padding: 8px;
     border: .8px solid rgb(208, 208, 208);
 }
@@ -55,3 +56,9 @@
     width: 230px;
     margin-top: 60px;
 }
+.filterPopupArrowIcon {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
