@@ -1,0 +1,54 @@
+.flexRow--content-principal-notfound {
+    display: flex;
+    height: 91vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexColChild--content-notFound {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.container--frase {
+    justify-content: center;
+    align-items: center;
+}
+
+.stretchChildrenWidth :global(.vtex-store-link-0-x-label--inicio-link) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black; 
+    margin: auto 0;
+    height: 28px;
+    text-align: center;
+    width: 60px !important;
+    text-decoration: none;
+}
+
+.stretchChildrenWidth :global(.vtex-store-link-0-x-link--inicio-link) {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: lowercase !important;
+}
+
+.stretchChildrenWidth :global(.vtex-store-link-0-x-link--inicio-link):hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+.flexRow--regresar-al-inicio .stretchChildrenWidth:last-child {
+    justify-content: flex-start;
+    align-items: center;
+}

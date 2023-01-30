@@ -1,0 +1,26 @@
+.paragraph--title-404 {
+    font-weight: 800;
+    font-size: 93px;
+    letter-spacing: 8px;
+    margin: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.paragraph--frase {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.container--regresar-al {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paragraph--regresar-al {
+    width: 90px;
+    color: rgb(105, 105, 105);
+
+}
