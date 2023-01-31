@@ -22,8 +22,8 @@
             "paddingBottom": 5
         }
     },
-
     "flex-layout.row#header__drawer": {
+        "title": "Seccion mega menu",
         "children": [
             "mega-menu#mobile"
         ]
@@ -49,6 +49,7 @@
     },
     /*-------------- Segunda seccion --------------*/
     "flex-layout.row#header__drawer2": {
+        "title": "Seccion de busqueda y login",
         "children": [
             "flex-layout.col#items-plus"
         ]
@@ -56,8 +57,11 @@
     "flex-layout.col#items-plus": {
         "children": [
             "drawer#buscar-mobile",
-            "drawer#login-mobile"
-        ]
+            "login#drawer-mobile"
+        ],
+        "props": {
+            "blockClass": "item-plus"
+        }
     },
     "drawer#buscar-mobile": {
         "children": [
@@ -104,55 +108,22 @@
             "blockClass": "text-buscar"
         }
     },
-    "drawer#login-mobile": {
-        "children": [],
-        "blocks": [
-            "drawer-trigger#items-plus__login"
-        ],
+
+    "login#drawer-mobile":{
         "props": {
-            "blockClass": "drawer-items-plus__login",
-            "slideDirection": "rightToLeft",
-            "maxWidth": "50%"
+            "iconLabel": "Ingreso / Registro",
+            "hideIconLabel": false,
+            "showIconProfile": true
         }
     },
-    "drawer-trigger#items-plus__login": {
-        "children": [
-            "flex-layout.row#items-plus__login"
-        ]
-    },
-    "flex-layout.row#items-plus__login": {
-        "title": "seccion 3 drawer menu",
-        "children": [
-            "image#trigger-login",
-            "rich-text#item-plus__login"
-        ],
-        "props": {
-            "blockClass": "items-plus__login",
-            "preserveLayoutOnMobile": true
-        }
-    },
-    "image#trigger-login": {
-        "props": {
-            "src": "assets/img/icons/user-icon.png",
-            "maxWidth": "42%",
-            "maxHeight": "40%"
-        }
-    },
-    "rich-text#item-plus__login": {
-        "props": {
-            "text": "Ingreso / Registro",
-            "textAlignment": "CENTER",
-            "width": "85%",
-            "blockClass": "tex-login"
-        }
-    },
+
     "rich-text#necesitas-ayuda": {
         "props": {
             "text": "Necesitas ayuda?",
             "blockClass": "text_necetas-ayuda"
         }
     },
-    "rich-text#email-contact":{
+    "rich-text#email-contact": {
         "props": {
             "text": "online_shop@iteglobers.com",
             "blockClass": "text_email-contact",

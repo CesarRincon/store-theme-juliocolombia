@@ -63,14 +63,23 @@
         }
     },
     "flex-layout.col#menu-inferior__tu-cuenta": {
+        "title": "item login",
         "children": [
-            "drawer#inferior__tu-cuenta",
+            "login#menu-inferior",
             "rich-text#inferior__tu-cuenta"
         ],
         "props": {
             "blockClass": "menu-inferio_items",
             "horizontalAlign": "center"
         }
+    },
+
+    "login#menu-inferior":{
+        "props": {
+            "hideIconLabel": true,
+            "showIconProfile": true
+        }
+        
     },
     "drawer#inferior__tu-cuenta": {
         "props": {
