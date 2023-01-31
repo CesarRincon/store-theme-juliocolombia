@@ -26,6 +26,7 @@
             "product-price",
             "rich-text#promo",
             "rich-text#mensaje",
+            "sku-selector",
             "product-description",
             "responsive-layout.desktop#buttons__cart--quantity",
             "responsive-layout.mobile#buttons__cart--quantity"
