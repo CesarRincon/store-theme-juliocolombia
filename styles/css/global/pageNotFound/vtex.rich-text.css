@@ -1,6 +1,6 @@
 .paragraph--title-404 {
     font-weight: 800;
-    font-size: 93px;
+    font-size: 100%;
     letter-spacing: 8px;
     margin: 0;
     width: 90%;
@@ -9,7 +9,7 @@
 
 .paragraph--frase {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 100%;
     margin: 0;
 }
 
