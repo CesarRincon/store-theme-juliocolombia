@@ -1,0 +1,76 @@
+{
+    "store.custom#nosotros": {
+        "blocks": [
+            "flex-layout.row#nosotros__banner",
+            "flex-layout.row#nosotros__info",
+            "newsletter",
+            "flex-layout.row#information-section"
+        ]
+    },
+    "flex-layout.row#nosotros__banner": {
+        "title": "Contenedor titulo about us",
+        "children": [
+            "rich-text#nosotros-title"
+        ],
+        "props": {
+            "blockClass": "nosotros-title",
+            "horizontalAlign": "center",
+            "marginTop": 3,
+            "marginBottom": 9
+        }
+    },
+    "rich-text#nosotros-title": {
+        "title": "Titulo about us",
+        "props": {
+            "text": "SOBRE NOSOTROS",
+            "blockClass": "nosotros-title"
+        }
+    },
+    "flex-layout.row#nosotros__info": {
+        "children": [
+            "flex-layout.col#nosotros__info"
+        ]
+    },
+    "flex-layout.col#nosotros__info": {
+        "title": "Contenedor nosotros info",
+        "children": [
+            "rich-text#parrafo-one",
+            "rich-text#parrafo-two",
+            "rich-text#parrafo-three",
+            "rich-text#parrafo-four"
+        ],
+        "props": {
+            "paddingLeft": 7,
+            "paddingRight": 7
+        }
+    },
+    "rich-text#parrafo-one": {
+        "title": "Parrafo 1",
+        "props": {
+            "text": "Nos inspiran las mujeres independientes, decididas, y exitosas. Con gran atención al detalle y a la calidad. Aquellas quienes buscan inspirarse en otras mujeres para alcanzar sus propios logros. Desde 1975, hemos acompañado a las mujeres, mostrándole cómo lograr una imagen más completa y versátil. Con ello nos convertimos en la empresa de moda mexicana pionera en presentar total looks. Nuestras prendas están inspiradas en las tendencias más fuertes de cada temporada, pero pensadas para la vida diaria. En nuestras colecciones podrás encontrar versatilidad, colores y estilos fluidos, con los que podrás transformar looks completos combinándolos con más piezas. Descubre cómo vestir casual, relajada y a la vez elegante. Visítanos también en nuestras boutiques. Nuestro ADN",
+            "textAlignment": "LEFT",
+            "blockClass": "parrafo-list"
+        }
+    },
+    "rich-text#parrafo-two": {
+        "props": {
+            "text": "**• Misión**: Nos inspira la mujer actual. Diseñamos y fabricamos prendas de la más alta calidad para que se sienta segura y con estilo en todo momento.",
+            "blockClass": [
+                "parrafo-list",
+                "parrafo-two"
+            ]
+        }
+    },
+    "rich-text#parrafo-three": {
+        "props": {
+            "text": "• **Visión**: Ser para la mujer actual una plataforma de moda, estilo y a la vez de impulso y apoyo a sus logros.",
+            "blockClass": "parrafo-list"
+        }
+    },
+    "rich-text#parrafo-four": {
+        "props": {
+            "text": "• **Filosofía**: Impulsar los logros de una mujer como inspiración para todas.",
+            "blockClass": "parrafo-list"
+        }
+    }
+}
