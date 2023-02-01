@@ -152,10 +152,9 @@
     "link#sobre-nosotros":{
         "title": "Sobre nosotros",
         "props": {
-            "href": "/pages/nosotros",
+            "href": "/",
             "label": "Sobre Nosotros",
-            "blockClass": "items-footer",
-            
+            "blockClass": "items-footer"
         }
     },
     "link#politica-de-privacidad":{
