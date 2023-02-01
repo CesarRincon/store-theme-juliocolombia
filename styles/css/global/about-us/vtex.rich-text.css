@@ -1,0 +1,17 @@
+.paragraph--nosotros-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+}
+.container--nosotros-title {
+    justify-content: center;
+}
+
+.container--parrafo-two {
+    margin-top: 10px;
+}
+.paragraph--parrafo-list {
+    margin: 0;
+    color: rgb(165, 165, 165);
+}
