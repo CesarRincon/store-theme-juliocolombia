@@ -54,7 +54,7 @@
     },
     "rich-text#parrafo-two": {
         "props": {
-            "text": "• **Misión**: Nos inspira la mujer actual. Diseñamos y fabricamos prendas de la más alta calidad para que se sienta segura y con estilo en todo momento.",
+            "text": "**• Misión**: Nos inspira la mujer actual. Diseñamos y fabricamos prendas de la más alta calidad para que se sienta segura y con estilo en todo momento.",
             "blockClass": [
                 "parrafo-list",
                 "parrafo-two"
