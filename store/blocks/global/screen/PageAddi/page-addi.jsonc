@@ -1,0 +1,50 @@
+{
+    "store.custom#addi": {
+        "blocks": [
+            "flex-layout.row#addi__banner",
+            "flex-layout.row#content-addi",
+            "newsletter",
+            "flex-layout.row#information-section",
+            "responsive-layout.mobile#addi-menu-inferior"
+        ]
+    },
+    "flex-layout.row#content-addi":{
+        "children": ["image#image-addi"]
+    },
+
+
+    "flex-layout.row#addi__banner": {
+        "title": "Contenedor titulo about us",
+        "children": [
+            "rich-text#addi-title"
+        ],
+        "props": {
+            "blockClass": "nosotros-title",
+            "horizontalAlign": "center",
+            "marginTop": 3,
+            "marginBottom": 9,
+            "fullWidth": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#addi-title": {
+        "title": "Titulo about us",
+        "props": {
+            "text": "ADDI",
+            "blockClass": "nosotros-title",
+            "textAlignment": "CENTER"
+
+        }
+    },
+
+    "image#image-addi":{
+        "props": {
+            "src": "assets/img/custom-pages/addi.jpg",
+            "fullWidth": false,
+            "maxWidth": "93%"
+        }
+    },
+    "responsive-layout.mobile#addi-menu-inferior":{
+        "children":["flex-layout.row#menu-inferior"]
+    }
+}

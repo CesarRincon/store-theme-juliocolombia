@@ -1,5 +1,8 @@
 {
     "store.custom#nosotros":{
         "path": "/pages/nosotros"
+    },
+    "store.custom#addi":{
+        "path": "/pages/addi"
     }
 }

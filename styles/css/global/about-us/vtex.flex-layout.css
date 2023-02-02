@@ -1,5 +1,6 @@
 .flexRowContent--nosotros-title {
+    display: flex;
+    justify-content : center;
     background-color: #767676;
     padding         : 50px 0;
-    justify-content : center;
 }

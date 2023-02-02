@@ -115,7 +115,7 @@
     "link#addi": {
         "title": "Addi",
         "props": {
-            "href": "/",
+            "href": "/pages/addi",
             "label": "ADDI",
             "blockClass": "items-footer"
         }
@@ -154,7 +154,7 @@
         "props": {
             "href": "/pages/nosotros",
             "label": "Sobre Nosotros",
-            "blockClass": "items-footer",
+            "blockClass": "items-footer"
             
         }
     },
