@@ -1,0 +1,101 @@
+{
+    "modal-trigger#products__you-may-like": {
+        "children": [
+            "modal-layout#products__you-may-like"
+        ],
+        "props": {
+            "trigger": "load"
+        }
+    },
+    "modal-layout#products__you-may-like": {
+        "children": [
+            "flex-layout.row#content__you-may-like"
+        ]
+    },
+
+    "flex-layout.row#content__you-may-like": {
+        "children": [
+            "flex-layout.col#content__you-may-like"
+        ],
+        "props": {
+            "paddingTop": 5,
+            "paddingBottom": 5
+        }
+    },
+    "flex-layout.col#content__you-may-like": {
+        "children": [
+            "flex-layout.row#content-title",
+            "rich-text#podrian-gustarte",
+            "list-context.product-list#products__you-may-like"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+
+    "flex-layout.row#content-title":{
+        "children": [
+            "image#line",
+            "rich-text#modal-title",
+            "image#line"
+        ],
+        "props": {
+            "verticalAlign": "center",
+            "blockClass": "content-title"
+        }
+    },
+
+    "image#line":{
+        "props": {
+            "src": "assets/img/line-cut.png",
+            "maxHeight": "50%"
+        }
+    },
+
+    "rich-text#modal-title": {
+        "props": {
+            "text": "**Espera! Qué tal si le das una mirada a estos productos?**",
+            "textAlignment": "CENTER",
+            "font": "t-heading-4",
+            "blockClass": "modal-title"
+        }
+    },
+
+    "rich-text#podrian-gustarte":{
+        "props": {
+            "text": "_Podrían gustarte..._",
+            "blockClass": "podrian-gustarte"
+        }
+    },
+
+    "list-context.product-list#products__you-may-like": {
+        "blocks": [
+            "product-summary.shelf#products__you-may-like"
+        ],
+        "children": [
+            "slider-layout#products__you-may-like"
+        ]
+    },
+    "slider-layout#products__you-may-like": {
+        "props": {
+            "itemsPerPage": 4,
+            "infinite": false,
+            "showNavigationArrows": "never",
+            "blockClass": "",
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "width": "75%"
+        }
+    },
+    "product-summary.shelf#products__you-may-like": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price",
+            "add-to-cart-button"
+        ],
+        "props": {
+            "blockClass": "similar-products-desktop"
+        }
+    }
+}
