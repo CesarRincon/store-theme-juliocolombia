@@ -143,6 +143,7 @@
             "blockCLass": "search--list"
         }
     },
+    
     "product-summary.shelf#search--grid": {
         "children": [
             "product-summary-image",
