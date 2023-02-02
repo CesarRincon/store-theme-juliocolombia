@@ -1,0 +1,7 @@
+.flexRowContent--content-title .stretchChildrenWidth {
+    align-items: center;
+}
+
+.flexRowContent--content-title .stretchChildrenWidth:nth-child(2n) {
+    width: 90% !important;
+}
