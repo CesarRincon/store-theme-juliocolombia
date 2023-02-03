@@ -11,9 +11,15 @@
 }
 
 .flexColChild--items-information {
+ 
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    color: rgb(136, 136, 136);  
+}
+.flexColChild--items-information :global(.vtex-rich-text-0-x-link){
+    text-decoration: none;
+    color: rgb(136, 136, 136); 
 }
 
 .flexRowContent--content-slider-products {
