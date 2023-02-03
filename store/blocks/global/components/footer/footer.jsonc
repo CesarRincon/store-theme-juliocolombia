@@ -1,17 +1,20 @@
 {
     "footer": {
+        "title": "Footer",
         "blocks": [
             "footer-layout.desktop",
             "footer-layout.mobile"
         ]
     },
     "footer-layout.desktop": {
+        "title": "footer desktop",
         "children": [
             "flex-layout.row#footer__container",
             "flex-layout.row#footer__derechosReservados"
         ]
     },
     "footer-layout.mobile": {
+        "title": "footer mobile",
         "children": [
             "flex-layout.row#footer-mobile"
         ]
@@ -26,13 +29,14 @@
         }
     },
     "rich-text#derechos-reservados": {
+        "title": "texto derechos reservados",
         "props": {
             "text": "Copyright © 2023 - Todos los derechos reservados."
         }
     },
 
     "flex-layout.row#footer__derechosReservados-mobile": {
-        "title": "Derechos reservados",
+        "title": "Derechos reservados mobile",
         "children": [
             "rich-text#derechos-reservados-mobile"
         ],
@@ -43,6 +47,7 @@
         }
     },
     "rich-text#derechos-reservados-mobile": {
+        "title": "texto derechos reservados mobile",
         "props": {
             "text": "Copyright © 2023 - Todos los derechos reservados.",
             "textAlignment": "CENTER",

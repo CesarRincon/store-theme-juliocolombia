@@ -11,6 +11,7 @@
         ]
     },
     "minicart-base-content": {
+        "title": "base content minicart",
         "blocks": [
             "minicart-empty-state"
         ],
@@ -20,6 +21,7 @@
         ]
     },
     "minicart-product-list": {
+        "title": "product list minicart",
         "blocks": [
             "product-list#minicart"
         ],
@@ -28,6 +30,7 @@
         }
     },
     "product-list#minicart": {
+        "title": "product list",
         "blocks": [
             "product-list-content-desktop#minicart"
         ],
@@ -36,11 +39,13 @@
         }
     },
     "product-list-content-desktop#minicart": {
+        "title": "product list content desktop",
         "children": [
             "flex-layout.row#content-list__minicart"
         ]
     },
     "flex-layout.row#content-list__minicart": {
+        "title": "content list",
         "children": [
             "flex-layout.row#image-product__minicar",
             "flex-layout.row#info-product__minicar"
@@ -55,6 +60,7 @@
         }
     },
     "flex-layout.row#image-product__minicar": {
+        "title": "Contenedor imagen product minicart",
         "children": [
             "product-list-image"
         ],
@@ -64,6 +70,7 @@
         }
     },
     "flex-layout.row#info-product__minicar": {
+        "title": "Info product minicart",
         "children": [
             "flex-layout.col#content-info-product__minicar"
         ],
@@ -77,6 +84,7 @@
         }
     },
     "flex-layout.col#content-info-product__minicar":{
+        "title": "Info product minicart content",
         "children": [
             "vtex.product-list:product-name",
             "price#desktop",
@@ -90,11 +98,13 @@
         }
     },
     "price#desktop":{
+        "title": "price desktop",
         "props": {
             "textAlign": "left"
         }
     },
     "flex-layout.row#actions-minicart":{
+        "title": "actions minicart",
         "children": [
             "remove-button",
             "quantity-selector"
@@ -108,6 +118,7 @@
    
 
     "flex-layout.row#minicart-footer": {
+        "title": "minicart footer",
         "props": {
             "blockClass": "minicart-footer"
         },
@@ -116,22 +127,26 @@
         ]
     },
     "flex-layout.col#minicart-footer": {
+        "title": "minicart footer content",
         "children": [
             "minicart-summary",
             "minicart-checkout-button"
         ]
     },
     "minicart-summary": {
+        "title": "minicart summary",
         "blocks": ["checkout-summary.compact#minicart"]
     },
 
     "checkout-summary.compact#minicart": {
+        "title": "checkout summary compact",
         "children": ["summary-totalizers#minicart"],
         "props": {
           "totalizersToShow": ["Items", "Discounts"]
         }
       },
       "summary-totalizers#minicart": {
+        "title": "summary totalizers",
         "props": {
           "showTotal": true,
           "showDeliveryTotal": false
@@ -139,16 +154,14 @@
     },
      
 
-
-
-
-
     "minicart-checkout-button": {
+        "title": "checkout button",
         "props": {
             "finishShoppingButtonLink": "/checkout/#/orderform"
         }
     },
     "minicart-empty-state": {
+        "title": "minicar empty state",
         "children": [
             "flex-layout.row#empty-state"
         ],
@@ -158,11 +171,13 @@
         }
     },
     "flex-layout.row#empty-state": {
+        "title": "contenedor empty state",
         "children": [
             "flex-layout.col#empty-state"
         ]
     },
     "flex-layout.col#empty-state": {
+        "title": "subcontenedor empty state",
         "children": [
             "image#minicart-empty-bag",
             "rich-text#minicart-default-empty-state",
@@ -176,12 +191,14 @@
         }
     },
     "image#minicart-empty-bag": {
+        "title": "imagen del carrito vacio",
         "props": {
             "src": "assets/img/icons/icon-empty-bag.png",
             "blockClass": "minicart-empty-bag"
         }
     },
     "rich-text#minicart-default-empty-state": {
+        "title": "texto del carrito vacio",
         "props": {
             "text": "Tu carrito esta vacio.",
             "textColor": "c-on-muted-3"

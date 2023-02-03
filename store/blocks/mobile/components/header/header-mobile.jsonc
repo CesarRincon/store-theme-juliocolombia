@@ -9,6 +9,7 @@
         }
     },
     "header-row#1-mobile": {
+        "title": "Contenedor header mobile",
         "children": [
             "drawer#header__mobile--menu",
             "header-spacer",
@@ -29,6 +30,7 @@
         ]
     },
     "logo#header-mobile": {
+        "title": "Logo header mobile",
         "props": {
             "title": "logo header mobile",
             "href": "/",

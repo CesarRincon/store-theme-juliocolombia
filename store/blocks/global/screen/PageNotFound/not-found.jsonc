@@ -8,6 +8,7 @@
         
     },
     "flex-layout.row#content-notFound":{
+        "title": "contenedor not found  ",
         "children": ["flex-layout.col#content-notFound"],
         "props": {
             "blockClass": "content-principal-notfound",
@@ -15,7 +16,7 @@
         }
     },
     "flex-layout.col#content-notFound":{
-        "title": "Contenedor not found",
+        "title": "Subcontenedor not found",
         "children": [
             "rich-text#not-found",
             "rich-text#frase",

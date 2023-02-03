@@ -24,6 +24,7 @@
         ]
     },
     "tab-list.item#tabs__list--review-and-ratings": {
+        "title": "review and ratings",
         "props": {
             "tabId": "review-and-ratings",
             "label": "Revisiones y calificaciones",
@@ -31,6 +32,7 @@
         }
     },
     "tab-list.item#tabs__list--product-specification": {
+        "title":"product specification",
         "props": {
             "tabId": "product-specification",
             "label": "Especificacions de producto",
@@ -38,6 +40,7 @@
         }
     },
     "tab-list.item#tabs__list--questions": {
+        "title": "questions",
         "props": {
             "tabId": "questions",
             "label": "Preguntas y respuestas",
@@ -45,6 +48,7 @@
         }
     },
     "tab-content#product__tabs--content": {
+        "title": "contenedor del contenido de las tabs",
         "children": [
             "tab-content.item#tabs__content--review-and-ratings",
             "tab-content.item#tabs__content--product-specification",
@@ -52,6 +56,7 @@
         ]
     },
     "tab-content.item#tabs__content--review-and-ratings": {
+        "title": "info de review and ratings",
         "props": {
             "tabId": "review-and-ratings"
         },
@@ -60,6 +65,7 @@
         ]
     },
     "tab-content.item#tabs__content--product-specification": {
+        "title": "info de especificaciones el producto",
         "props": {
             "tabId": "product-specification"
         },
@@ -68,6 +74,7 @@
         ]
     },
     "tab-content.item#tabs__content--questions": {
+        "title": "info questions",
         "props": {
             "tabId": "questions"
         },

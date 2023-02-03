@@ -17,6 +17,7 @@
         }
     },
     "mega-menu-go-back-btn": {
+        "title": "Mega menu boton atras",
         "props": {
             "paddingTop": 5,
             "paddingBottom": 5
@@ -42,6 +43,7 @@
         }
     },
     "mega-menu#mobile": {
+        "title": "Mega menu",
         "props": {
             "title": "MENÚ",
             "defaultDepartamentActive": "..."
@@ -55,6 +57,7 @@
         ]
     },
     "flex-layout.col#items-plus": {
+        "title": "items",
         "children": [
             "drawer#buscar-mobile",
             "login#drawer-mobile"
@@ -64,6 +67,7 @@
         }
     },
     "drawer#buscar-mobile": {
+        "title": "drawer buscar mobile",
         "children": [
             "rich-text#drawer-title__search",
             "flex-layout.row#header__drawer-search"
@@ -78,12 +82,13 @@
         }
     },
     "drawer-trigger#items-plus__buscar": {
+        "title": "Trigger item buscar",
         "children": [
             "flex-layout.row#items-plus__buscar"
         ]
     },
     "flex-layout.row#items-plus__buscar": {
-        "title": "seccion 2 drawer menu",
+        "title": "Contenedor drawer buscar",
         "children": [
             "image#trigger-buscar",
             "rich-text#item-plus__buscar"
@@ -94,6 +99,7 @@
         }
     },
     "image#trigger-buscar": {
+        "title": "imagen de la lupa",
         "props": {
             "src": "assets/img/icon-search.png",
             "maxWidth": "42%",
@@ -101,6 +107,7 @@
         }
     },
     "rich-text#item-plus__buscar": {
+        "title": "Texto de buscar",
         "props": {
             "text": "Buscar",
             "textAlignment": "CENTER",
@@ -118,12 +125,14 @@
     },
 
     "rich-text#necesitas-ayuda": {
+        "title": "Texto necesitas ayuda",
         "props": {
             "text": "Necesitas ayuda?",
             "blockClass": "text_necetas-ayuda"
         }
     },
     "rich-text#email-contact": {
+        "title": "Texto de contacto",
         "props": {
             "text": "online_shop@iteglobers.com",
             "blockClass": "text_email-contact",
