@@ -73,9 +73,19 @@
     "link#inicio": {
         "title": "Inicio-link",
         "props": {
-            "href": "https://crincon--itgloberspartnercl.myvtex.com",
+            "href": "/",
             "label": "inicio",
             "blockClass": "inicio-link"
           }
+    },
+
+    "search-not-found-layout": {
+        "children": [
+            "flex-layout.row#content-notFound",
+            "newsletter",
+            "responsive-layout.desktop#information-section",
+            "responsive-layout.mobile#information-section",
+            "responsive-layout.mobile#nosotros-menu-inferior"
+        ]
     }
 }
