@@ -6,52 +6,53 @@
 
 
 .flexCol--drawer-buscar {
-    padding-left: 20px;
+    padding-left : 20px;
     padding-right: 20px;
 }
 
 .flexColChild--items-information {
- 
-    display: flex;
+
+    display        : flex;
     justify-content: center;
-    align-items: center;
-    color: rgb(136, 136, 136);  
+    align-items    : center;
+    color          : rgb(136, 136, 136);
 }
-.flexColChild--items-information :global(.vtex-rich-text-0-x-link){
+
+.flexColChild--items-information :global(.vtex-rich-text-0-x-link) {
     text-decoration: none;
-    color: rgb(136, 136, 136); 
+    color          : rgb(136, 136, 136);
 }
 
 .flexRowContent--content-slider-products {
 
-    width: 90%;
+    width          : 90%;
     justify-content: center;
-    align-items: center;
-    margin: 10px auto;
+    align-items    : center;
+    margin         : 10px auto;
 }
 
 .flexRowContent--image-product__minicar {
-    width: 120px;
-    height: 150px;
+    width  : 120px;
+    height : 150px;
     padding: 0;
 }
 
 .flexRowContent--content-list__minicart {
     justify-content: flex-start;
-    margin-top: 40px;
+    margin-top     : 40px;
 }
 
 
 .flexRowContent--actions-minicart {
-    width: 125px !important;
-    border: 1px solid black;
+    width          : 125px !important;
+    border         : 1px solid black;
     justify-content: space-between;
-    align-items: center;
-    padding: 4px;
+    align-items    : center;
+    padding        : 4px;
 }
 
 .flexCol--item-plus .flexColChild--item-plus:last-child {
-    display: flex;
+    display        : flex;
     justify-content: left;
-    margin-bottom: 10px;
+    margin-bottom  : 10px;
 }

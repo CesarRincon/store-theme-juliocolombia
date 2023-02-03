@@ -1,15 +1,17 @@
 .headerRowContentContainer {
-    padding: 2px 5px; 
+    padding: 2px 5px;
 }
+
 .headerRowContainer--row-1__mobile {
     margin-top: 10px;
 }
 
-.headerRowContainer :global(.vtex-login-2-x-profileIcon){
-    width: 24px !important;
+.headerRowContainer :global(.vtex-login-2-x-profileIcon) {
+    width : 24px !important;
     height: 24px !important;
 }
-.headerRowContainer :global(.vtex-button__label){
-   padding: 8px;
-   margin-left: 8px;
+
+.headerRowContainer :global(.vtex-button__label) {
+    padding    : 8px;
+    margin-left: 8px;
 }

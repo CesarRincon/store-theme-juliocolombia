@@ -5,28 +5,30 @@
 }
 
 .paragraph--drawer-title {
-    width: 100%;
-    margin: 0;
+    width        : 100%;
+    margin       : 0;
     margin-bottom: 10px;
-    color: black;
-    padding: 18px;
-    font-size: 12px;
-    font-weight: 700;
+    color        : black;
+    padding      : 18px;
+    font-size    : 12px;
+    font-weight  : 700;
     border-bottom: 2px solid black;
 }
 
-.paragraph--text_necetas-ayuda, .paragraph--text_email-contact {
-    margin: 0;
+.paragraph--text_necetas-ayuda,
+.paragraph--text_email-contact {
+    margin     : 0;
     margin-left: 20px;
 }
 
-.paragraph--text-buscar, .paragraph--tex-login {
+.paragraph--text-buscar,
+.paragraph--tex-login {
     margin: 10px 0px;
 }
 
 .link--text_email-contact {
     text-decoration: none;
-    color: rgb(136, 135, 135);
+    color          : rgb(136, 135, 135);
 }
 
 .link--text_email-contact:hover {

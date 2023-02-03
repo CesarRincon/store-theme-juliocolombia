@@ -1,6 +1,6 @@
 .flexRow--footer__container {
     padding-left: 1%;
-    margin-top: 17%;
+    margin-top  : 17%;
 }
 
 .flexColChild--footer__getAndTouch:first-child {
@@ -16,19 +16,19 @@
 }
 
 .flexRow--footer__derechosReservados {
-    margin-top: 100px;
+    margin-top  : 100px;
     padding-left: 3rem;
 }
 
 .flexRowContent--footer-mobile {
     margin-bottom: 51px;
 }
+
 .flexRowContent--footer__derechosReservados-mobile {
     margin-top: 51px;
-} 
-
-.flexRowContent--content-trigger .stretchChildrenWidth:last-child {
-    align-items: center;
-    justify-content: flex-end;
 }
 
+.flexRowContent--content-trigger .stretchChildrenWidth:last-child {
+    align-items    : center;
+    justify-content: flex-end;
+}
