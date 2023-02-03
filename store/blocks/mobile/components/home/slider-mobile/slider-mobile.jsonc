@@ -8,7 +8,8 @@
                 "mobile": 1
             },
             "infinite": false,
-            "blockClass": "home__slider-mobile"
+            "blockClass": "home__slider-mobile",
+            "showPaginationDots": "never"
         },
         "children": [
             "image#home__slider-mobile--one"
