@@ -7,7 +7,7 @@
             "flex-layout.row#similar-products",
             "flex-layout.row#product__tabs",
             "newsletter",
-            "flex-layout.row#information-section",
+            "responsive-layout.mobile#information-section",
             "flex-layout.row#menu-inferior"
         ]
     }

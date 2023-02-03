@@ -59,7 +59,8 @@
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
             "blockClass": "slider-similar-products",
-            "width": "90%"
+            "width": "90%",
+            "showPaginationDots": "never"
         }
     },
 

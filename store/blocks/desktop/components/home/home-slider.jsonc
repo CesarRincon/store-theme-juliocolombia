@@ -7,7 +7,8 @@
                 "desktop": 1
             },
             "infinite": false,
-            "blockClass": "home__slider"
+            "blockClass": "home__slider",
+            "showPaginationDots": "never"
         },
         "children": [
             "image#home__slider--one"

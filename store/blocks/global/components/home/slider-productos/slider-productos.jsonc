@@ -32,7 +32,8 @@
             "showNavigationArrows": "desktopOnly",
             "blockClass": "slider-products",
             "fullWidth": false,
-            "width": "90%"
+            "width": "90%",
+            "showPaginationDots": "never"
         }
     },
 

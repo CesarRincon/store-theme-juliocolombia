@@ -25,7 +25,8 @@
             "flex-layout.row#departmentbreadcrumb",
             "flex-layout.row#categoryresults",
             "newsletter",
-            "flex-layout.row#information-section"
+            "responsive-layout.desktop#information-section",
+            "responsive-layout.mobile#information-section"
         ]
     },
     "flex-layout.row#categoryresults": {

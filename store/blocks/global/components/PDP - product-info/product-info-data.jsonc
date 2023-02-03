@@ -24,7 +24,7 @@
             "product-identifier.product",
             "flex-layout.row#rating-inline",
             "product-price",
-            "rich-text#promo",
+            "image#promocion-pdp",
             "rich-text#mensaje",
             "sku-selector",
             "product-description",
@@ -48,6 +48,12 @@
             "blockClass": "ranting-inline",
             "marginTop": 2,
             "marginBottom": 2 
+        }
+    },
+
+    "image#promocion-pdp":{
+        "props":{
+            "src": "assets/img/promo.png"
         }
     },
 

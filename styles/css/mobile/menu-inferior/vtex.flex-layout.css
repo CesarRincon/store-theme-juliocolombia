@@ -1,14 +1,14 @@
-.flexRow--menu-inferior{
+.flexRow--menu-inferior {
     background-color: white;
-    padding: 0px 10px;
-    padding-top: 5px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding         : 0px 10px;
+    padding-top     : 5px;
+    position        : fixed;
+    width           : 100%;
+    bottom          : 0;
 }
 
 .flexCol--menu-inferio_items :global(.vtex-login-2-x-profileIcon) {
-    width: 24px !important;
+    width : 24px !important;
     height: 24px !important;
-    
+
 }

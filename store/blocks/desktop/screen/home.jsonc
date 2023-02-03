@@ -14,7 +14,8 @@
       "flex-layout.row#home__section-7",
       "flex-layout.row#home__section-8",  
       "newsletter",
-      "flex-layout.row#information-section",
+      "responsive-layout.desktop#information-section",
+      "responsive-layout.mobile#information-section",
       "modal-trigger#products__you-may-like"
     ]
   }

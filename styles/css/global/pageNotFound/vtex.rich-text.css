@@ -1,21 +1,21 @@
 .paragraph--title-404 {
-    font-weight: 800;
-    font-size: 100%;
+    font-weight   : 800;
+    font-size     : 100%;
     letter-spacing: 8px;
-    margin: 0;
-    width: 90%;
-    margin: 0 auto;
+    margin        : 0;
+    width         : 90%;
+    margin        : 0 auto;
 }
 
 .paragraph--frase {
     font-weight: 900;
-    font-size: 100%;
-    margin: 0;
+    font-size  : 100%;
+    margin     : 0;
 }
 
 
 .container--regresar-al {
-    display: flex;
+    display        : flex;
     justify-content: flex-end;
 }
 

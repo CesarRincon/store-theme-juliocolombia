@@ -1,16 +1,17 @@
 /* ----------DRAWER GLOBAL SEARCH--------------*/
 
-.closeIconButton--drawer__search, .closeIconButton--drawer-items-plus__buscar {
+.closeIconButton--drawer__search,
+.closeIconButton--drawer-items-plus__buscar {
     position: absolute;
-    right: 0;
+    right   : 0;
 }
 
-.childrenContainer--drawer__search, .childrenContainer--drawer-items-plus__buscar {
+.childrenContainer--drawer__search,
+.childrenContainer--drawer-items-plus__buscar {
     display: block;
-    width: 100%;
+    width  : 100%;
 }
 
 .openIconContainer--drawer__search {
     padding: 0;
 }
-

@@ -1,4 +1,12 @@
 {
+    "responsive-layout.desktop#information-section": {
+        "children": [
+            "flex-layout.row#information-section"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
     "flex-layout.row#information-section": {
         "title": "seccion de información",
         "children": [
@@ -11,7 +19,40 @@
             "fullWidth": false,
             "width": "90%",
             "preserveLayoutOnMobile": false,
-            "preventHorizontalStretch": false
+            "preventHorizontalStretch": false,
+            "blockClass": "information-section"
+        }
+    },
+    "responsive-layout.mobile#information-section": {
+        "children": [
+            "flex-layout.row#information-section-mobile"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#information-section-mobile": {
+        "children": [
+            "flex-layout.col#information-section"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#information-section": {
+        "title": "seccion de información",
+        "children": [
+            "flex-layout.col#item-envio-gratis",
+            "flex-layout.col#item-contactanos",
+            "flex-layout.col#item-cambios",
+            "flex-layout.col#item-seguridad"
+        ],
+        "props": {
+            "fullWidth": false,
+            "width": "90%",
+            "preserveLayoutOnMobile": false,
+            "preventHorizontalStretch": false,
+            "blockClass": "information-section"
         }
     },
     "flex-layout.col#item-envio-gratis": {

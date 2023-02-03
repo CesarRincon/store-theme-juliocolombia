@@ -34,7 +34,8 @@
             "icon#icon-instagram"
         ],
         "props": {
-            "blockClass":"redes__sociales"
+            "blockClass":"redes__sociales",
+            "preserveLayoutOnMobile": true
         }
     },
 
