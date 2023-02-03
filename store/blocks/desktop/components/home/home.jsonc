@@ -90,6 +90,7 @@
     }
   },
   "image#home__section5": {
+    "title": "imagen seccion 5 mobile",
     "props": {
       "src": "assets/img/home/home-5.jpg",
       "maxWidth": "93%"
@@ -103,12 +104,14 @@
     ]
   },
   "image#home__section6-one": {
+    "title": "imagen-1 mobile seccion 6",
     "props": {
       "src": "assets/img/home/home-6.jpg",
       "maxWidth": "93%"
     }
   },
   "image#home__section6-two": {
+    "title": "imagen-2 mobile seccion 6",
     "props": {
       "src": "assets/img/home/home-7.jpg",
       "maxWidth": "93%"
@@ -121,6 +124,7 @@
     ]
   },
   "image#home__section7": {
+    "title": "imagen mobile seccion 7",
     "props": {
       "src": "assets/img/home/home-8.jpg",
       "maxWidth": "93%"
@@ -133,6 +137,7 @@
     ]
   },
   "image#home__section8": {
+    "title": "imagen mobile seccion 8",
     "props": {
       "src": "assets/img/home/home-9.jpg",
       "maxWidth": "93%"

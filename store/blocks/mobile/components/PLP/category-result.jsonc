@@ -4,6 +4,7 @@
     },
 
     "search-content#resultscontent--products--mobile": {
+        "title": "Contenedor search result mobile",
         "blocks": [
             "gallery#department--mobile",
             "not-found"
@@ -11,6 +12,7 @@
     },
 
     "gallery#department--mobile": {
+        "title": "Gallery mobile",
         "props": {
             "layouts": [
                 {
@@ -33,6 +35,7 @@
         }
     },
     "product-summary.shelf#result-products":{
+        "title": "Product summary shelf mobile",
         "children": [
             "product-summary-image",
             "product-summary-name",
@@ -44,12 +47,14 @@
         }
     },
     "gallery-layout-switcher#mobile": {
+        "title": "Gallery switcher mobile",
         "children": [
             "gallery-layout-option#grid-mobile",
             "gallery-layout-option#list-mobile"
         ]
     },
     "gallery-layout-option#grid-mobile": {
+        "title": "Opcion grid mobile",
         "props": {
             "name": "grid-mobile"
         },
@@ -59,6 +64,7 @@
         ]
     },
     "gallery-layout-option#list-mobile": {
+        "title": "Opcion list mobile",
         "props": {
             "name": "list-mobile"
         },

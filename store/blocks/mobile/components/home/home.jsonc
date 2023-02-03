@@ -9,6 +9,7 @@
     }
   },
   "flex-layout.row#home__banner--mobile": {
+    "title": "Contenedor banner mobile",
     "children": [
       "image#banner-mobile"
     ],
@@ -20,7 +21,7 @@
     }
   },
   "image#banner-mobile": {
-    "title": "Banner mobile",
+    "title": "Imagen banner mobile",
     "props": {
       "src": "assets/img/ADDI_Banner.jpg",
       "width": "95%"
@@ -62,6 +63,7 @@
     ]
   },
   "image#mobile__section3": {
+    "title": "Imagen seccion 3",
     "props": {
       "src": "assets/img/home/Home-venta-diciembre_07_1296x.jpg"
     }
@@ -73,6 +75,7 @@
     ]
   },
   "image#mobile__section4": {
+    "title": "Imagen seccion 4",
     "props": {
       "src": "assets/img/home/home-4.jpg"
     }
@@ -100,11 +103,13 @@
     }
   },
   "image#mobile__section6-one": {
+    "title": "Imagen 1 seccion 6",
     "props": {
       "src": "assets/img/home/home-6.jpg"
     }
   },
   "image#mobile__section6-two": {
+    "title": "Imagen 2 seccion 6",
     "props": {
       "src": "assets/img/home/home-7.jpg"
     }
@@ -116,6 +121,7 @@
     ]
   },
   "image#mobile__section7": {
+    "title": "Imagen seccion 7",
     "props": {
       "src": "assets/img/home/home-8.jpg"
     }
@@ -127,6 +133,7 @@
     ]
   },
   "image#mobile__section8": {
+    "title": "Imagen seccion 8",
     "props": {
       "src": "assets/img/home/home-9.jpg"
     }

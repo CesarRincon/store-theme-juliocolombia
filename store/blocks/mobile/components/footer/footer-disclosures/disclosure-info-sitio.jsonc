@@ -1,21 +1,25 @@
 {
     "disclosure-layout-group#footer__info-sitio": {
+        "title": "Grupo info sitio",
         "children": [
             "disclosure-layout#footer__info-sitio"
         ]
     },
     "disclosure-layout#footer__info-sitio": {
+        "title": "Disclosure info sitio",
         "children": [
             "disclosure-trigger#footer__info-sitio",
             "disclosure-content#footer__info-sitio"
         ]
     },
     "disclosure-trigger#footer__info-sitio": {
+        "title": "Trigger info sitio",
         "children": [
             "flex-layout.row#content-trigger__info"
         ]
     },
     "flex-layout.row#content-trigger__info": {
+        "title": "contenido de triger info sitio",
         "children": [
             "rich-text#footer__info-sitio",
             "disclosure-state-indicator"
@@ -26,17 +30,20 @@
         }
     },
     "rich-text#footer__info-sitio": {
+        "title": "titulo info sitio",
         "props": {
             "text": "INFO SITIO",
             "font": "t-heading-6"
         }
     },
     "disclosure-content#footer__info-sitio": {
+        "title": "Contenido de info sitio",
         "children": [
             "flex-layout.col#info-sitio__mobile"
         ]
     },
     "flex-layout.col#info-sitio__mobile": {
+        "title": "Sub contenedor info sitio mobile",
         "children": [
             "link#sobre-nosotros",
             "link#politica-de-privacidad",

@@ -1,5 +1,6 @@
 {
     "flex-layout.row#footer-mobile": {
+        "title": "Footer mobile",
         "children": [
             "flex-layout.col#footer-mobile"
         ],
@@ -8,6 +9,7 @@
         }
     },
     "flex-layout.col#footer-mobile": {
+        "title": "Contenedor footer mobile",
         "children": [
             "disclosure-layout-group#footer__get-in-touch",
             "disclosure-layout-group#footer__ayuda",
@@ -16,12 +18,14 @@
         ]
     },
     "disclosure-state-indicator": {
+        "title": "Contenedor del icono de disclosure",
         "props": {
             "Show": "image#down",
             "Hide": "image#up"
         }
     },
     "image#up": {
+        "title": "Imagen del menos",
         "props": {
             "src": "assets/img/icons/menos.png",
             "maxWidth": 18,
@@ -29,6 +33,7 @@
         }
     },
     "image#down": {
+        "title": "Imagen del mas",
         "props": {
             "src": "assets/img/icons/mas.png",
             "maxWidth": 18,

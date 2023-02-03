@@ -1,11 +1,13 @@
 {
     "icon#home__cart-icon": {
+        "title": "icon cart",
         "props": {
             "id": "icon-cart",
             "size": 28
         }
     },
     "icon#home__cart-icon2": {
+        "title": "icon cart2",
         "props": {
             "id": "icon-carrito",
             "size": 28
@@ -13,12 +15,14 @@
     },
 
     "icon#icon-facebook": {
+        "title": "icon facebook",
         "props": {
             "id": "icon-facebook",
             "size": 16
         }
     },
     "icon#icon-instagram": {
+        "title": "icon instagram",
         "props": {
             "id": "icon-instagram",
             "size": 16
