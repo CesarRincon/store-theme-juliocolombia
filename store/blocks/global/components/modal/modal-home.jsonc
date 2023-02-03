@@ -1,5 +1,6 @@
 {
     "modal-trigger#products__you-may-like": {
+        "title": "Modal trigger",
         "children": [
             "modal-layout#products__you-may-like"
         ],
@@ -8,12 +9,14 @@
         }
     },
     "modal-layout#products__you-may-like": {
+        "title": "Modal home",
         "children": [
             "flex-layout.row#content__you-may-like"
         ]
     },
 
     "flex-layout.row#content__you-may-like": {
+        "title": "modal contenedor",
         "children": [
             "flex-layout.col#content__you-may-like"
         ],
@@ -23,6 +26,7 @@
         }
     },
     "flex-layout.col#content__you-may-like": {
+        "title": "modal sub contenedor",
         "children": [
             "flex-layout.row#content-title",
             "rich-text#podrian-gustarte",
@@ -34,6 +38,7 @@
     },
 
     "flex-layout.row#content-title":{
+        "title": "modal contenedor titulo",
         "children": [
             "image#line",
             "rich-text#modal-title",
@@ -46,6 +51,7 @@
     },
 
     "image#line":{
+        "title": "imagen de linea",
         "props": {
             "src": "assets/img/line-cut.png",
             "maxHeight": "50%"
@@ -53,6 +59,7 @@
     },
 
     "rich-text#modal-title": {
+        "title": "titulo modal home",
         "props": {
             "text": "**Espera! Qué tal si le das una mirada a estos productos?**",
             "textAlignment": "CENTER",
@@ -62,6 +69,7 @@
     },
 
     "rich-text#podrian-gustarte":{
+        "title": "subtitulo modal home",
         "props": {
             "text": "_Podrían gustarte..._",
             "blockClass": "podrian-gustarte"
@@ -69,6 +77,7 @@
     },
 
     "list-context.product-list#products__you-may-like": {
+        "title": "lista de productos modal",
         "blocks": [
             "product-summary.shelf#products__you-may-like"
         ],
@@ -77,6 +86,7 @@
         ]
     },
     "slider-layout#products__you-may-like": {
+        "title": "slider de productor modal home",
         "props": {
             "itemsPerPage": 4,
             "infinite": false,
@@ -88,6 +98,7 @@
         }
     },
     "product-summary.shelf#products__you-may-like": {
+        "title": "Productos modal home",
         "children": [
             "product-summary-image",
             "product-summary-name",

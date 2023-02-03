@@ -9,6 +9,7 @@
         ]
     },
     "flex-layout.row#content-addi":{
+        "title": "conetedor addi",
         "children": ["image#image-addi"]
     },
 
@@ -38,6 +39,7 @@
     },
 
     "image#image-addi":{
+        "title": "imagen de addi",
         "props": {
             "src": "assets/img/custom-pages/addi.jpg",
             "fullWidth": false,

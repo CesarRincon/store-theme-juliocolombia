@@ -1,5 +1,6 @@
 {
     "newsletter": {
+        "title": "newsletter",
         "props": {
             "label": "NEWSLETTER",
             "placeholder": "Tú email",

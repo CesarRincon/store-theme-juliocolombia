@@ -1,8 +1,6 @@
 {
-    "flex-layout.row#home__section--global": {
-        "children": []
-    },
     "flex-layout.row#information-section": {
+        "title": "seccion de información",
         "children": [
             "flex-layout.col#item-envio-gratis",
             "flex-layout.col#item-contactanos",

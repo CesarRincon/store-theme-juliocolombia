@@ -82,11 +82,13 @@
         }
     },
     "product-quantity": {
+        "title": "product quantity",
         "props": {
             "showLabel": false
         }
     },
     "add-to-cart-button": {
+        "title": "add to cart buttom",
         "props": {
             "text": "AGREGAR A LA BOLSA"
         }
@@ -97,11 +99,13 @@
         }
     },
     "rich-text#mensaje": {
+        "title": "Texto de envio",
         "props": {
             "text": "Envio cuando ingreses tu dirección"
         }
     },
     "product-description": {
+        "title": "Descripcion producto",
         "props": {
             "collapseContent": true,
             "showTitle": false

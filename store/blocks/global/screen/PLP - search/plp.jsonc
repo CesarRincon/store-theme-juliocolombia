@@ -11,6 +11,7 @@
         }
     },
     "store.search#category": {
+        "title": "category search",
         "blocks": [
             "search-result-layout.desktop#department"
         ],
@@ -22,6 +23,7 @@
         }
     },
     "store.search#subcategory": {
+        "title": "subcategory search",
         "blocks": [
             "search-result-layout.desktop#department"
         ],
@@ -33,6 +35,7 @@
         }
     },
     "store.search#brand": {
+        "title": "brand search",
         "blocks": [
             "search-result-layout.desktop#department"
         ],

@@ -1,6 +1,6 @@
 {
-
     "flex-layout.row#product-list": {
+        "title": "Contenedor product list",
         "children": [
             "list-context.product-list#products"
         ],
@@ -12,6 +12,7 @@
     },
    
     "list-context.product-list#products": {
+        "title": "Lista de productos",
         "blocks": [
             "product-summary.shelf"
         ],
@@ -20,6 +21,7 @@
         ]
     },
     "slider-layout#products": {
+        "title": "slider de productos",
         "props": {
             "itemsPerPage": {
                 "desktop": 4,
@@ -35,6 +37,7 @@
     },
 
     "product-summary.shelf": {
+        "title": "product summary shelf",
         "children": [
             "product-summary-image",
             "product-summary-name",

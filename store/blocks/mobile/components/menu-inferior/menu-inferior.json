@@ -15,6 +15,7 @@
         }
     },
     "flex-layout.col#menu-inferior__menu": {
+        "title": "Contenedor menu inferior",
         "children": [
             "drawer#header__mobile--menu",
             "rich-text#inferior__menu"
@@ -25,6 +26,7 @@
         }
     },
     "rich-text#inferior__menu": {
+        "title": "Texto menu",
         "props": {
             "text": "Menú",
             "textAlignment": "CENTER",
@@ -33,6 +35,7 @@
         }
     },
     "flex-layout.col#menu-inferior__carrito": {
+        "title": "Item carrito menu inferior",
         "children": [
             "minicart.v2#inferior__carrito",
             "rich-text#inferior__carrito"
@@ -55,6 +58,7 @@
         ]
     },
     "rich-text#inferior__carrito": {
+        "title": "Texto carrito menu inferior",
         "props": {
             "text": "Carrito",
             "textAlignment": "CENTER",
@@ -73,36 +77,15 @@
             "horizontalAlign": "center"
         }
     },
-
-    "login#menu-inferior":{
+    "login#menu-inferior": {
         "props": {
             "hideIconLabel": true,
             "showIconProfile": true
         }
-        
-    },
-    "drawer#inferior__tu-cuenta": {
-        "props": {
-            "blockClass": "inferior__tu-cuenta",
-            "slideDirection": "rigthToLef",
-            "maxDrawerWidth": "50%"
-        },
-        "blocks": [
-            "drawer-trigger#icon-user"
-        ]
-    },
-
-    "drawer-trigger#icon-user": {
-        "children": ["image#icon-user"]
-    },
-
-    "image#icon-user":{
-        "props": {
-            "src": "assets/img/icons/user-icon.png"
-        }
     },
 
     "rich-text#inferior__tu-cuenta": {
+        "title": "Texto item login ",
         "props": {
             "text": "Tú cuenta",
             "textAlignment": "CENTER",
@@ -114,6 +97,7 @@
         }
     },
     "flex-layout.col#menu-inferior__busqueda": {
+        "title": "item busqueda menu inferior",
         "children": [
             "drawer#search-header",
             "rich-text#inferior__busqueda"
@@ -124,6 +108,7 @@
         }
     },
     "rich-text#inferior__busqueda": {
+        "title": "Texto item busqueda",
         "props": {
             "text": "Busqueda",
             "textAlignment": "CENTER",
