@@ -3,7 +3,9 @@
         "blocks": [
             "flex-layout.row#content-notFound",
             "newsletter",
-            "flex-layout.row#information-section"
+            "responsive-layout.desktop#information-section",
+            "responsive-layout.mobile#information-section",
+            "responsive-layout.mobile#nosotros-menu-inferior"
         ]
         
     },

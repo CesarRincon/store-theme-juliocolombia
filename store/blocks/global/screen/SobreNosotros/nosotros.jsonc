@@ -4,7 +4,8 @@
             "flex-layout.row#nosotros__banner",
             "flex-layout.row#nosotros__info",
             "newsletter",
-            "flex-layout.row#information-section",
+            "responsive-layout.desktop#information-section",
+            "responsive-layout.mobile#information-section",
             "responsive-layout.mobile#nosotros-menu-inferior"
         ]
     },
