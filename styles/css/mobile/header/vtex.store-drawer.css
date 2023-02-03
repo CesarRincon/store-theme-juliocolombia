@@ -1,6 +1,6 @@
 /* ----------DRAWER MOBILE MENU--------------*/
 
-.openIconContainer--mobile--menu{
+.openIconContainer--mobile--menu {
     padding: 0px;
 }
 
@@ -10,31 +10,32 @@
 }
 
 .childrenContainer--mobile--menu {
-    width: 100%;
+    width  : 100%;
     display: block;
-} 
+}
 
 .opened--mobile--menu .closeIconButton {
     background-color: #222222;
-    position: absolute;
-    top: 1px;
-    right: -52px;
-    margin: 0;
-    padding: 0;
-    width: 51px;
-    height: 51px;
-    color: white;
-    font-size: 25px;
+    position        : absolute;
+    top             : 1px;
+    right           : -52px;
+    margin          : 0;
+    padding         : 0;
+    width           : 51px;
+    height          : 51px;
+    color           : white;
+    font-size       : 25px;
 }
 
 .closeIcon--mobile--menu {
-    width: 35px;
-    height: 35px;
-    margin: 0;
-    padding: 0;
+    width      : 35px;
+    height     : 35px;
+    margin     : 0;
+    padding    : 0;
     padding-top: 4px;
 }
 
-.openIconContainer--drawer-items-plus__buscar, .openIconContainer--drawer-items-plus__login {
+.openIconContainer--drawer-items-plus__buscar,
+.openIconContainer--drawer-items-plus__login {
     padding: 0;
 }

@@ -2,15 +2,15 @@
     margin-top: 20px;
 }
 
-.listItemActive :global(.vtex-button){
+.listItemActive :global(.vtex-button) {
     background-color: black;
-    border: none;
+    border          : none;
 }
 
 .listItemActive :global(.vtex-button__label) {
     color: white !important;
 }
 
-.listItem :global(.vtex-button__label){
+.listItem :global(.vtex-button__label) {
     color: black;
 }

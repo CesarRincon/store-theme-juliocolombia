@@ -1,16 +1,16 @@
 .productImageContainer {
-    width: 130px;
-    height: 150px;
-    display: flex;
-    align-items: center;
+    width          : 130px;
+    height         : 150px;
+    display        : flex;
+    align-items    : center;
     justify-content: center;
-    padding: 0;
-       
+    padding        : 0;
+
 }
 
 
 .productImage {
-    width: 130px !important;
+    width : 130px !important;
     height: 150px;
 }
 

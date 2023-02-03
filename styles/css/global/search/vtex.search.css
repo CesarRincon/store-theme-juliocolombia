@@ -1,7 +1,7 @@
 .biggy-autocomplete {
     margin-top: 10px;
-    width: 34%;
-    transform: translateX(13%);
+    width     : 34%;
+    transform : translateX(13%);
 }
 
 .tileListList {
@@ -14,14 +14,14 @@
 
 @media (max-width: 720px) {
     .biggy-autocomplete {
-        width: 50%;
+        width    : 50%;
         transform: translateX(10%);
     }
 }
 
 @media (max-width: 480px) {
     .biggy-autocomplete {
-        width: 60%;
+        width    : 60%;
         transform: translateX(23%);
     }
 }

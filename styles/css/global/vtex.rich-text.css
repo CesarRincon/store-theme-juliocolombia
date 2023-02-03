@@ -1,20 +1,20 @@
 /* --------------- GLOBAL --------------*/
 
 .paragraph--drawer-title-search {
-    width: 100%;
-    margin: 0;
-    margin-bottom: 10px;
-    padding: 18px;
-    padding-left: 20px;
-    font-size: 15px;
-    font-weight: 700;
-    text-align: left;
+    width         : 100%;
+    margin        : 0;
+    margin-bottom : 10px;
+    padding       : 18px;
+    padding-left  : 20px;
+    font-size     : 15px;
+    font-weight   : 700;
+    text-align    : left;
     letter-spacing: 1px;
 }
 
 .container--drawer-title-search {
     display: block;
-    width: 100%;
+    width  : 100%;
 }
 
 .paragraph--cambios {
@@ -22,15 +22,15 @@
 }
 
 .paragraph--boton-return-shop {
-    margin: 0;
-    color: white;
-    font-weight: 600;
+    margin        : 0;
+    color         : white;
+    font-weight   : 600;
     letter-spacing: .8px;
 }
 
 .container--caracteristicas {
     justify-content: flex-end;
-    padding-right: 20px;
+    padding-right  : 20px;
 }
 
 .container--modal-title {
@@ -39,10 +39,10 @@
 
 .paragraph--modal-title {
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top   : 0;
 }
 
 .paragraph--podrian-gustarte {
-    margin-top: 0;
+    margin-top   : 0;
     margin-bottom: 15px;
 }
