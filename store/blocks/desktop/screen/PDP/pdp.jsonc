@@ -7,8 +7,8 @@
             "flex-layout.row#similar-products",
             "flex-layout.row#product__tabs",
             "newsletter",
-            "responsive-layout.desktop#information-section"
-        
+            "responsive-layout.desktop#information-section",
+            "whatsapp-button"
         ]
     }
 }

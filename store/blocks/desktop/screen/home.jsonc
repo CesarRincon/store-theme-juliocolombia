@@ -16,7 +16,8 @@
       "newsletter",
       "responsive-layout.desktop#information-section",
       "responsive-layout.mobile#information-section",
-      "modal-trigger#products__you-may-like"
+      "modal-trigger#products__you-may-like",
+      "whatsapp-button"
     ]
   }
 }

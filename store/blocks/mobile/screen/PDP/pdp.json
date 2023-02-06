@@ -8,7 +8,8 @@
             "flex-layout.row#product__tabs",
             "newsletter",
             "responsive-layout.mobile#information-section",
-            "flex-layout.row#menu-inferior"
+            "flex-layout.row#menu-inferior",
+            "whatsapp-button"
         ]
     }
 }
