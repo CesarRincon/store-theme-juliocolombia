@@ -6,7 +6,8 @@
             "newsletter",
             "responsive-layout.desktop#information-section",
             "responsive-layout.mobile#information-section",
-            "responsive-layout.mobile#addi-menu-inferior"
+            "responsive-layout.mobile#addi-menu-inferior",
+            "whatsapp-button"
         ]
     },
     "flex-layout.row#content-addi":{

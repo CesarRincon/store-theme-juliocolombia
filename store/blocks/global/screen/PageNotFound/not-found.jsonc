@@ -5,10 +5,12 @@
             "newsletter",
             "responsive-layout.desktop#information-section",
             "responsive-layout.mobile#information-section",
-            "responsive-layout.mobile#nosotros-menu-inferior"
+            "responsive-layout.mobile#nosotros-menu-inferior",
+            "whatsapp-button"
         ]
         
     },
+
     "flex-layout.row#content-notFound":{
         "title": "contenedor not found  ",
         "children": ["flex-layout.col#content-notFound"],

@@ -26,7 +26,8 @@
             "flex-layout.row#categoryresults",
             "newsletter",
             "responsive-layout.desktop#information-section",
-            "responsive-layout.mobile#information-section"
+            "responsive-layout.mobile#information-section",
+            "whatsapp-button"
         ]
     },
     "flex-layout.row#categoryresults": {
