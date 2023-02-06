@@ -2,11 +2,19 @@
   "store.home": {
     "title": "Store home",
     "blocks": [
+      "whatsapp-button",
       "responsive-layout.desktop#home__section-1",
       "responsive-layout.tablet#home__section-1",
       "responsive-layout.phone#home__section-1",
       "responsive-layout.mobile#phone__and__tablet"
-   
     ]
+  },
+  "whatsapp-button":{
+    "props": {
+      "logo": "assets/img/whatsapp.png",
+      "phone": "2454542365",
+      "message": "Este es mi mensaje"
+    }
   }
 }
+
