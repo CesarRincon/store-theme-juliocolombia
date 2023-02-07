@@ -12,12 +12,25 @@
       "flex-layout.row#home__section-5",
       "flex-layout.row#home__section-6",
       "flex-layout.row#home__section-7",
-      "flex-layout.row#home__section-8",  
+      "flex-layout.row#home__section-8",
+      "list-context.bullet-group",
       "newsletter",
       "responsive-layout.desktop#information-section",
-      "responsive-layout.mobile#information-section",
       "modal-trigger#products__you-may-like",
       "whatsapp-button"
     ]
+  },
+  "list-context.bullet-group": {
+    "props": {
+      "bullets": [
+        {
+          "image": "miimage.png",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
   }
 }
