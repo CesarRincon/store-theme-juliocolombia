@@ -73,8 +73,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 4,
-        "phone": 4
+        "tablet": 3,
+        "phone": 2
       },
       "infinite": true,
       "blockClass": "bullet-group",
