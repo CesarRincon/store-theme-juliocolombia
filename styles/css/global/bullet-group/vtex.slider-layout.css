@@ -1,0 +1,31 @@
+.bullet__item--bullet-group {
+    position: relative;
+}
+
+.bullet__item--Secondary-image--bullet-group {
+    opacity: 0;
+}
+
+.bullet__item--bullet-group:hover .bullet__item--Secondary-image--bullet-group {
+    opacity   : 100%;
+    transition: all 1.2s;
+}
+
+.bullet__item--link {
+    text-decoration: none;
+    font-size      : 15px;
+    color          : black;
+    font-weight    : 600;
+
+}
+
+.bullet__item--title--bullet-group {
+    text-align: center;
+}
+
+
+.bullet__item--Secondary-image--bullet-group {
+    position: absolute;
+    top     : 0;
+    left    : 0;
+}
