@@ -27,6 +27,7 @@
             "image#promocion-pdp",
             "rich-text#mensaje",
             "sku-selector",
+            "modal-trigger#add-to-cart-info",
             "product-description",
             "responsive-layout.desktop#buttons__cart--quantity",
             "responsive-layout.mobile#buttons__cart--quantity"
@@ -99,11 +100,6 @@
             "text": "AGREGAR A LA BOLSA"
         }
     },
-    "rich-text#promo": {
-        "props": {
-            "text": "Promocion"
-        }
-    },
     "rich-text#mensaje": {
         "title": "Texto de envio",
         "props": {
@@ -116,5 +112,19 @@
             "collapseContent": true,
             "showTitle": false
         }
+    },
+    "modal-trigger#add-to-cart-info":{
+        "children": [
+            "modal-layout#add-to-cart-info"
+        ],
+        "props": {
+            "customPixelEventName": "addToCart"
+            
+        }
+    },
+    "modal-layout#add-to-cart-info":{
+        "children": [
+            "add-to-cart-info"
+        ]
     }
 }
