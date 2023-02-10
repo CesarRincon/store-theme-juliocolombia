@@ -1,12 +1,12 @@
 .flexRow--home__section-2 {
     margin: auto;
-    width: 85%;
+    width : 85%;
 }
 
 .flexRow--home__section-3 {
     margin: 0px 3%;
 }
 
-.flexRowContent--desktop-header_menu{
+.flexRowContent--desktop-header_menu {
     background-color: white;
 }

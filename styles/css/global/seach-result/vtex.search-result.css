@@ -1,39 +1,46 @@
-.galleryItem--grid-desktop:hover :global(.vtex-button), .galleryItem--list-desktop:hover :global(.vtex-button) {
-    transform: translateY(-250px);
+.galleryItem--grid-desktop:hover :global(.vtex-button),
+.galleryItem--list-desktop:hover :global(.vtex-button) {
+    transform : translateY(-250px);
     visibility: visible;
-    opacity: 100%;
+    opacity   : 100%;
 }
 
-.galleryItem--grid-desktop :global(.vtex-button), .galleryItem--list-desktop :global(.vtex-button) {
-       transform: translateY(-280px);
-       opacity: 0%;
-       visibility: hidden;
-       margin: auto;
-       transition: all 1s;
-       overflow: hidden;
+.galleryItem--grid-desktop :global(.vtex-button),
+.galleryItem--list-desktop :global(.vtex-button) {
+    transform : translateY(-280px);
+    opacity   : 0%;
+    visibility: hidden;
+    margin    : auto;
+    transition: all 1s;
+    overflow  : hidden;
 
 }
-.galleryItem--grid-desktop, .galleryItem--list-desktop {
+
+.galleryItem--grid-desktop,
+.galleryItem--list-desktop {
     width: 20% !important;
-} 
+}
 
-.filtersWrapperMobile{
+.filtersWrapperMobile {
     justify-content: flex-start;
-    padding-left: 10px;
+    padding-left   : 10px;
 }
 
-.galleryItem--grid-desktop :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before, .galleryItem--list-desktop :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
-    content: " ";
-    position: absolute;
+.galleryItem--grid-desktop :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before,
+.galleryItem--list-desktop :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
+    content         : " ";
+    position        : absolute;
     background-image: url(assets/img/icons/carrito-blanco-8px.png);
-    background-size: contain;
-    width: 28px;
-    height: 28px;
-    left: 40%;
-    bottom: -35px;    
+    background-size : contain;
+    width           : 28px;
+    height          : 28px;
+    left            : 40%;
+    bottom          : -35px;
 }
-.galleryItem--grid-desktop :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText), .galleryItem--list-desktop :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText) {
-    transform: translateY(-29px);
+
+.galleryItem--grid-desktop :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText),
+.galleryItem--list-desktop :global(.vtex-button):hover :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    transform : translateY(-29px);
     transition: all .5s;
 }
 
@@ -46,19 +53,18 @@
 }
 
 .orderByButton {
-    width: 100%;
+    width    : 100%;
     max-width: 220px;
-    padding: 8px;
-    border: .8px solid rgb(208, 208, 208);
+    padding  : 8px;
+    border   : .8px solid rgb(208, 208, 208);
 }
 
 .orderByOptionsContainer {
-    width: 230px;
+    width     : 230px;
     margin-top: 60px;
 }
+
 .filterPopupArrowIcon {
-    padding-left: 3px;
+    padding-left : 3px;
     padding-right: 3px;
 }
-
-

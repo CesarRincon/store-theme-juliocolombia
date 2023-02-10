@@ -3,11 +3,16 @@
         "blocks": [
             "flex-layout.row#content-notFound",
             "newsletter",
-            "flex-layout.row#information-section"
+            "responsive-layout.desktop#information-section",
+            "responsive-layout.mobile#information-section",
+            "responsive-layout.mobile#nosotros-menu-inferior",
+            "whatsapp-button"
         ]
         
     },
+
     "flex-layout.row#content-notFound":{
+        "title": "contenedor not found  ",
         "children": ["flex-layout.col#content-notFound"],
         "props": {
             "blockClass": "content-principal-notfound",
@@ -15,7 +20,7 @@
         }
     },
     "flex-layout.col#content-notFound":{
-        "title": "Contenedor not found",
+        "title": "Subcontenedor not found",
         "children": [
             "rich-text#not-found",
             "rich-text#frase",
@@ -70,9 +75,19 @@
     "link#inicio": {
         "title": "Inicio-link",
         "props": {
-            "href": "https://crincon--itgloberspartnercl.myvtex.com",
+            "href": "/",
             "label": "inicio",
             "blockClass": "inicio-link"
           }
+    },
+
+    "search-not-found-layout": {
+        "children": [
+            "flex-layout.row#content-notFound",
+            "newsletter",
+            "responsive-layout.desktop#information-section",
+            "responsive-layout.mobile#information-section",
+            "responsive-layout.mobile#nosotros-menu-inferior"
+        ]
     }
 }

@@ -1,12 +1,14 @@
 {
     "responsive-layout.desktop#pdp": {
+        "title": "PDP dekstop",
         "children": [
             "flex-layout.row#product__breadcrumb",
             "flex-layout.row#product__info",
             "flex-layout.row#similar-products",
             "flex-layout.row#product__tabs",
             "newsletter",
-            "flex-layout.row#information-section"
+            "responsive-layout.desktop#information-section",
+            "whatsapp-button"
         ]
     }
 }

@@ -7,13 +7,15 @@
                 "desktop": 1
             },
             "infinite": false,
-            "blockClass": "home__slider"
+            "blockClass": "home__slider",
+            "showPaginationDots": "never"
         },
         "children": [
             "image#home__slider--one"
         ]
     },
     "image#home__slider--one": {
+        "title": "imagen uno slider h ome",
         "props": {
             "src": "assets/img/home/slider-home/slider-home1.jpg" 
         }

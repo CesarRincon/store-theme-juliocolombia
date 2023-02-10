@@ -1,21 +1,25 @@
 {
     "disclosure-layout-group#footer__get-in-touch": {
+        "title": "Grupo footer get in touch",
         "children": [
             "disclosure-layout#get-in-touch"
         ]
     },
     "disclosure-layout#get-in-touch": {
+        "title": "Disclosure get in toucn",
         "children": [
             "disclosure-trigger#get-in-touch",
             "disclosure-content#get-in-touch"
         ]
     },
     "disclosure-trigger#get-in-touch": {
+        "title": "Trigger get in touch",
         "children": [
             "flex-layout.row#content-trigger__getInTouch"
         ]
     },
     "flex-layout.row#content-trigger__getInTouch": {
+        "title": "Contenedor del trigger get in touch",
         "children": [
             "rich-text#get-in-touch",
             "disclosure-state-indicator"
@@ -26,22 +30,26 @@
         }
     },
     "rich-text#get-in-touch": {
+        "title": "Texto get in touch",
         "props": {
             "text": "Get in touch",
             "font": "t-heading-6"
         }
     },
     "disclosure-content#get-in-touch": {
+        "title": "contenedor get in touch",
         "children": [
             "flex-layout.row#footer__getAndTouch-mobile"
         ]
     },
     "flex-layout.row#footer__getAndTouch-mobile": {
+        "title": "contenedor get in touch en mobile",
         "children": [
             "flex-layout.col#footer__getAndTouch-mobile"
         ]
     },
     "flex-layout.col#footer__getAndTouch-mobile": {
+        "title": "subcontenedor get in touch en mobile",
         "children": [
             "image#footer__logo",
             "flex-layout.row#redes__sociales"

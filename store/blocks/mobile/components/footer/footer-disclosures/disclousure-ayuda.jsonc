@@ -1,21 +1,25 @@
 {
     "disclosure-layout-group#footer__ayuda": {
+        "title": "Grupo ayuda",
         "children": [
             "disclosure-layout#footer__ayuda"
         ]
     },
     "disclosure-layout#footer__ayuda": {
+        "title": "Disclosure ayuda",
         "children": [
             "disclosure-trigger#footer__ayuda",
             "disclosure-content#footer__ayuda"
         ]
     },
     "disclosure-trigger#footer__ayuda": {
+        "title": "Trigger ayuda",
         "children": [
             "flex-layout.row#content-trigger__ayuda"
         ]
     },
     "flex-layout.row#content-trigger__ayuda": {
+        "title": "Contenido del trigger ayuda",
         "children": [
             "rich-text#footer__ayuda",
             "disclosure-state-indicator"
@@ -26,18 +30,21 @@
         }
     },
     "rich-text#footer__ayuda": {
+        "title": "Titulo ayuda",
         "props": {
             "text": "AYUDA",
             "font": "t-heading-6"
         }
     },
     "disclosure-content#footer__ayuda": {
+        "title": "Contenido de ayuda",
         "children": [
             "flex-layout.col#footer--ayuda__mobile"
         ]
     },
     
     "flex-layout.col#footer--ayuda__mobile": {
+        "title": "subcontenedor ayuda",
         "children": [
             "link#contactanos",
             "link#guia-de-tallas",

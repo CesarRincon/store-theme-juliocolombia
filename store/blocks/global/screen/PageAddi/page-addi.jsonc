@@ -4,11 +4,14 @@
             "flex-layout.row#addi__banner",
             "flex-layout.row#content-addi",
             "newsletter",
-            "flex-layout.row#information-section",
-            "responsive-layout.mobile#addi-menu-inferior"
+            "responsive-layout.desktop#information-section",
+            "responsive-layout.mobile#information-section",
+            "responsive-layout.mobile#addi-menu-inferior",
+            "whatsapp-button"
         ]
     },
     "flex-layout.row#content-addi":{
+        "title": "conetedor addi",
         "children": ["image#image-addi"]
     },
 
@@ -38,6 +41,7 @@
     },
 
     "image#image-addi":{
+        "title": "imagen de addi",
         "props": {
             "src": "assets/img/custom-pages/addi.jpg",
             "fullWidth": false,
@@ -45,6 +49,8 @@
         }
     },
     "responsive-layout.mobile#addi-menu-inferior":{
-        "children":["flex-layout.row#menu-inferior"]
+        "children":[
+            "flex-layout.row#menu-inferior"
+        ]
     }
 }

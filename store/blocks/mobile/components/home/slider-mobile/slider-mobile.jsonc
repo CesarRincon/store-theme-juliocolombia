@@ -8,13 +8,15 @@
                 "mobile": 1
             },
             "infinite": false,
-            "blockClass": "home__slider-mobile"
+            "blockClass": "home__slider-mobile",
+            "showPaginationDots": "never"
         },
         "children": [
             "image#home__slider-mobile--one"
         ]
     },
     "image#home__slider-mobile--one": {
+        "title": "imagen uno del slider mobile",
         "props": {
             "src": "assets/img/home/slider-home/slider-home-mobile.jpg"
         }

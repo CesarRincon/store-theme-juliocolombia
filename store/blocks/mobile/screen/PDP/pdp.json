@@ -1,13 +1,15 @@
 {
     "responsive-layout.mobile#pdp": {
+        "title": "PDP mobile",
         "children": [
             "flex-layout.row#product__breadcrumb",
             "flex-layout.row#product__info",
             "flex-layout.row#similar-products",
             "flex-layout.row#product__tabs",
             "newsletter",
-            "flex-layout.row#information-section",
-            "flex-layout.row#menu-inferior"
+            "responsive-layout.mobile#information-section",
+            "flex-layout.row#menu-inferior",
+            "whatsapp-button"
         ]
     }
 }

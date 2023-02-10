@@ -4,8 +4,10 @@
             "flex-layout.row#nosotros__banner",
             "flex-layout.row#nosotros__info",
             "newsletter",
-            "flex-layout.row#information-section",
-            "responsive-layout.mobile#nosotros-menu-inferior"
+            "responsive-layout.desktop#information-section",
+            "responsive-layout.mobile#information-section",
+            "responsive-layout.mobile#nosotros-menu-inferior",
+            "whatsapp-button"
         ]
     },
     "flex-layout.row#nosotros__banner": {
@@ -56,6 +58,7 @@
         }
     },
     "rich-text#parrafo-two": {
+        "title": "Parrado 2",
         "props": {
             "text": "**• Misión**: Nos inspira la mujer actual. Diseñamos y fabricamos prendas de la más alta calidad para que se sienta segura y con estilo en todo momento.",
             "blockClass": [
@@ -65,12 +68,14 @@
         }
     },
     "rich-text#parrafo-three": {
+        "title": "Parrafo 3",
         "props": {
             "text": "• **Visión**: Ser para la mujer actual una plataforma de moda, estilo y a la vez de impulso y apoyo a sus logros.",
             "blockClass": "parrafo-list"
         }
     },
     "rich-text#parrafo-four": {
+        "title": "Parrafo 4",
         "props": {
             "text": "• **Filosofía**: Impulsar los logros de una mujer como inspiración para todas.",
             "blockClass": "parrafo-list"

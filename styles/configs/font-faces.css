@@ -1,28 +1,29 @@
-@font-face{
+@font-face {
     font-family: "Roboto-Bold";
-    src: url(assets/fonts/Roboto-Bold.ttf); 
+    src        : url(assets/fonts/Roboto-Bold.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "Roboto-Light";
-    src: url(assets/fonts/Roboto-Light.ttf); 
+    src        : url(assets/fonts/Roboto-Light.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "Roboto-Medium";
-    src: url(assets/fonts/Roboto-Medium.ttf); 
+    src        : url(assets/fonts/Roboto-Medium.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "Roboto-Regular";
-    src: url(assets/fonts/Roboto-Regular.ttf); 
+    src        : url(assets/fonts/Roboto-Regular.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: "Formata-Light-Small-Caps";
-    src: url(assets/fonts/Formata-Light-Small-Caps.ttf); 
+    src        : url(assets/fonts/Formata-Light-Small-Caps.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: "Aceh-Light";
-    src: url(assets/fonts/Aceh-Light.ttf); 
+    src        : url(assets/fonts/Aceh-Light.ttf);
 }

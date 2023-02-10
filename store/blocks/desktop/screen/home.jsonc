@@ -9,12 +9,76 @@
       "flex-layout.row#home__section-3",
       "slider-layout#products",
       "flex-layout.row#home__section-4",
+      "flex-layout.row#bullet-group",
       "flex-layout.row#home__section-5",
       "flex-layout.row#home__section-6",
       "flex-layout.row#home__section-7",
-      "flex-layout.row#home__section-8",  
+      "flex-layout.row#home__section-8",
       "newsletter",
-      "flex-layout.row#information-section"
+      "responsive-layout.desktop#information-section",
+      "modal-trigger#products__you-may-like",
+      "whatsapp-button"
     ]
+  },
+
+
+  "flex-layout.row#bullet-group": {
+    "title": "Container bullet group",
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+
+  "list-context.bullet-group": {
+    "title": "Mi contexto de lista bullets",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/image-bullets/bullet-image-1.jpg",
+          "secondaryImage": "assets/img/image-bullets/bullet-image-1-1.jpg",
+          "titleBullet": "SUETER LIGERO ESCOTE OJAL",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/image-bullets/bullet-image-2.jpg",
+          "secondaryImage": "assets/img/image-bullets/bullet-image-2-1.jpg",
+          "titleBullet": "SUETER LIGERO ESCOTE OJAL",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/image-bullets/bullet-image-3.jpg",
+          "secondaryImage": "assets/img/image-bullets/bullet-image-3-1.jpg",
+          "titleBullet": "CHALECO CRUZADO BOTONES METÁLICOS",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/image-bullets/bullet-image-4.jpg",
+          "secondaryImage": "assets/img/image-bullets/bullet-image-4-1.jpg",
+          "titleBullet": "CÁRDIGAN RAYAS CORDÓN EN CINTURA",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "bullet-group",
+      "showPaginationDots": "never"
+    }
   }
 }

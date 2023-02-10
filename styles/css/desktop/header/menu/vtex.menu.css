@@ -1,7 +1,8 @@
-.submenuWrapper{
-    width: 100vw;
-    position: fixed;
-    overflow-y: scroll;
+.submenuWrapper {
+    width     : 100%;
+    position  : fixed;
+    top       : 56px;
+    overflow-y: scroll
 }
 
 .submenu {
@@ -12,12 +13,14 @@
     gap: 10px;
 }
 
-.menuContainer--department-colecciones .styledLinkContent, .menuContainer--department-rebajas .styledLinkContent{
+.menuContainer--department-colecciones .styledLinkContent,
+.menuContainer--department-rebajas .styledLinkContent {
     color: rgb(105, 105, 105);
 }
 
-.menuContainer--department-colecciones .styledLinkContent:hover, .menuContainer--department-rebajas .styledLinkContent:hover {
-    color: black;
+.menuContainer--department-colecciones .styledLinkContent:hover,
+.menuContainer--department-rebajas .styledLinkContent:hover {
+    color      : black;
     font-weight: 500;
 }
 
@@ -26,7 +29,6 @@
 }
 
 .submenu {
-    padding-top: 50px;
+    padding-top : 50px;
     padding-left: 23px;
 }
-

@@ -1,5 +1,6 @@
 {
     "menu#header__menu": {
+        "title": "menu desktop header",
         "children": [
             "menu-item#department__colecciones",
             "menu-item#department__rebajas",
@@ -29,6 +30,7 @@
         ]
     },
     "submenu#department_colecciones": {
+        "title": "sub menu colecciones",
         "children": [
             "flex-layout.row#departament__colecciones"
         ],
@@ -38,12 +40,14 @@
         }
     },
     "flex-layout.row#departament__colecciones": {
+        "title": "submenu contenido colecciones",
         "children": [
             "flex-layout.col#colecciones",
             "flex-layout.row#colecciones"
         ]
     },
     "flex-layout.col#colecciones": {
+        "title": "seccion colecciones",
         "children": [
             "rich-text#departament",
             "menu#department__colecciones"
@@ -55,6 +59,7 @@
         }
     },
     "rich-text#departament": {
+        "title": "Ropa en sub menu",
         "props": {
             "text": "ROPA",
             "font": "t-mini",
@@ -63,6 +68,7 @@
         }
     },
     "menu#department__colecciones": {
+        "title": "items menu colecciones",
         "children": [
             "menu-item#category__newrport",
             "menu-item#category__paris",
@@ -82,6 +88,7 @@
         }
     },
     "flex-layout.row#colecciones": {
+        "title": "Imagen colecciones menu",
         "children": [
             "rich-text#text__colecciones-image",
             "image#imagen__department--colecciones"
@@ -91,6 +98,7 @@
         }
     },
     "rich-text#text__colecciones-image": {
+        "title": "Texto colecciones en imagen colecciones",
         "props": {
             "text": "COLECCION NEWPORT explorar",
             "blockClass": "text__colecciones-image",
@@ -99,6 +107,7 @@
         }
     },
     "image#imagen__department--colecciones": {
+        "title": "Imagen de menu colecciones",
         "props": {
             "src": "assets/img/newport.jpg",
             "maxWidth": "80%"
@@ -282,6 +291,7 @@
         }
     },
     "menu#department__rebajas": {
+        "title": "menu items rebajas",
         "children": [
             "menu-item#category__newrport",
             "menu-item#category__paris",
@@ -308,9 +318,6 @@
             "maxHeight": "80%"
         }
     },
-
-
-
     "menu-item#department__zapatos": {
         "props": {
             "id": "departament-zapatos",

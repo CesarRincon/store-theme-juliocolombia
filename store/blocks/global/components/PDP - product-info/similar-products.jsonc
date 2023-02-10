@@ -9,6 +9,7 @@
         }
     },
     "flex-layout.col#similar-products": {
+        "title": "Subcontenedor productos similares",
         "children": [
             "rich-text#title-similar-product",
             "responsive-layout.desktop#similar-product-summary-shelf__desktop",
@@ -37,15 +38,18 @@
     },
 
     "list-context.product-list#similar-products-desktop": {
+        "title": "Lista de productos similar desktop",
         "blocks": ["product-summary.shelf#similar-products-desktop"],
         "children": ["slider-layout#similar-products"]
     },
     "list-context.product-list#similar-products-mobile": {
+        "title": "Lista de productos similar mobile",
         "blocks": ["product-summary.shelf#similar-products-mobile"],
         "children": ["slider-layout#similar-products"]
     },
 
     "slider-layout#similar-products": {
+        "title": "slider similar products",
         "props": {
             "itemsPerPage": {
                 "desktop": 4,
@@ -55,11 +59,13 @@
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
             "blockClass": "slider-similar-products",
-            "width": "90%"
+            "width": "90%",
+            "showPaginationDots": "never"
         }
     },
 
     "product-summary.shelf#similar-products-desktop":{
+        "title": "Productos similar products desktop",
         "children": [
             "product-summary-image",
             "product-summary-name",
@@ -71,6 +77,7 @@
         }
     },
     "product-summary.shelf#similar-products-mobile":{
+        "title": "Productos similar products mobile",
         "children": [
             "product-summary-image",
             "product-summary-name",

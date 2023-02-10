@@ -4,12 +4,12 @@
 
 .container--text__colecciones-image {
     position: absolute;
-    width: 50% !important;
-    top: 170px;
-    left: 100px;
+    width   : 50% !important;
+    top     : 170px;
+    left    : 100px;
 }
 
 .paragraph--text__colecciones-image {
     letter-spacing: 2px;
-    font-weight: 1000 !important;
+    font-weight   : 1000 !important;
 }
