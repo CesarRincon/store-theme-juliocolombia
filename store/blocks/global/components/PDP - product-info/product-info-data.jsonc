@@ -118,8 +118,8 @@
             "modal-layout#add-to-cart-info"
         ],
         "props": {
-            // "customPixelEventName": "addToCart"
-            "trigger": "load"
+            "customPixelEventName": "addToCart"
+            
         }
     },
     "modal-layout#add-to-cart-info":{
