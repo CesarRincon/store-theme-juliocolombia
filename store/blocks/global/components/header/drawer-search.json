@@ -6,7 +6,7 @@
             "blockClass": "drawer__search",
             "width": "50%"
         },
-        "children": [
+        "children":[
             "rich-text#drawer-title__search",
             "flex-layout.row#header__drawer-search"
         ],
@@ -14,6 +14,7 @@
             "drawer-trigger#search"
         ]
     },
+
     "flex-layout.row#header__drawer-search": {
         "title": "Header del drawer search",
         "children": [
@@ -28,21 +29,21 @@
         "children": [
             "rich-text#title__search--categories",
             "search-bar",
-            "department-search"
+            "flex-layout.row#search_by_department"
         ],
         "props": {
             "blockClass": "drawer-buscar"
         }
     },
+
     "search-bar": {
-        "blocks": [
-            "autocomplete-result-list.v2"
-        ],
+        "blocks": ["autocomplete-result-list.v2"],
         "props": {
             "placeholder": "Buscar productos",
             "openAutocompleteOnFocus": true
         }
     },
+
     "rich-text#drawer-title__search": {
         "title": "Titulo drawer buscar",
         "props": {
@@ -50,9 +51,10 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "blockClass": "drawer-title-search",
-            "font": "t-heading-5"
+            "font": "t-heading-5"           
         }
     },
+
     "rich-text#title__search--categories": {
         "title": "Todas las ategorias",
         "props": {
@@ -60,9 +62,10 @@
             "textAlignment": "CENTER",
             "textPosition": "LEFT",
             "blockClass": "drawer-title-categories",
-            "font": "t-body"
+            "font": "t-body"         
         }
     },
+
     "drawer-trigger#search": {
         "title": "icono del drawer search",
         "children": [
@@ -78,13 +81,33 @@
         }
     },
     "autocomplete-result-list.v2": {
-        "blocks": [
-            "product-summary"
-        ],
+        "blocks": ["product-summary"],
         "props": {
             "productLayout": "VERTICAL",
             "autocompleteWidth": 100,
             "blockClass": "autocomplete"
+        }
+      },
+
+      "flex-layout.row#search_by_department": {
+        "children": [
+            "flex-layout.col#search_by_department"
+        ]
+      },
+      "flex-layout.col#search_by_department": {
+        "children": [
+            "rich-text#title__search-by-department",
+            "department-search"
+        ]
+      },
+      "rich-text#title__search-by-department": {
+        "title": "Todas las ategorias",
+        "props": {
+            "text": "Busca por departamento especifico",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "drawer-title-categories",
+            "font": "t-body"         
         }
     }
 }
