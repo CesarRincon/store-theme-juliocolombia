@@ -21,7 +21,6 @@
     ]
   },
 
-
   "flex-layout.row#bullet-group": {
     "title": "Container bullet group",
     "children": [

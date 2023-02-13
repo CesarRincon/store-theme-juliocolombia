@@ -1,0 +1,67 @@
+{
+    "store.custom#pdf-reader": {
+        "children": [
+            "responsive-layout.desktop#documents",
+            "responsive-layout.tablet#documents",
+            "responsive-layout.phone#documents"
+        ]
+    },
+    "responsive-layout.desktop#documents": {
+        "children": [
+            "flex-layout.row#documents"
+        ]
+    },
+    "responsive-layout.tablet#documents": {
+        "children": [
+            "flex-layout.row#documents--tablet"
+        ]
+    },
+    "responsive-layout.phone#documents": {
+        "children": [
+            "flex-layout.row#documents--mobile"
+        ]
+    },
+    "flex-layout.row#documents": {
+        "children": [
+            "pdf-reader"
+        ],
+        "props": {
+            "height": "100%",
+            "blockClass": "document",
+            "paddingLeft": 2,
+            "paddingRight": 2
+        }
+    },
+    "pdf-reader": {
+        "props": {
+            "pdfUrl": "assets/documents/drylab.pdf",
+            "width": 1024,
+            "heigth": 1024
+        }
+    },
+    "flex-layout.row#documents--tablet": {
+        "children": [
+            "pdf-reader#tablet"
+        ]
+    },
+    "pdf-reader#tablet": {
+        "props": {
+            "pdfUrl": "assets/documents/drylab.pdf",
+            "width": 720,
+            "heigth": 720
+        }
+    },
+    "flex-layout.row#documents--mobile": {
+        "children": [
+            "pdf-reader#phone"
+        ]
+    },
+    "pdf-reader#phone": {
+        "props": {
+            "pdfUrl": "assets/documents/drylab.pdf",
+            "width": 310,
+            "heigth": 310
+        }
+    }
+
+}
