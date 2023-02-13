@@ -1,3 +1,7 @@
+.gallery--grid-desktop {
+    width: 100%;
+}
+
 .galleryItem--grid-desktop:hover :global(.vtex-button),
 .galleryItem--list-desktop:hover :global(.vtex-button) {
     transform : translateY(-250px);

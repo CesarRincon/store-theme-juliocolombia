@@ -28,7 +28,8 @@
         "title": "Bloque buscar",
         "children": [
             "rich-text#title__search--categories",
-            "search-bar"
+            "search-bar",
+            "flex-layout.row#search_by_department"
         ],
         "props": {
             "blockClass": "drawer-buscar"
@@ -86,5 +87,27 @@
             "autocompleteWidth": 100,
             "blockClass": "autocomplete"
         }
-      }
+      },
+
+      "flex-layout.row#search_by_department": {
+        "children": [
+            "flex-layout.col#search_by_department"
+        ]
+      },
+      "flex-layout.col#search_by_department": {
+        "children": [
+            "rich-text#title__search-by-department",
+            "department-search"
+        ]
+      },
+      "rich-text#title__search-by-department": {
+        "title": "Todas las ategorias",
+        "props": {
+            "text": "Busca por departamento especifico",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "drawer-title-categories",
+            "font": "t-body"         
+        }
+    }
 }
