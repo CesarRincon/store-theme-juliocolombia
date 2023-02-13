@@ -200,10 +200,10 @@
         }
     },
     "link#refund-policy":{
-        "title": "Refund policy",
+        "title": "PDF document",
         "props": {
-            "href": "/",
-            "label": "Refund policy",
+            "href": "/pages/documents",
+            "label": "PDF document",
             "blockClass": "items-footer"
         }
     }
