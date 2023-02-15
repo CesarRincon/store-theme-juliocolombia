@@ -3,7 +3,8 @@
         "children": [
             "responsive-layout.desktop#documents",
             "responsive-layout.tablet#documents",
-            "responsive-layout.phone#documents"
+            "responsive-layout.phone#documents",
+            "quick-order"
         ]
     },
     "responsive-layout.desktop#documents": {
@@ -36,7 +37,7 @@
         "props": {
             "pdfUrl": "assets/documents/drylab.pdf",
             "width": 1024,
-            "heigth": 1024
+            "heigth": "100%"
         }
     },
     "flex-layout.row#documents--tablet": {
