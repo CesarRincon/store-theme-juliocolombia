@@ -4,7 +4,7 @@
         "children": [
             "flex-layout.row#product__breadcrumb",
             "flex-layout.row#product__info",
-            "flex-layout.row#similar-products",
+            "flex-layout.row#product-list",
             "flex-layout.row#product__tabs",
             "newsletter",
             "responsive-layout.desktop#information-section",
