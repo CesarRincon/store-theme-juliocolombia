@@ -3,8 +3,8 @@
         "children": [
             "responsive-layout.desktop#documents",
             "responsive-layout.tablet#documents",
-            "responsive-layout.phone#documents",
-            "quick-order"
+            "responsive-layout.phone#documents"
+            
         ]
     },
     "responsive-layout.desktop#documents": {
@@ -24,15 +24,24 @@
     },
     "flex-layout.row#documents": {
         "children": [
-            "pdf-reader"
+            "quick-order",
+            "flex-layout.col#pdf"
         ],
         "props": {
-            "height": "100%",
+            "width": "100%",
             "blockClass": "document",
             "paddingLeft": 2,
             "paddingRight": 2
         }
     },
+
+    "flex-layout.col#pdf":{
+        "children": ["pdf-reader"],
+        "props": {
+            "blockClass": "container-pdf"
+        }
+    },
+
     "pdf-reader": {
         "props": {
             "pdfUrl": "assets/documents/drylab.pdf",

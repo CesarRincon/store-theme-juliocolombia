@@ -18,7 +18,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/electrodomesticos",
                 "noFollow": true,
                 "tagTitle": "Colecciones",
                 "text": "COLECCIONES"
@@ -262,7 +262,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/celulares",
                 "noFollow": true,
                 "tagTitle": "rebajas",
                 "text": "REBAJAS"
@@ -324,7 +324,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/mujer",
                 "noFollow": true,
                 "tagTitle": "zapatos",
                 "text": "ZAPATOS"
@@ -338,7 +338,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/queso",
                 "noFollow": true,
                 "tagTitle": "accesorios",
                 "text": "ACCESORIOS"

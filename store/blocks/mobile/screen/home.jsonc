@@ -16,8 +16,7 @@
             "flex-layout.row#custom-grid-container",
             "newsletter",
             "responsive-layout.mobile#information-section",
-            "flex-layout.row#menu-inferior",
-            "whatsapp-button"
+            "flex-layout.row#menu-inferior"
         ]
     }
 }

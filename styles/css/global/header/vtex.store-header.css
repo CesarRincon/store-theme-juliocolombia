@@ -15,3 +15,11 @@
     padding    : 8px;
     margin-left: 8px;
 }
+
+.headerRowContainer :global(.vtex-button):hover {
+    background-color: white;
+}
+
+.headerRowContainer :global(.vtex-button):active {
+    background-color: white;
+}
