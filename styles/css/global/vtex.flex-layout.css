@@ -55,3 +55,7 @@
     justify-content: left;
     margin-bottom  : 10px;
 }
+
+.flexCol--container-pdf {
+    height: 800px;
+}

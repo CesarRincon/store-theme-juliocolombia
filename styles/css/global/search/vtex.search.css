@@ -1,9 +1,3 @@
-.biggy-autocomplete {
-    margin-top: 10px;
-    width     : 34%;
-    transform : translateX(13%);
-}
-
 .tileListList {
     flex-direction: column !important;
 }
@@ -12,16 +6,24 @@
     display: none;
 }
 
-@media (max-width: 720px) {
-    .biggy-autocomplete {
-        width    : 50%;
-        transform: translateX(10%);
-    }
+
+.searchBarInnerContainer {
+    position: relative;
 }
 
-@media (max-width: 480px) {
-    .biggy-autocomplete {
-        width    : 60%;
-        transform: translateX(23%);
-    }
+.searchBarContainer {
+    position: relative;
+}
+
+.searchBarContainer .autoCompleteOuterContainer:global(.vtex-store-components-3-x-portalContainer) {
+    left: initial;
+}
+
+.biggy-autocomplete {
+    width: 52%;
+    max-width: 460px;
+    min-width: 290px;
+}
+.itemList--history {
+    display: none;
 }
