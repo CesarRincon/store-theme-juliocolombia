@@ -80,10 +80,10 @@
     "login#menu-inferior": {
         "props": {
             "hideIconLabel": true,
-            "showIconProfile": true
+            "showIconProfile": true,
+            "logInButtonBehavior": "link"
         }
     },
-
     "rich-text#inferior__tu-cuenta": {
         "title": "Texto item login ",
         "props": {
