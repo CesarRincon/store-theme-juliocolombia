@@ -13,6 +13,7 @@
             "flex-layout.row#mobile__section-6",
             "flex-layout.row#mobile__section-7",
             "flex-layout.row#mobile__section-8",
+            "flex-layout.row#custom-grid-container",
             "newsletter",
             "responsive-layout.mobile#information-section",
             "flex-layout.row#menu-inferior",

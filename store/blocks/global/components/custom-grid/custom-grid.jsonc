@@ -1,36 +1,26 @@
 {
-  "responsive-layout.desktop#home__section-1": {
-    "title": "Home-desktop",
+  "flex-layout.row#custom-grid-container": {
     "children": [
-      "flex-layout.row#home__section-1",
-      "flex-layout.row#home__banner--desktop",
-      "flex-layout.row#product-list",
-      "flex-layout.row#home__section-2",
-      "flex-layout.row#home__section-3",
-      "slider-layout#products",
-      "flex-layout.row#home__section-4",
-      "flex-layout.row#bullet-group",
-      "flex-layout.row#home__section-5",
-      "flex-layout.row#home__section-6",
-      "flex-layout.row#home__section-7",
-      "flex-layout.row#home__section-8",
-      "flex-layout.row#custom-grid-container",
-      "newsletter",
-      "responsive-layout.desktop#information-section",
-      "modal-trigger#products__you-may-like",
-      "whatsapp-button"
+      "custom-grid"
     ]
   },
-  "flex-layout.row#bullet-group": {
-    "title": "Container bullet group",
+  "custom-grid": {
     "children": [
-      "list-context.bullet-group"
+      "flex-layout.row#slider_custom-grid",
+      "image#grilla2",
+      "image#grilla3",
+      "image#grilla4",
+      "image#grilla5"
     ]
   },
-  "list-context.bullet-group": {
-    "title": "Mi contexto de lista bullets",
+  "flex-layout.row#slider_custom-grid": {
     "children": [
-      "slider-layout#bullet-group"
+      "list-context.bullet-group#custom-grid"
+    ]
+  },
+  "list-context.bullet-group#custom-grid": {
+    "children": [
+      "slider-layout#custom-grid"
     ],
     "props": {
       "bullets": [
@@ -69,16 +59,41 @@
       ]
     }
   },
-  "slider-layout#bullet-group": {
+  "slider-layout#custom-grid": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 2
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
       },
       "infinite": true,
       "blockClass": "bullet-group",
       "showPaginationDots": "never"
     }
+  },
+  "image#grilla2": {
+    "title": "imagen grilla 2",
+    "props": {
+      "src": "assets/img/custom-grid/grid2.jpg"
+    }
+  },
+  "image#grilla3": {
+    "title": "imagen grilla 3",
+    "props": {
+      "src": "assets/img/custom-grid/grid3.jpg"
+    }
+  },
+  "image#grilla4": {
+    "title": "imagen grilla 4",
+    "props": {
+      "src": "assets/img/custom-grid/grid4.jpg"
+    }
+  },
+  "image#grilla5": {
+    "title": "imagen grilla 5",
+    "props": {
+      "src": "assets/img/custom-grid/grid5.jpg"
+    }
   }
 }
+
