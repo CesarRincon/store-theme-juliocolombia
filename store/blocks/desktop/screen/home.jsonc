@@ -39,7 +39,7 @@
           "secondaryImage": "assets/img/image-bullets/bullet-image-1-1.jpg",
           "titleBullet": "SUETER LIGERO ESCOTE OJAL",
           "link": {
-            "url": "/"
+            "url": "/mujer"
           }
         },
         {
@@ -47,7 +47,7 @@
           "secondaryImage": "assets/img/image-bullets/bullet-image-2-1.jpg",
           "titleBullet": "SUETER LIGERO ESCOTE OJAL",
           "link": {
-            "url": "/"
+            "url": "/mujer"
           }
         },
         {
@@ -55,7 +55,7 @@
           "secondaryImage": "assets/img/image-bullets/bullet-image-3-1.jpg",
           "titleBullet": "CHALECO CRUZADO BOTONES METÁLICOS",
           "link": {
-            "url": "/"
+            "url": "/mujer"
           }
         },
         {
@@ -63,7 +63,7 @@
           "secondaryImage": "assets/img/image-bullets/bullet-image-4-1.jpg",
           "titleBullet": "CÁRDIGAN RAYAS CORDÓN EN CINTURA",
           "link": {
-            "url": "/"
+            "url": "/mujer"
           }
         }
       ]

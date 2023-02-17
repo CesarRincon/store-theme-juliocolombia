@@ -22,3 +22,12 @@
 .imageElement--minicart-empty-bag {
     width: 54px;
 }
+
+.imageElementLink {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBarContainer .portalContainer {
+    left: initial !important;
+}
