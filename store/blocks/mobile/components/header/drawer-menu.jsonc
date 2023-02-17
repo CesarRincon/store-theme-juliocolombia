@@ -120,7 +120,8 @@
         "props": {
             "iconLabel": "Ingreso / Registro",
             "hideIconLabel": false,
-            "showIconProfile": true
+            "showIconProfile": true,
+            "logInButtonBehavior": "link"
         }
     },
 
