@@ -74,41 +74,26 @@
   "image#grilla2": {
     "title": "imagen grilla 2",
     "props": {
-      "src": "assets/img/custom-grid/grid2.jpg",
-      "width": "100%",
-      "height": "50%",
-      "maxHeight": 250,
-      "maxWidth": 250
+      "src": "assets/img/custom-grid/grid2.jpg"
     }
   },
   "image#grilla3": {
     "title": "imagen grilla 3",
     "props": {
-      "src": "assets/img/custom-grid/grid3.jpg",
-      "width": "100%",
-      "height": "50%",
-      "maxHeight": 250,
-      "maxWidth": 250
+      "src": "assets/img/custom-grid/grid3.jpg"
     }
   },
   "image#grilla4": {
     "title": "imagen grilla 4",
     "props": {
-      "src": "assets/img/custom-grid/grid4.jpg",
-      "width": "100%",
-      "height": "50%",
-      "maxHeight": 250,
-      "maxWidth": 250
+      "src": "assets/img/custom-grid/grid4.jpg"
     }
   },
   "image#grilla5": {
     "title": "imagen grilla 5",
     "props": {
-      "src": "assets/img/custom-grid/grid5.jpg",
-      "width": "100%",
-      "height": "50%",
-      "maxHeight": 250,
-      "maxWidth": 250
+      "src": "assets/img/custom-grid/grid5.jpg"
     }
   }
 }
+
