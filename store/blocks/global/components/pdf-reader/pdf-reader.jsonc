@@ -2,9 +2,7 @@
     "store.custom#pdf-reader": {
         "children": [
             "responsive-layout.desktop#documents",
-            "responsive-layout.tablet#documents",
-            "responsive-layout.phone#documents"
-            
+            "responsive-layout.mobile#documents"
         ]
     },
     "responsive-layout.desktop#documents": {
@@ -12,12 +10,7 @@
             "flex-layout.row#documents"
         ]
     },
-    "responsive-layout.tablet#documents": {
-        "children": [
-            "flex-layout.row#documents--tablet"
-        ]
-    },
-    "responsive-layout.phone#documents": {
+    "responsive-layout.mobile#documents": {
         "children": [
             "flex-layout.row#documents--mobile"
         ]
@@ -34,44 +27,38 @@
             "paddingRight": 2
         }
     },
-
-    "flex-layout.col#pdf":{
-        "children": ["pdf-reader"],
+    "flex-layout.col#pdf": {
+        "children": [
+            "pdf-reader"
+        ],
         "props": {
             "blockClass": "container-pdf"
         }
     },
-
     "pdf-reader": {
         "props": {
             "pdfUrl": "assets/documents/drylab.pdf",
-            "width": 1024,
-            "heigth": "100%"
+            "width": "100%",
+            "heigth": 800
         }
     },
-    "flex-layout.row#documents--tablet": {
-        "children": [
-            "pdf-reader#tablet"
-        ]
-    },
-    "pdf-reader#tablet": {
-        "props": {
-            "pdfUrl": "assets/documents/drylab.pdf",
-            "width": 720,
-            "heigth": 720
-        }
-    },
+
     "flex-layout.row#documents--mobile": {
         "children": [
-            "pdf-reader#phone"
+            "flex-layout.col#documents--mobile"
+        ]
+    },
+    "flex-layout.col#documents--mobile": {
+        "children": [
+            "pdf-reader#phone",
+            "quick-order"
         ]
     },
     "pdf-reader#phone": {
         "props": {
             "pdfUrl": "assets/documents/drylab.pdf",
-            "width": 310,
-            "heigth": 310
+            "width": "100%",
+            "height": 500
         }
     }
-
 }
