@@ -1,10 +1,10 @@
-# Store-theme-juliocolombia
+# STORE THEME JULIO COLOMBIA
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)]
 
-<Julio Colombia> Store Theme is basic store front model based on the VTEX IO Store Framework.
+Julio Colombia Store Theme is basic store front model based on the VTEX IO Store Framework.
 ## Preview
-![Imagen](https://user-images.githubusercontent.com/90701896/220200047-37b13441-a14d-4655-9418-60a7cbb16f53.png)
+![Imagen](https://user-images.githubusercontent.com/90701896/220454350-38266fe4-a41a-4624-a127-8f3fad1b3e0c.png)
 
 ### Step 1 - Basic setup
 
@@ -49,7 +49,6 @@ It is common to already have a `vtex.store-theme`  installed when you start the 
 Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
 
 ```json
-
 vtex uninstall vtex.store-theme
 ```
 ### Step 6- Run and preview your store
@@ -63,25 +62,63 @@ This will enable you to see the applied changes in real time, through the accoun
 
 ## Dependencies
 All store components that you see on this document are open source too. Production ready, you can found those apps in this GitHub organization.
+
 Store framework is the baseline to create any store using VTEX IO Web Framework.
 - Store
 Store GraphQL is a middleware to access all VTEX APIs.
 - Store GraphQL
 
 ### Store Component Apps
-- Header
-- Footer
-- Slider Layout
-- Shelf
-- Menu
-- Login
-- Minicart
-- Category Menu
-- Product Summary
-- Breadcrumb
-- Search Result
-- Product Details
-- Store Components
+
+```json
+"dependencies": {
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.breadcrumb": "1.x",
+    "vtex.carousel": "2.x",
+    "vtex.category-menu": "2.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.iframe": "0.x",
+    "vtex.locale-switcher": "0.x",
+    "vtex.login": "2.x",
+    "vtex.menu": "2.x",
+    "vtex.minicart": "2.x",
+    "vtex.my-account": "1.x",
+    "vtex.order-placed": "2.x",
+    "vtex.product-details": "1.x",
+    "vtex.product-identifier": "0.x",
+    "vtex.product-kit": "1.x",
+    "vtex.product-quantity": "1.x",
+    "vtex.product-review-interfaces": "1.x",
+    "vtex.product-specification-badges": "0.x",
+    "vtex.product-summary": "2.x",
+    "vtex.responsive-layout": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.search-result": "3.x",
+    "vtex.shelf": "1.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.slider": "0.x",
+    "vtex.stack-layout": "0.x",
+    "vtex.sticky-layout": "0.x",
+    "vtex.store-components": "3.x",
+    "vtex.store-drawer": "0.x",
+    "vtex.store-footer": "2.x",
+    "vtex.store-header": "2.x",
+    "vtex.store": "2.x",
+    "vtex.store-icons": "0.x",
+    "vtex.styleguide": "9.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.telemarketing": "2.x",
+    "vtex.store-link": "0.x",
+    "vtex.disclosure-layout": "1.x",
+    "vtex.product-list": "0.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.admin-search": "1.x",
+    "vtex.search-resolver": "1.x",
+    "vtex.search": "2.x",
+    "vtex.product-specifications": "1.x",
+    "vtex.modal-layout": "0.x"
+  }
+```
 
 ### Peer store component dependencies
 ```json
@@ -93,13 +130,17 @@ Store GraphQL is a middleware to access all VTEX APIs.
 
 ### Custom component dependencies
 
-  - WhatsApp Button
-  - Quick Order
-  - Add to cart info
-  - Department Search
-  - Bullet diagramation
-  - PDF reader
-  - Custom Grid
+```json
+  "dependencies": {
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "itgloberspartnercl.bullets-diagramation": "0.x",
+    "itgloberspartnercl.add-to-cart-info": "0.x",
+    "itgloberspartnercl.custom-department-search": "0.x",
+    "itgloberspartnercl.pdf-reader": "0.x",
+    "itgloberspartnercl.quick-order": "0.x",
+    "itgloberspartnercl.special-diagramation": "0.x"
+}
+```
 
 ### Documentation to be considered
 - Gitflow
