@@ -18,7 +18,10 @@
     "image#home__slider-mobile--one": {
         "title": "imagen uno del slider mobile",
         "props": {
-            "src": "assets/img/home/slider-home/slider-home-mobile.jpg"
+            "src": "assets/img/home/slider-home/slider-home-mobile.jpg",
+            "link": {
+                "url": "/electrodomesticos"
+              }    
         }
     }
 }
