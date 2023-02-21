@@ -45,7 +45,10 @@
     "props": {
       "src": "assets/img/home/Home-venta-diciembre_02_720x.jpg",
       "maxWidth": "90%",
-      "maxHeight": "92%"
+      "maxHeight": "92%",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   },
   "image#images__section-2_two": {
@@ -53,7 +56,10 @@
     "props": {
       "src": "assets/img/home/Home-venta-diciembre_04_720x.jpg",
       "maxWidth": "90%",
-      "maxHeight": "92%"
+      "maxHeight": "92%",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   },
   "flex-layout.row#mobile__section-3": {
@@ -65,7 +71,10 @@
   "image#mobile__section3": {
     "title": "Imagen seccion 3",
     "props": {
-      "src": "assets/img/home/Home-venta-diciembre_07_1296x.jpg"
+      "src": "assets/img/home/Home-venta-diciembre_07_1296x.jpg",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   },
   "flex-layout.row#mobile__section-4": {
@@ -77,7 +86,10 @@
   "image#mobile__section4": {
     "title": "Imagen seccion 4",
     "props": {
-      "src": "assets/img/home/home-4.jpg"
+      "src": "assets/img/home/home-4.jpg",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   },
   "flex-layout.row#mobile__section-5": {
@@ -88,7 +100,10 @@
   },
   "image#mobile__section5": {
     "props": {
-      "src": "assets/img/home/home-5.jpg"
+      "src": "assets/img/home/home-5.jpg",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   },
   "flex-layout.row#mobile__section-6": {
@@ -105,13 +120,19 @@
   "image#mobile__section6-one": {
     "title": "Imagen 1 seccion 6",
     "props": {
-      "src": "assets/img/home/home-6.jpg"
+      "src": "assets/img/home/home-6.jpg",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   },
   "image#mobile__section6-two": {
     "title": "Imagen 2 seccion 6",
     "props": {
-      "src": "assets/img/home/home-7.jpg"
+      "src": "assets/img/home/home-7.jpg",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   },
   "flex-layout.row#mobile__section-7": {
@@ -123,7 +144,10 @@
   "image#mobile__section7": {
     "title": "Imagen seccion 7",
     "props": {
-      "src": "assets/img/home/home-8.jpg"
+      "src": "assets/img/home/home-8.jpg",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   },
   "flex-layout.row#mobile__section-8": {
@@ -135,7 +159,10 @@
   "image#mobile__section8": {
     "title": "Imagen seccion 8",
     "props": {
-      "src": "assets/img/home/home-9.jpg"
+      "src": "assets/img/home/home-9.jpg",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   }
 }

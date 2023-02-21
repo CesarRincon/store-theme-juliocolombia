@@ -21,6 +21,7 @@
 
 .bullet__item--title--bullet-group {
     text-align: center;
+    min-height: 40px;
 }
 
 

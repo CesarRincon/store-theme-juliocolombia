@@ -208,7 +208,7 @@
         "title": "boton return to shop",
         "props": {
             "blockClass": "boton-return-shop",
-            "href": "/",
+            "href": "/electrodomesticos",
             "label": "RETURN TO SHOP",
             "displayMode": "button"
         }
